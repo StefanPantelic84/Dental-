@@ -1,18 +1,37 @@
 import React from 'react'
+import { useState,useEffect } from 'react'
 
-function Navigation() {
+
+
+function Navigation() { 
+
+  const [show, setShow] = useState(false)
+  const [lastScroll, setLastScroll] = useState(0)
+  
+  const checkScroll = () => {
+    setLastScroll(window.scrollY)
+
+    if(window.scrollY < lastScroll) {
+      setShow(true)
+    } else {
+      setShow(false)
+    }
+  }
+  useEffect (()=> {
+    window.addEventListener('scroll', checkScroll)
+    console.log(window.scrollY)
+  },[lastScroll])
+
+  const [menuShow,setMenuShow] = useState(true)
+
+
+ console.log(menuShow)
+
   return (
-    <div className= 'navigation-container' >
-        <nav className='navigation-svg'>SomeImage</nav>
-        <ul className='navigation-menu'>
-            
-                <li className='normal-li'><a href="about">O NAMA</a></li>
-                <li className='normal-li'><a href="service">USLUGE</a></li>
-                <li className='normal-li'><a href="garant">GARANCIJE</a></li>
-                <li className='normal-li'><a href="patient">NOVI PACIJENTI</a></li>
-                <li className='callUs'><a href="tel:00381652828678">ZAKAZI</a></li>
-          
-        </ul>
+    <div className= {show ? 'navigation-container-fix' : 'navigation-container'} >
+        <div className='call'><a href='tel:00381652828678'><span className="poziv">Call</span><span className='number'>+381652828678</span></a></div>
+        <div className='logo'><img src='/DL.jpg' width={150} height={70} /><h1>Milosevic<span>Dental</span></h1></div>
+        <div className='menu' onClick={()=>{setMenuShow(!menuShow)}}><span className={menuShow ? 'menus' : 'menusH'}>Menu</span><span className={menuShow ? 'close' :'closeH'}>Close</span></div>
     </div>
   )
 }

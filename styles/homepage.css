@@ -1,40 +1,19 @@
 .homepage-container {
     margin-top:100px;
-    background-image: url('../public/smile.jpg');
     height:100vh;
     width:100%;
     background-repeat: no-repeat;
     background-size: cover;
     animation:fromInvisible 4s;
-    font-family: Helvetica Neue;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    color:white;
 }
 
-.homepage-text {
-    margin-left:140px;
-    margin-bottom:100px;
-}
-
-.homepage-text h2 {
-    font-weight: 700;
-    font-size:25px;
-}
-
-.homepage-text h1 {
-    font-weight: 900;
-    font-size:75px;
-    width:60%;
-    padding-bottom:20px;
-    margin:0;
-    animation:lettersFromBottom 2s
-}
 
 .homepage-text a{
     padding:20px 30px;
-    background-color: #AD974F;
+    background-color: #9e8a4c;
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
     letter-spacing: 3px;
@@ -63,3 +42,9 @@
 .homepage-text a:hover::before {
     transform:translateX(-350px) skewX(45deg)
 }
+
+
+
+
+
+
