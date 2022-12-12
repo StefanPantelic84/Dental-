@@ -1,0 +1,83 @@
+.green-container {
+    animation: lettersFromBottom 2s;
+    height:100vh;
+    background-color: #3e442b;
+    color:white;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    animation: lettersFromBottom 2s;
+    position:relative;
+}
+
+.green-border {
+    height:80%;
+    width:80%;
+    background-color: transparent;
+    border:1px solid white;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:50px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding:50px 80px;
+}
+
+.green-text {
+    animation: lettersFromBottom 4s;
+}
+
+.green-text h1 {
+    font-size: 45px;
+    animation: lettersFromBottom 2s;
+    margin:0;
+
+}
+
+.green-text h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.green-text li {
+    font-size: 20px;
+    font-weight: 400;
+}
+.green-text p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.green-border .image {
+    background-image: url('../public/smeh.jpg');
+    width: 712px;
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: lettersFromDeep 4s;
+}
+
+.circle {
+    background-color: rgb(8, 27, 8);
+    width:150px;
+    height:150px;
+    position:absolute;
+    border-radius: 50%;
+    right:8%;
+    bottom:15%;
+    animation: lettersFromBottom 6s;
+}
+
+.circle:before {
+    content:'';
+    width:120px;
+    height:120px;
+    border:2px solid #AD974F;
+    background-color: transparent;
+    position:absolute;
+    border-radius: 50%;
+    right:9%;
+    bottom:9%
+}
+
