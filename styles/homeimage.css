@@ -1,0 +1,97 @@
+.homepage-container {
+    height:500px;
+    max-width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../public/smeh.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.color-overlay {
+    background: linear-gradient(#1a1818, #131212a8,#1a1818);
+    margin-top: 230px;
+    width:100%;
+    height:500px;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:1;
+}
+
+.homepage-text {
+    font-family: 'Lato';
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    position:relative;
+    display:block;
+    padding:30px;
+    z-index:20;
+    position:relative;
+    cursor:default;
+    margin-bottom:300px;
+
+}
+.homepage-text p {
+    transition:5s;
+    animation: lettersFromTop 0.4s;
+    font-size: 20px;
+    font-weight:400;   
+    color:#9e8a4c;
+    display:block;
+    position: relative;
+    text-align: center;
+}
+
+.homepage-text h6 {
+    transition:5s;
+    animation: lettersScale 1.2s;
+    font-size: 50px;
+    font-weight:400;   
+    letter-spacing: 6px;
+    color:#fff;
+    text-align:center;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+
+.homepage-text:before {
+  background-color:#9e8a4c;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  left:-150%;
+  width: 150%;
+  top:50%;
+  animation: lettersScale 1s;
+}
+
+.homepage-text:after {
+    background-color: #9e8a4c;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    right:-150%;
+    width:150%;
+    top:50%;
+    animation: lettersScale 1s;
+  }
+
+  .bottom-img {
+    background-image: url('../public/ivicadole.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100px;
+    background-color: var(--text);
+    opacity:1;
+    position: relative;
+    
+  }

@@ -1,0 +1,58 @@
+.homelast-container {
+    background-image: url('../public/gorelist.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+    display: flex;
+    height:400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'lato';
+    gap:50px;
+    color:var(--text);
+    background-color: var(--bg);
+}
+
+.homelast-container p {
+    font-size: 20px;
+    line-height:28px;
+}
+
+.homelast-container a {
+    padding:20px 30px;
+    background-color: var(--gold);
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    letter-spacing: 3px;
+    transition: 2s;
+    position: relative;
+    display: inline-block;
+   overflow: hidden;
+   color:var(--bg);
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.homelast-container a:before {
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:100%;
+    background:rgba(255,255,255,0.5);
+    transform:skewX(45deg) translateX(350px);
+    transition:1s;
+    overflow: hidden;
+}
+
+.homelast-container a:hover:before {
+    transform:translateX(-350px) skewX(45deg);
+
+}
+
+.homelast-container a:hover {
+    background-color: var(--text);
+}

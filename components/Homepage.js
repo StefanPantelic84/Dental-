@@ -1,17 +1,23 @@
 import React from 'react'
+import HomeFour from './HomeFour'
+import HomeImage from './HomeImage'
+import HomeLast from './HomeLast'
+import HomeOne from './HomeOne'
+import HomeThree from './HomeThree'
+import HomeTwo from './HomeTwo'
+import HomeVideo from './HomeVideo'
 
 
 function Homepage() {
   return (
     <div>
-    <div className='homepage-container'>
-       <div className='homepage-text'>
-        <h2>POUZDANA ZUBARSKA ORDINACIJA</h2>
-        <h1>Posebna briga zuba za sve uzraste</h1>
-        <a href='tel:00381652828678'>ZAKAZI PREGLED</a>
-        </div>
-    </div>
-   
+    <HomeImage />
+    <HomeVideo />
+    <HomeOne />
+    <HomeTwo />
+    <HomeThree />
+    <HomeFour />
+    <HomeLast />
     </div>
   )
 }

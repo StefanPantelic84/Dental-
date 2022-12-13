@@ -3,9 +3,14 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Tangerine, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family:Mrs Saint Delafield, Tangerine,Lato, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #ffffff;
+}
+
+:root {
+  --gold: #9e8a4c;
+  --text: #1a1818;;
+  --bg: #f1f1ed;
 }
 
 a {
@@ -17,6 +22,7 @@ a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  user-select:none;
 }
 
 
@@ -31,14 +37,23 @@ a {
   }
 }
 
-@keyframes lettersFromBottom {
+@keyframes lettersFromTop {
   from {
     opacity: 0;
-    transform:translateY(40px);
+    transform:translateY(-20px);
   }
   to {
     opacity:1;
     transform: translateY(0px);
+  }
+}
+
+@keyframes lettersFromTBottom {
+  from {opacity: 0;
+  transform:translateY(20px);}
+  to {
+    opacity:1;
+    transform:translateY(0px)
   }
 }
 
@@ -59,5 +74,14 @@ a {
   to {
     opacity:1;
     transform: translateY(0px);
+  }
+}
+
+@keyframes lettersScale {
+  from{
+    scale:0;
+  }
+  to{
+    scale:1;
   }
 }

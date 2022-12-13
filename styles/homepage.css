@@ -1,4 +1,4 @@
-.homepage-container {
+.homepage-containerr {
     margin-top:100px;
     height:100vh;
     width:100%;
@@ -11,7 +11,7 @@
 }
 
 
-.homepage-text a{
+.homepage-textr a{
     padding:20px 30px;
     background-color: #9e8a4c;
     border-top-left-radius: 30%;
@@ -26,7 +26,7 @@
 }
 
 
-.homepage-text a::before {
+.homepage-textr a::before {
     content: '';
     position:absolute;
     top:0;
@@ -39,7 +39,7 @@
     overflow: hidden;
 }
 
-.homepage-text a:hover::before {
+.homepage-textr a:hover::before {
     transform:translateX(-350px) skewX(45deg)
 }
 

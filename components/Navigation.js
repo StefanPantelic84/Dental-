@@ -11,9 +11,10 @@ function Navigation() {
   const checkScroll = () => {
     setLastScroll(window.scrollY)
 
-    if(window.scrollY < lastScroll) {
+    if(window.scrollY < lastScroll && window.scrollY > 10) {
       setShow(true)
-    } else {
+    } 
+    else if (lastScroll < 100) {
       setShow(false)
     }
   }
@@ -29,9 +30,12 @@ function Navigation() {
 
   return (
     <div className= {show ? 'navigation-container-fix' : 'navigation-container'} >
+      <div className='nav-only'>
         <div className='call'><a href='tel:00381652828678'><span className="poziv">Call</span><span className='number'>+381652828678</span></a></div>
         <div className='logo'><img src='/DL.jpg' width={150} height={70} /><h1>Milosevic<span>Dental</span></h1></div>
         <div className='menu' onClick={()=>{setMenuShow(!menuShow)}}><span className={menuShow ? 'menus' : 'menusH'}>Menu</span><span className={menuShow ? 'close' :'closeH'}>Close</span></div>
+        </div>
+        <div className={show ? 'nav-imgH' : 'nav-img'}></div>
     </div>
   )
 }
