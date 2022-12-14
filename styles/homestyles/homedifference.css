@@ -1,0 +1,88 @@
+.homedifference-container {
+    background-image:url('../../public/cvece.png');
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position: center;
+    width:100%; 
+    height:600px;
+    position: relative;
+    background-color: var(--bg);
+    font-family: 'Lato';
+    padding:130px 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.homedifference-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:80%;
+    margin-right:250px;
+}
+
+.homedifference-text h6{
+    color:var(--gold);
+    font-size:32px;
+    line-height: 36px;
+    font-weight: 400;
+    max-width: 440px;
+    text-transform: uppercase;
+    margin:20px 0;
+}
+
+.homedifference-text p {
+    font-size:18px;
+    color:var(--text);
+    text-transform: uppercase;
+    line-height: 28px;
+    width:100%;
+    letter-spacing: 1px;
+}
+
+.homedifference-img {
+    background-image: url('../../public/smeh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:300px;
+    border:3px double #9e8a4c;
+}
+
+.homedifference-call a {
+    padding:15px 70px;
+    position:absolute;
+    left:50%;
+    top:95%;
+    transform: translate(-50%,-50%);
+    background-color: var(--gold);
+    letter-spacing: 3px;
+    transition: 2s;
+    display: inline-block;
+   overflow: hidden;
+   color:var(--bg);
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.homedifference-call a:before {
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:100%;
+    background:rgba(255,255,255,0.5);
+    transform:skewX(45deg) translateX(450px);
+    transition:1s;
+    overflow: hidden;
+}
+
+.homedifference-call a:hover:before {
+    transform:translateX(-350px) skewX(45deg);
+
+}
+
+.homedifference-call a:hover {
+    background-color: var(--text);
+}

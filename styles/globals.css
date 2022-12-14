@@ -3,8 +3,8 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family:Mrs Saint Delafield, Tangerine,Lato, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:Tangerine,Lato,sans-serif, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Mrs Saint Delafield, ;
 }
 
 :root {

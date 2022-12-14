@@ -11,16 +11,15 @@ function Navigation() {
   const checkScroll = () => {
     setLastScroll(window.scrollY)
 
-    if(window.scrollY < lastScroll && window.scrollY > 10) {
+    if(window.scrollY < lastScroll) {
       setShow(true)
     } 
-    else if (lastScroll < 100) {
+    else {
       setShow(false)
     }
   }
   useEffect (()=> {
     window.addEventListener('scroll', checkScroll)
-    console.log(window.scrollY)
   },[lastScroll])
 
   const [menuShow,setMenuShow] = useState(true)
@@ -35,7 +34,7 @@ function Navigation() {
         <div className='logo'><img src='/DL.jpg' width={150} height={70} /><h1>Milosevic<span>Dental</span></h1></div>
         <div className='menu' onClick={()=>{setMenuShow(!menuShow)}}><span className={menuShow ? 'menus' : 'menusH'}>Menu</span><span className={menuShow ? 'close' :'closeH'}>Close</span></div>
         </div>
-        <div className={show ? 'nav-imgH' : 'nav-img'}></div>
+
     </div>
   )
 }

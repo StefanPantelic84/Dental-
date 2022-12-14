@@ -1,0 +1,124 @@
+.homesmile-container {
+    background-image:url('../../public/list.png');
+    background-repeat: no-repeat;
+    background-size:600px;
+    background-position: bottom right;
+    width:100%;
+    height:600px;
+    position: relative;
+    background-color: var(--bg);
+    font-family: 'Lato';
+    padding:130px 120px;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    
+}
+
+.homesmile-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:80%;
+    margin-left:250px;
+}
+
+.homesmile-text p:before {
+    content:'';
+    display: inline-block;
+    width:50%;
+    height: 1px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:50%;
+    right:100%;
+    margin-right:30px;
+}
+
+
+.homesmile-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.homesmile-title-A {
+    animation: lettersFromTop 1s;
+    display: flex;
+    flex-direction: row;
+}
+
+.homesmile-text h6{
+    color:var(--gold);
+    font-size:32px;
+    line-height: 36px;
+    font-weight: 400;
+    max-width: 440px;
+    text-transform: uppercase;
+    margin:20px 0;
+}
+
+.homesmile-text p {
+    font-size:18px;
+    color:var(--text);
+    text-transform: uppercase;
+    line-height: 28px;
+    width:100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.homesmile-img {
+    background-image: url('../../public/smeh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:300px;
+    border:3px double #9e8a4c;
+}
+
+.homesmile-call {
+    position:absolute;
+    left:42%;
+    top:90%;
+    transform: translate(-50%,-50%);
+
+}
+.homesmile-call a {
+    padding:15px 70px;
+    background-color: var(--gold);
+    letter-spacing: 3px;
+    transition: 2s;
+    position: relative;
+    overflow: hidden;
+   display: inline-block;
+   color:var(--bg);
+   font-weight: 700;
+   cursor: pointer;
+   font-family: 'lato';
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.homesmile-call a:before {
+    content: '';
+    position:absolute;
+    left:0;
+    top:0;
+    width:50px;
+    height:100%;
+    background:rgba(255,255,255,0.5);
+    transform:skewX(45deg) translateX(450px);
+    transition:1s;
+    overflow: hidden;
+}
+
+.homesmile-call a:hover:before {
+    transform:translateX(-350px) skewX(45deg);
+
+}
+
+.homesmile-call a:hover {
+    background-color: var(--text);
+}

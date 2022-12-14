@@ -6,14 +6,14 @@
     left:0;
     top:0;
     z-index:100;
-    height: 230px;
+    height: 130px;
     background-color: #ffffff;
     width:100%;
     align-items: center;
     font-size: 17px;
     color:#231F20;
     font-weight:600;
-   
+
 }
 .navigation-container-fix {
     display:flex;
@@ -23,15 +23,15 @@
     left:0;
     top:0;
     z-index:100;
-    height: 230px;
+    height:130px;
     background-color: #ffffff;
     width:100%;
     align-items: center;
     font-size: 17px;
     color:#231F20;
     font-weight:600;
-    
-}
+
+} 
 
 .nav-only {
     display:flex;
@@ -47,7 +47,7 @@
     font-size: 17px;
     color:#231F20;
     font-weight:600;
-    animation:lettersFromTop 1s;
+    animation:lettersFromTop 2s;
 }
 
 .logo {
@@ -70,7 +70,7 @@
 
 .call {
     display:block;
-    margin-left: 80px;
+    margin-left: 60px;
     font-family: 'Tangerine';
     font-size: 50px;
     font-weight: 700;
@@ -164,31 +164,8 @@
  
 }
 
-.nav-img {
-    background-image: url('../public/ivica.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    height: 100px;
-    margin-top: 130px;
-    background-color: var(--text);
-    opacity:1;
-    position: relative;
-   
-}
 
-.nav-imgH {
-    background-image: url('../public/ivica.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    height: 100px;
-    margin-top: 130px;
-    background-color: var(--text);
-    opacity:0.06;
-    position: relative;
 
-}
 
 
 

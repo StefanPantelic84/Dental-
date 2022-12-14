@@ -1,0 +1,144 @@
+.connect-container {
+    background-image:url('../public/cvece.png');
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position: center;
+    width:100%;
+    position: relative;
+    background-color: var(--bg);
+    font-family: 'Lato';
+    padding:230px 60px 60px 60px ;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+}
+
+.connect-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:100%;
+    margin-right:250px;
+}
+
+.connect-text p:after {
+    content:'';
+    display: inline-block;
+    width:35%;
+    height: 1px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:50%;
+    left:100%;
+    margin-left:30px;
+}
+
+
+.connect-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.connect-text h6{
+    color:var(--gold);
+    font-size:32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.connect-text p {
+    font-size:20px;
+    color:var(--text);
+    padding:20px 0;
+    text-transform: uppercase;
+    line-height: 28px;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.connect-text a {
+    color:var(--gold);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.connect-img {
+    background-image: url('../public/smeh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:300px;
+    border:3px double #9e8a4c;
+}
+
+.connect-call a {
+    padding:15px 50px;
+    background-color: var(--gold);
+    letter-spacing: 3px;
+    transition: 2s;
+    position: relative;
+    display: inline-block;
+   overflow: hidden;
+   color:var(--bg);
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.connect-call a:before {
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:100%;
+    background:rgba(255,255,255,0.5);
+    transform:skewX(45deg) translateX(550px);
+    transition:1s;
+    overflow: hidden;
+}
+
+.connect-call a:hover:before {
+    transform:translateX(-350px) skewX(45deg);
+
+}
+
+.connect-call a:hover {
+    background-color: var(--text);
+}
+
+.connect-call2 a {
+    padding:15px 89px;
+    background-color: var(--gold);
+    letter-spacing: 3px;
+    transition: 2s;
+    position: relative;
+    display: inline-block;
+   overflow: hidden;
+   color:var(--bg);
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.connect-call2 a:before {
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:100%;
+    background:rgba(255,255,255,0.5);
+    transform:skewX(45deg) translateX(550px);
+    transition:1s;
+    overflow: hidden;
+}
+
+.connect-call2 a:hover:before {
+    transform:translateX(-350px) skewX(45deg);
+
+}
+
+.connect-call2 a:hover {
+    background-color: var(--text);
+}
