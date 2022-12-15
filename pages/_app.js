@@ -22,6 +22,7 @@ import '../styles/teamstyles/teamhead.css'
 import '../styles/teamstyles/teamfamily.css'
 import '../styles/teamstyles/teamassistents.css'
 import '../styles/teamstyles/teamhygienist.css'
+import '../styles/footer.css'
 
 
 function MyApp({ Component, pageProps }) {
