@@ -1,11 +1,11 @@
 import React from 'react'
 
-function HomeTwo() {
+function FirstVisitTwo() {
   return (
-    <div className='hometwo-container'>
-        <div className='hometwo-img'></div>
-      <div className='hometwo-text'>
-        <div className='hometwo-title'>
+    <div className='firstvisittwo-container'>
+        <div className='firstvisittwo-img'></div>
+      <div className='firstvisittwo-text'>
+        <div className='firstvisittwo-title'>
         <h1>02</h1>
         <h6>Upoznavanje</h6>
         </div>
@@ -16,4 +16,4 @@ function HomeTwo() {
   )
 }
 
-export default HomeTwo
+export default FirstVisitTwo

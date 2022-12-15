@@ -96,17 +96,47 @@
     color:var(--text);
     cursor:pointer;
     padding:10px;
-    transition: 1s;
+    transition: 0.5s;
 }
-.homearray-left {
+
+.homearray-right-A {
     position:absolute;
     font-size:80px;
-    left:8%;
+    right:8%;
+    transform: translate3d(-100px,0px,0px);
+    transform-style: preserve-3d;
     top:35%;
     color:var(--text);
     cursor:pointer;
     padding:10px;
-    transition: 1s;
+    transition: 0.5s;
+    opacity:0;
+}
+.homearray-left {
+    position:absolute;
+    font-size:80px;
+    left:6%;
+    top:35%;
+    color:var(--text);
+    cursor:pointer;
+    padding:10px;
+    transition: 0.5s;
+    opacity:1;
+}
+
+.homearray-left-A {
+    position:absolute;
+    font-size:80px;
+    left:6%;
+    transform: translate3d(100px,0px,0px);
+    transform-style: preserve-3d;
+    top:35%;
+    color:var(--text);
+    cursor:pointer;
+    padding:10px;
+    transition: 0.5s;
+    opacity:0;
+    
 }
 
 .homearray-right:hover {

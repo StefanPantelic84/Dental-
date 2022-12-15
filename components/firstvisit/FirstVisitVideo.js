@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HomeVideo() {
+function FirstVisitVideo() {
   return (
    
     <div className='full-container-video'>
@@ -13,4 +13,4 @@ function HomeVideo() {
   )
 }
 
-export default HomeVideo
+export default FirstVisitVideo

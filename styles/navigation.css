@@ -1,3 +1,4 @@
+
 .navigation-container {
     display:flex;
     flex-direction: column;
@@ -47,7 +48,7 @@
     font-size: 17px;
     color:#231F20;
     font-weight:600;
-    animation:lettersFromTop 2s;
+    animation:lettersFromTop 2s; 
 }
 
 .logo {
@@ -58,6 +59,7 @@
     font-family: 'Tangerine';
     font-size: 20px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .logo h1 {
@@ -161,7 +163,26 @@
     transform: translate3d(50px,0px,0px);
     transform-style :preserve-3d;
     padding:30px;
- 
+}
+
+.menu-hidden {
+    display: none;
+}
+.menu-visible {
+    display: block;
+}
+
+.nav-img {
+    background-image: url('../public/ivica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width:100%; 
+    height: 100px;
+    margin-top: 130px;
+    background-color: var(--text);
+    opacity:0.9;
+    display: none;
 }
 
 

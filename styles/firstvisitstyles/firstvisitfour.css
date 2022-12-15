@@ -1,8 +1,8 @@
-.homeone-container {
-    background-image:url('../public/cvece.png');
+.firstvisitfour-container {
+    background-image:url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size:500px;
-    background-position: center;
+    background-size:600px;
+    background-position: bottom right;
     width:100%;
     height:600px;
     position: relative;
@@ -14,15 +14,15 @@
     position:relative;
 }
 
-.homeone-text {
+.firstvisitfour-text {
     display: flex;
     flex-direction: column;
     position: relative;
     width:80%;
-    margin-right:250px;
+    margin-left:250px;
 }
 
-.homeone-text p:after {
+.firstvisitfour-text p:before {
     content:'';
     display: inline-block;
     width:50%;
@@ -32,22 +32,22 @@
     justify-content: center;
     position: absolute;
     bottom:50%;
-    left:100%;
-    margin-left:30px;
+    right:100%;
+    margin-right:30px;
 }
 
 
-.homeone-title {
+.firstvisitfour-title {
     display: flex;
     flex-direction: row;
 }
-.homeone-text h1{
+.firstvisitfour-text h1{
     color:var(--gold);
     font-size:50px;
     font-family: 'Mrs Saint Delafield';
 }
 
-.homeone-text h6{
+.firstvisitfour-text h6{
     color:var(--gold);
     font-size:32px;
     font-weight: 400;
@@ -57,7 +57,7 @@
     text-transform: uppercase;
 }
 
-.homeone-text p {
+.firstvisitfour-text p {
     font-size:16px;
     color:var(--text);
     padding-top:20px;
@@ -66,8 +66,8 @@
     width:100%;
 }
 
-.homeone-img {
-    background-image: url('../public/smeh.jpg');
+.firstvisitfour-img {
+    background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;

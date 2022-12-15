@@ -1,0 +1,39 @@
+.menu-container {
+    z-index:90;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    opacity:0.9;
+    background-color: var(--text);
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.menu-paths {
+    color:white;
+    list-style: none;
+    background-color: transparent;
+    text-align: center;
+    max-width: 350px;
+}
+
+.menu-paths li {
+    display: inline-block;
+    padding:7px 35px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.menu-paths li:hover {
+    background-color: var(--gold);
+    transition:0.2s;
+}

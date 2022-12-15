@@ -1,5 +1,5 @@
 .full-container-video {
-    background-image:url('../public/list.png');
+    background-image:url('../../public/list.png');
     background-repeat: no-repeat;
     background-size: 800px;
     background-position: center;
@@ -17,7 +17,7 @@
 }
 
 .video-left {
-    background-image: url('../public/smeh.jpg');
+    background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;

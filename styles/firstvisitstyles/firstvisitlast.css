@@ -1,10 +1,10 @@
-.homelast-container {
-    background-image: url('../public/gorelist.png');
+.firstvisitlast-container {
+    background-image: url('../../public/gorelist.png');
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: left;
     display: flex;
-    height:400px;
+    height:300px;
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -16,12 +16,12 @@
     position: re;
 }
 
-.homelast-container p {
+.firstvisitlast-container p {
     font-size: 20px;
     line-height:28px;
 }
 
-.homelast-container a {
+.firstvisitlast-container a {
     padding:20px 30px;
     background-color: var(--gold);
     letter-spacing: 3px;
@@ -34,7 +34,7 @@
    cursor: pointer;
 }
 
-.homelast-container a:before {
+.firstvisitlast-container a:before {
     content: '';
     position:absolute;
     top:0;
@@ -47,11 +47,11 @@
     overflow: hidden;
 }
 
-.homelast-container a:hover:before {
+.firstvisitlast-container a:hover:before {
     transform:translateX(-350px) skewX(45deg);
 
 }
 
-.homelast-container a:hover {
+.firstvisitlast-container a:hover {
     background-color: var(--text);
 }

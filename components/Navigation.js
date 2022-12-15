@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
+import Menu from './Menu'
+import  Link  from 'next/link';
 
 
 
@@ -23,19 +25,35 @@ function Navigation() {
   },[lastScroll])
 
   const [menuShow,setMenuShow] = useState(true)
+  const [menuHidden,setMenuHidden] = useState(true)
 
+  const menuOpen = () => {
+    setMenuShow(!menuShow)
+    setMenuHidden(!menuHidden)
+    document.body.style.overflow = 'hidden'
+    document.querySelector(".nav-img").style.display="block"
+  
+  }
 
- console.log(menuShow)
+  const menuClose = () => {
+    setMenuShow(!menuShow)
+    setMenuHidden(!menuHidden)
+    document.body.style.overflow = 'visible'
+    document.querySelector(".nav-img").style.display="none"
+
+  }
 
   return (
     <div className= {show ? 'navigation-container-fix' : 'navigation-container'} >
+      <div className='nav-img'></div>
+      <div className={menuHidden ? 'menu-hidden' : 'menu-visible'}><Menu /></div>
       <div className='nav-only'>
         <div className='call'><a href='tel:00381652828678'><span className="poziv">Call</span><span className='number'>+381652828678</span></a></div>
-        <div className='logo'><img src='/DL.jpg' width={150} height={70} /><h1>Milosevic<span>Dental</span></h1></div>
-        <div className='menu' onClick={()=>{setMenuShow(!menuShow)}}><span className={menuShow ? 'menus' : 'menusH'}>Menu</span><span className={menuShow ? 'close' :'closeH'}>Close</span></div>
+       <Link href='/'><div href='/' className='logo'><img src='/DL.jpg' width={150} height={70} /><h1>Milosevic<span>Dental</span></h1></div></Link>
+        <div className='menu' ><span onClick={menuOpen} className={menuShow ? 'menus' : 'menusH'}>Menu</span><span onClick={menuClose} className={menuShow ? 'close' :'closeH'}>Close</span></div>
         </div>
-
     </div>
+
   )
 }
 

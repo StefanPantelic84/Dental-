@@ -1,10 +1,10 @@
-.homepage-container {
+.firstvisitimage-container {
     height:500px;
     max-width:100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../../public/smeh.jpg'); 
+    background-image: url('../../public/smile.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     position:relative;
@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.color-overlay {
+.color-overlay-visit {
     background: linear-gradient(#1a1818, #131212a8,#1a1818);
     margin-top: 230px;
     width:100%;
@@ -23,7 +23,7 @@
     opacity:1;
 }
 
-.homepage-text {
+.firstvisitimage-text {
     font-family: 'Lato';
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -33,13 +33,12 @@
     z-index:20;
     position:relative;
     cursor:default;
-    margin-bottom:250px;
-
+    margin-bottom:100px;
 }
-.homepage-text p {
+.firstvisitimage-text h1 {
     transition:5s;
-    animation: lettersFromTop 0.4s;
-    font-size: 20px;
+    animation: lettersScale 1.2s;
+    font-size: 50px;
     font-weight:300;   
     color:#9e8a4c;
     display:block;
@@ -47,21 +46,9 @@
     text-align: center;
 }
 
-.homepage-text h6 {
-    transition:5s;
-    animation: lettersScale 1.2s;
-    font-size: 50px;
-    font-family: 'Lato';
-    font-weight:300;   
-    letter-spacing: 7px;
-    color:#fff;
-    text-align:center;
-    line-height: 60px;
-    margin-bottom: 10px;
-}
 
 
-.homepage-text:before {
+.firstvisitimage-text:before {
   background-color:#9e8a4c;
   content: "";
   display: inline-block;
@@ -73,7 +60,7 @@
   animation: lettersScale 1s;
 }
 
-.homepage-text:after {
+.firstvisitimage-text:after {
     background-color: #9e8a4c;
     content: "";
     display: inline-block;
@@ -85,7 +72,7 @@
     animation: lettersScale 1s;
   }
 
-  .bottom-img {
+  .firstvisitbottom-img {
     background-image: url('../../public/ivicadole.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +84,7 @@
     
   }
 
-  .home-img {
+  .firstvisittop-img {
     background-image: url('../../public/ivica.png');
     background-repeat: no-repeat;
     background-size: cover;

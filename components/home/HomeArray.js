@@ -1,7 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
+import { useInView } from 'react-intersection-observer'
 
 function HomeArray() {
+
+    const firstRef = useInView({triggerOnce:true})
 
     const [arrayIndex,setArrayIndex] = useState(0);
 
@@ -41,7 +44,7 @@ function HomeArray() {
         <h6>{myArray[arrayIndex].name}</h6>
         </div>
         <div className='homearray-call'><a>ISKUSTVA PACIJENATA</a></div>
-        <div className='homearray-right' onClick={()=>{
+        <div ref={firstRef.ref} className={firstRef.inView ? 'homearray-right' : 'homearray-right-A'} onClick={()=>{
             if (arrayIndex < 4) {
                setArrayIndex(arrayIndex + 1)
             }else {
@@ -50,7 +53,7 @@ function HomeArray() {
             console.log(arrayIndex)
         }}>{'>'}</div>
         
-        <div className='homearray-left' onClick={()=>{
+        <div ref={firstRef.ref} className={firstRef.inView ? 'homearray-left' : 'homearray-left-A'} onClick={()=>{
             if (arrayIndex > 0) {
                setArrayIndex(arrayIndex - 1)
             }else {
