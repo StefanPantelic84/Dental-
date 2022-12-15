@@ -11,7 +11,7 @@ const {id} = router.query
     <div className='menu-container' >
         <ul className='menu-paths'>
             <Link href="/FirstVisit"><li>VAŠA PRVA POSETA</li></Link>
-            <li>UPOZNAJTE TIM</li>
+            <Link href="/Team"><li>UPOZNAJTE TIM</li></Link>
             <li>NAJLEPSI OSMEH</li>
             <li >ISKUSTVA PACIJENATA</li>
             <li>NAŠI ČLANCI</li>

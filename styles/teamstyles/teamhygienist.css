@@ -1,0 +1,129 @@
+.teamhyg-title1{
+    background-color: var(--bg);
+    justify-content: center;
+    padding-top:140px;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 6px;
+    display: flex;
+}
+
+.teamhyg-container {
+    background-image:url('../../public/list.png');
+    background-repeat: no-repeat;
+    background-size:600px;
+    background-position: right;
+    width:100%;
+    height:500px;
+    position: relative;
+    background-color: var(--bg);
+    font-family: 'Lato';
+    padding:60px 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.teamhyg-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:80%;
+    margin-left:250px;
+}
+
+.teamhyg-text p:before {
+    content:'';
+    display: inline-block;
+    width:50%;
+    height: 1px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:40%;
+    right:100%;
+    margin-right:30px;
+}
+
+.teamhyg-title1 {
+    font-family: 'Tangerine';
+    font-weight: 700;
+}
+
+.teamhyg-title {
+    display: flex;
+    flex-direction: row;
+   
+}
+.teamhyg-text h1{
+    color:var(--gold);
+    font-size:50px;
+    font-family: 'Mrs Saint Delafield';
+}
+
+.teamhyg-text h6{
+    color:var(--gold);
+    font-size:32px;
+    font-weight: 400;
+    max-width: 240px;
+    padding-left: 15px;
+    padding-top:20px;
+    text-transform: uppercase;
+}
+
+.teamhyg-text p {
+    font-size:18px;
+    color:var(--text);
+    text-transform: uppercase;
+    line-height: 28px;
+    width:100%;
+    letter-spacing: 1px;
+}
+
+.teamhyg-img {
+    background-image: url('../../public/smeh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:300px;
+    border:3px double #9e8a4c;
+} 
+
+.teamhyg-call a {
+    padding:15px 60px;
+    background-color: var(--gold);
+    letter-spacing: 3px;
+    transition: 2s;
+    position:absolute;
+    left:45%;
+    top:90%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+   overflow: hidden;
+   color:var(--bg);
+   font-weight: 700;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+
+.teamhyg-call a:before {
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:100%;
+    background:rgba(255,255,255,0.5);
+    transform:skewX(45deg) translateX(350px);
+    transition:1s;
+    overflow: hidden;
+}
+
+.teamhyg-call a:hover:before {
+    transform:translateX(-350px) skewX(45deg);
+
+}
+
+.teamhyg-call a:hover {
+    background-color: var(--text);
+}

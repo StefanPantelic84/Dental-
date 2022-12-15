@@ -17,6 +17,11 @@ import '../styles/homestyles/homesmile.css'
 import '../styles/homestyles/homearray.css'
 import '../styles/connect.css'
 import '../styles/menu.css'
+import '../styles/teamstyles/teamimage.css'
+import '../styles/teamstyles/teamhead.css'
+import '../styles/teamstyles/teamfamily.css'
+import '../styles/teamstyles/teamassistents.css'
+import '../styles/teamstyles/teamhygienist.css'
 
 
 function MyApp({ Component, pageProps }) {
