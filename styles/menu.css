@@ -6,7 +6,7 @@
     bottom:0;
     right:0;
     width:100%;
-    opacity:0.9;
+    opacity:0.9 ;
     background-color: var(--text);
     margin-top: 230px;
     display: flex;

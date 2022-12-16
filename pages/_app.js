@@ -32,9 +32,9 @@ import '../styles/storystyles/storyface.css'
 import '../styles/storystyles/storydark.css'
 import '../styles/afterstyles/afterimage.css'
 import '../styles/afterstyles/afterslide.css'
-
-
-
+import '../styles/contactstyles/contactimage.css'
+import '../styles/contactstyles/contactlast.css'
+import '../styles/contactstyles/contactform.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

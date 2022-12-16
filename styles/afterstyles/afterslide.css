@@ -7,8 +7,7 @@
     flex-wrap: wrap;
     padding-bottom:50px;
     background-image:url('../../public/list.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: var(--bg);
 }
 
@@ -20,43 +19,74 @@
     cursor: pointer;
     margin:auto;
     margin-top:80px;
-    background: transparent;
+    margin-bottom:120px;
+    border-top:1px solid #9e8a4c;
+    border-bottom:1px solid #9e8a4c;
+    border:3px double #9e8a4c;
 }
 
-.afterslide-holder h1 {
+
+
+.slide-back {
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin:auto;
+    filter:brightness(30%);
+    
+}
+
+.slide-front {
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:10%;
+    top:0;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    transition:1s;
+    margin:auto;
+}
+
+.afterslide-holder:hover .slide-front {
+    transform: translate3d(100%,0,0);
+    transition:1.5s;
+}
+.afterslide-holder:hover .slide-back {
+    filter:brightness(100%);
+    transition:1.5s;
+}
+
+.afterslide-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width:45%;
+    height:200px;
+    margin:auto;
+    margin-top:80px;
+}
+
+.afterslide-text h1 {
     text-align: center;
     font-weight: 300;
     color:var(--text);
     font-size:28px;
     color:var(--gold);
+    margin-bottom:30px;
 }
 
-.slide-back {
-    width:100%;
-    height: 72%;
+.slide-right {
+   left:3%;
+   top:0%;
+    color:var(--text);
+    font-size: 50px;
     position:absolute;
-    left:0%;
-    top:28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top:1px solid #9e8a4c;
-    border-bottom:1px solid #9e8a4c;
-}
-
-.slide-front {
-    width:100%;
-    height: 72%;
-    position:absolute;
-    left:10%;
-    top:28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition:2s;
-    border-top:1px solid #9e8a4c;
-    border-bottom:1px solid #9e8a4c;
-}
-
-.afterslide-holder:hover .slide-front {
-    transform: translate3d(100%,0,0);
-    transition:3s;
+    font-weight: 700;
 }

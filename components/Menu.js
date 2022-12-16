@@ -11,7 +11,7 @@ function Menu({menuClose}) {
             <Link href="/Smile" onClick={menuClose}><li>NAJLEPSI OSMEH</li></Link>
             <Link href="/Story" onClick={menuClose}><li >ISKUSTVA PACIJENATA</li></Link>
             <Link href="/After" onClick={menuClose}><li>PRE I POSLE</li></Link>
-            <li >KONTAKTIRAJTE NAS</li>
+            <Link href="/Contact" onClick={menuClose}><li >KONTAKTIRAJTE NAS</li></Link>
         </ul>
 
     </div>

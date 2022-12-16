@@ -1,0 +1,97 @@
+.contactimage-container {
+    height:500px;
+    max-width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../public/phone.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    align-items: center;
+    overflow: hidden;
+}
+
+.color-overlay-contact {
+    background: linear-gradient(#1a1818, #131212a8,#1a1818);
+    margin-top: 230px;
+    width:100%;
+    height:500px;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:1;
+}
+
+.contactimage-text {
+    font-family: 'Lato';
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    position:relative;
+    display:block;
+    padding:30px;
+    z-index:20;
+    position:relative;
+    cursor:default;
+    margin-bottom:100px;
+}
+.contactimage-text h1 {
+    transition:5s;
+    animation: lettersScale 1.2s;
+    font-size: 50px;
+    font-weight:300;   
+    color:#9e8a4c;
+    display:block;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.contactimage-text:before {
+  background-color:#9e8a4c;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  left:-150%;
+  width: 150%;
+  top:50%;
+  animation: lettersScale 1s;
+}
+
+.contactimage-text:after {
+    background-color: #9e8a4c;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    right:-150%;
+    width:150%;
+    top:50%;
+    animation: lettersScale 1s;
+  }
+
+  .contactbottom-img {
+    background-image: url('../../public/ivicadole.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100px;
+    background-color: var(--text);
+    opacity:1;
+    position: relative;
+    
+  }
+
+  .contacttop-img {
+    background-image: url('../../public/ivica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%; 
+    height: 100px;
+    margin-top: 130px;
+    background-color: var(--text);
+    opacity:1;
+    position: relative;
+}
