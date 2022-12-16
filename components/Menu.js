@@ -10,7 +10,7 @@ function Menu({menuClose}) {
             <Link href="/Team" onClick={menuClose}><li>UPOZNAJTE TIM</li></Link>
             <Link href="/Smile" onClick={menuClose}><li>NAJLEPSI OSMEH</li></Link>
             <Link href="/Story" onClick={menuClose}><li >ISKUSTVA PACIJENATA</li></Link>
-            <li>PRE I POSLE</li>
+            <Link href="/After" onClick={menuClose}><li>PRE I POSLE</li></Link>
             <li >KONTAKTIRAJTE NAS</li>
         </ul>
 

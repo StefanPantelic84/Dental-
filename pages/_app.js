@@ -30,6 +30,8 @@ import '../styles/smilestyles/smilecosmetic.css'
 import '../styles/storystyles/storyimage.css'
 import '../styles/storystyles/storyface.css'
 import '../styles/storystyles/storydark.css'
+import '../styles/afterstyles/afterimage.css'
+import '../styles/afterstyles/afterslide.css'
 
 
 
