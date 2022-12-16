@@ -8,6 +8,7 @@ import FirstVisitFour from '../components/firstvisit/FirstVisitFour'
 import FirstVisitLast from '../components/firstvisit/FirstVisitLast'
 import FirstVisitImage from '../components/firstvisit/FirstVisitImage'
 import Connect from '../components/Connect'
+import Footer from '../components/Footer'
 
 function FirstVisit() {
   return (
@@ -21,6 +22,7 @@ function FirstVisit() {
         <FirstVisitFour />
         <FirstVisitLast />
         <Connect />
+        <Footer />
     </div>
   )
 }

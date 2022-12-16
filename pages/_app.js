@@ -23,6 +23,15 @@ import '../styles/teamstyles/teamfamily.css'
 import '../styles/teamstyles/teamassistents.css'
 import '../styles/teamstyles/teamhygienist.css'
 import '../styles/footer.css'
+import '../styles/smilestyles/smileimage.css'
+import '../styles/smilestyles/smilecare.css'
+import '../styles/smilestyles/smiledark.css'
+import '../styles/smilestyles/smilecosmetic.css'
+import '../styles/storystyles/storyimage.css'
+import '../styles/storystyles/storyface.css'
+import '../styles/storystyles/storydark.css'
+
+
 
 
 function MyApp({ Component, pageProps }) {
