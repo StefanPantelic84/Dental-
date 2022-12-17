@@ -1,77 +1,80 @@
-.smilecosmetictwo-container {
-    background-image:url('../../public/list.png');
+.smilecosmetic-container {
+    background-image:url('../../public/gorelist.png');
     background-repeat: no-repeat;
-    background-size:600px;
-    background-position: right;
+    background-size:contain;
+    background-position: left;
     width:100%;
-    height:600px;
     position: relative;
     background-color: var(--bg);
     font-family: 'Lato';
-    padding:130px 120px;
+    padding:130px 45px;
     display: flex;
     flex-direction: row;
     position:relative;
 }
-
-.smilecosmetictwo-text {
+ 
+.smilecosmetic-text {
     display: flex;
     flex-direction: column;
     position: relative;
-    width:80%;
-    margin-left:250px;
+    width:60%;
+    justify-content: center;
 }
 
-.smilecosmetictwo-text p:before {
+.smilecosmetic-title {
+    display: flex;
+    flex-direction: row;
+}
+.smilecosmetic-text h1{
+    color:var(--gold);
+    font-size:80px;
+    font-family: 'Mrs Saint Delafield';
+    max-width:72%;
+    margin-left:28%;
+}
+
+.smilecosmetic-text h6{
+    color:var(--gold);
+    font-size:32px;
+    font-weight: 300;
+    max-width: 240px;
+    padding-bottom:20px;
+    text-transform: uppercase;
+    max-width:72%;
+    margin-left:28%;
+}
+
+.smilecosmetic-text p {
+    font-size:18px;
+    color:var(--text);
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 400;
+    display: relative;
+    max-width:72%;
+    margin-left:28%;
+}
+
+.smilecosmetic-img:after {
     content:'';
     display: inline-block;
-    width:50%;
+    width:35%;
     height: 1px;
     background-color: black;
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom:50%;
-    right:100%;
-    margin-right:30px;
+    top:60%;
+    right:-40%;
 }
 
-
-.smilecosmetictwo-title {
-    display: flex;
-    flex-direction: row;
-}
-.smilecosmetictwo-text h1{
-    color:var(--gold);
-    font-size:50px;
-    font-family: 'Mrs Saint Delafield';
-}
-
-.smilecosmetictwo-text h6{
-    color:var(--gold);
-    font-size:32px;
-    font-weight: 400;
-    max-width: 240px;
-    padding-left: 15px;
-    padding-top:20px;
-    text-transform: uppercase;
-}
-
-.smilecosmetictwo-text p {
-    font-size:16px;
-    color:var(--text);
-    padding-top:20px;
-    text-transform: uppercase;
-    line-height: 28px;
-    width:100%;
-}
-
-.smilecosmetictwo-img {
+.smilecosmetic-img {
     background-image: url('../../public/smeh.jpg');
-
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
-    height:300px;
+    background-position: center;
+    width:40%;
+    height:calc(35vw);
     border:3px double #9e8a4c;
+    position: relative;
 }

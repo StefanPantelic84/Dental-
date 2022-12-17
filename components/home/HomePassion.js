@@ -5,7 +5,8 @@ function HomePassion() {
     <div className='homepassion-container'>
       <div className='homepassion-text'>
         <div className='homepassion-title'>
-        <h6>Strast Prema Svojoj Vestini</h6>
+        <h6>Strast Prema</h6>
+        <h5>Svojoj Veštini</h5>
         </div>
       </div>
       <div className='homepassion-img'></div>

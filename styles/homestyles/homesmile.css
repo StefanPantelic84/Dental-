@@ -1,40 +1,37 @@
 .homesmile-container {
     background-image:url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size:600px;
-    background-position: bottom right;
+    background-size:contain;
+    background-position: right;
     width:100%;
-    height:600px;
     position: relative;
     background-color: var(--bg);
-    font-family: 'Lato';
-    padding:130px 120px;
+    padding:150px 45px;
     display: flex;
     flex-direction: row;
-    position:relative;
     
 }
 
 .homesmile-text {
+    width:60%;
     display: flex;
     flex-direction: column;
-    position: relative;
-    width:80%;
-    margin-left:250px;
+    justify-content: center;
 }
 
 .homesmile-text p:before {
     content:'';
     display: inline-block;
-    width:50%;
+    width:35%;
     height: 1px;
     background-color: black;
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom:50%;
-    right:100%;
+    top:50%;
+    left:-22%;
     margin-right:30px;
+    transform:translate(-50%)
 }
 
 
@@ -43,20 +40,15 @@
     flex-direction: row;
 }
 
-.homesmile-title-A {
-    animation: lettersFromTop 1s;
-    display: flex;
-    flex-direction: row;
-}
-
 .homesmile-text h6{
     color:var(--gold);
-    font-size:32px;
+    font-size:36px;
     line-height: 36px;
-    font-weight: 400;
-    max-width: 440px;
+    font-weight: 300;
+    max-width: 78%;
     text-transform: uppercase;
-    margin:20px 0;
+    margin:30px 0 25px;
+    margin-left: 30%;
 }
 
 .homesmile-text p {
@@ -64,24 +56,25 @@
     color:var(--text);
     text-transform: uppercase;
     line-height: 28px;
-    width:100%;
-    letter-spacing: 1px;
-    cursor: pointer;
+    max-width:70%;
+    font-weight: 400;
+   margin-left: 30%;
+   position:relative;
 }
 
 .homesmile-img {
+    width:40%;
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
-    height:300px;
+    height: calc(35.00vw);
     border:3px double #9e8a4c;
 }
 
 .homesmile-call {
     position:absolute;
-    left:42%;
-    top:90%;
+    left:50%;
+    top:75%;
     transform: translate(-50%,-50%);
 
 }

@@ -7,7 +7,7 @@ function TeamImage() {
   <div className='team-container' >
   
       <div className='team-text'> 
-      <h1>VAŠA PRVA POSETA</h1>
+      <h1>UPOZNAJTE TIM</h1>
       </div>
   </div>
   <div className='color-overlay-team'></div>

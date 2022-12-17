@@ -15,34 +15,37 @@
 } 
 
 .homedark-text {
-    font-size: 56px;
-    line-height: 72px;
+    font-size: 36px;
+    line-height: 65px;
     color:#fff;
-    width:60%;
-   margin:auto;
+    width:67%;
+    margin:auto;
+    padding:60px 0;
     letter-spacing: 3px;
+    font-style: italic;
+    letter-spacing: 4px;
     position: relative;
 }
 
 .homedark-text p {
-    font-family: 'Tangerine';
+    font-family: 'Great Vibes'; 
 }
 
-.homedark-text:before {
+.homedark-text p:before {
     content: "";
     position:absolute;
-    right:110%;
+    left:-35%;
     top:50%;
-    width: 50%;
+    width: 30%;
     height:1px;
     background-color: var(--gold);
 }
-.homedark-text:after {
+.homedark-text p:after {
     content: "";
     position:absolute;
-    left:110%;
+    right:-35%;
     top:50%;
-    width: 50%;
+    width: 30%;
     height:1px;
     background-color: var(--gold);
 }

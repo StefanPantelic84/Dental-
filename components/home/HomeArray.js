@@ -32,19 +32,19 @@ function HomeArray() {
         {
          
             "passus" : "Zadovoljstvo je ići kod zubara u Village Dental. Kancelarija je prelepa, oseća se mirno i čisto. Osoblje ima optimističan stav. Sve u vezi ovog zubara je odlično! Osoblje je ljubazno i pažljivo. Asistenti čine da se osećate prijatno. Verovatno najbolji zubar kojeg sam ikada video. Predivno mesto! Predivno osoblje! Divni doktori!",
-            "name" : "Nataša J."
+            "name" : "Branka J."
         },
     ]
 
   return (
     <div className='homearray-container'>
         <div className='homearray-text'>
-        <h1>Changed Lives</h1>  
+        <h1>Iskustva</h1>  
         <p>{myArray[arrayIndex].passus}</p>
         <h6>{myArray[arrayIndex].name}</h6>
         </div>
         <div className='homearray-call'><a>ISKUSTVA PACIJENATA</a></div>
-        <div ref={firstRef.ref} className={firstRef.inView ? 'homearray-right' : 'homearray-right-A'} onClick={()=>{
+        <div className={firstRef.inView ? 'homearray-right' : 'homearray-right-A'} onClick={()=>{
             if (arrayIndex < 4) {
                setArrayIndex(arrayIndex + 1)
             }else {

@@ -5,10 +5,10 @@ function FirstVisitVideo() {
    
     <div className='full-container-video'>
       <div className='container-video'>
-      <div className='video-left'></div>
+      <div className='video-left'></div></div>
       <div className='video-text'><p>Sta Ocekivati Prilikom Posete</p></div>
-      </div>
-    </div>
+      
+    </div> 
    
   )
 }

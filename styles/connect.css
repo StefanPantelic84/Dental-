@@ -1,13 +1,13 @@
 .connect-container {
-    background-image:url('../public/cvece.png');
+    background-image:url('../public/list.png');
     background-repeat: no-repeat;
-    background-size:500px;
-    background-position: center;
+    background-size:contain;
+    background-position: left;
     width:100%;
     position: relative;
     background-color: var(--bg);
     font-family: 'Lato';
-    padding:230px 60px 160px 60px ;
+    padding:160px 45px ;
     display: flex;
     flex-direction: row;
     position:relative;
@@ -16,23 +16,23 @@
 .connect-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
-    width:100%;
-    margin-right:250px;
+    width:50%;
 }
 
 .connect-text p:after {
     content:'';
     display: inline-block;
-    width:35%;
+    width:20%;
     height: 1px;
     background-color: black;
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom:50%;
-    left:100%;
-    margin-left:30px;
+    top:50%;
+    right:5%;
+    
 }
 
 
@@ -43,19 +43,23 @@
 
 .connect-text h6{
     color:var(--gold);
-    font-size:32px;
-    font-weight: 400;
+    font-size:36px;
+    line-height: 36px;
+    font-weight: 300;
     text-transform: uppercase;
+    max-width:72%;
 }
 
 .connect-text p {
-    font-size:20px;
+    font-size:18px;
     color:var(--text);
     padding:20px 0;
     text-transform: uppercase;
     line-height: 28px;
+    font-weight: 400;
     width:100%;
     margin-bottom: 20px;
+    max-width:72%;
 }
 
 .connect-text a {
@@ -68,13 +72,14 @@
     background-image: url('../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
-    height:300px;
+    width:50%;
+    height:calc(35vw);
     border:3px double #9e8a4c;
 }
 
 .connect-call a {
-    padding:15px 50px;
+    padding:15px 80px;
+    width:72%;
     background-color: var(--gold);
     letter-spacing: 3px;
     transition: 2s;
@@ -84,6 +89,7 @@
    color:var(--bg);
    font-weight: 700;
    cursor: pointer;
+   text-align: center;
 }
 
 .connect-call a:before {
@@ -109,7 +115,8 @@
 }
 
 .connect-call2 a {
-    padding:15px 89px;
+    width:72%;
+    padding:15px 80px;
     background-color: var(--gold);
     letter-spacing: 3px;
     transition: 2s;
@@ -119,6 +126,7 @@
    color:var(--bg);
    font-weight: 700;
    cursor: pointer;
+   text-align: center;
 }
 
 .connect-call2 a:before {

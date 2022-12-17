@@ -1,74 +1,61 @@
-.teamassistents-title1{
-    background-color: var(--bg);
-    justify-content: center;
-    padding-top:140px;
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 6px;
-    display: flex;
-}
-
 .teamassistents-container {
     background-image:url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size:600px;
+    background-size:contain;
     background-position: right;
     width:100%;
-    height:500px;
     position: relative;
     background-color: var(--bg);
-    font-family: 'Lato';
-    padding:60px 120px;
+    padding:60px 45px;
     display: flex;
     flex-direction: row;
+    font-family: 'Lato';
 }
 
 .teamassistents-text {
+    width:60%;
     display: flex;
     flex-direction: column;
-    position: relative;
-    width:80%;
-    margin-left:250px;
+    justify-content: center;
 }
 
 .teamassistents-text p:before {
     content:'';
     display: inline-block;
-    width:50%;
+    width:35%;
     height: 1px;
     background-color: black;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top:40%;
-    right:100%;
+    top:50%;
+    left:-22%;
     margin-right:30px;
+    transform:translate(-50%)
 }
 
-.teamassistents-title1 {
-    font-family: 'Tangerine';
-    font-weight: 700;
-}
-
-.teamassistents-title {
+.teamassistents-title1{
+    background-color: var(--bg);
+    justify-content: center;
+    padding-top:140px;
+    padding-bottom:40px;
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: 6px;
     display: flex;
-    flex-direction: row;
-   
-}
-.teamassistents-text h1{
-    color:var(--gold);
-    font-size:50px;
-    font-family: 'Mrs Saint Delafield';
+    font-family: 'Great Vibes';
+    font-style: italic;
 }
 
 .teamassistents-text h6{
     color:var(--gold);
     font-size:32px;
-    font-weight: 400;
+    font-weight: 300;
     max-width: 240px;
-    padding-left: 15px;
-    padding-top:20px;
+    padding-bottom:20px;
     text-transform: uppercase;
+    max-width:72%;
+    margin-left:30%;
 }
 
 .teamassistents-text p {
@@ -76,27 +63,29 @@
     color:var(--text);
     text-transform: uppercase;
     line-height: 28px;
-    width:100%;
-    letter-spacing: 1px;
+    max-width:70%;
+    font-weight: 400;
+   margin-left: 30%;
+   position:relative;
 }
 
 .teamassistents-img {
+    width:40%;
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
-    height:300px;
+    height: calc(35.00vw);
     border:3px double #9e8a4c;
 } 
 
 .teamassistents-call a {
-    padding:15px 60px;
+    padding:15px 80px;
     background-color: var(--gold);
     letter-spacing: 3px;
     transition: 2s;
     position:absolute;
-    left:45%;
-    top:90%;
+    left:50%;
+    top:75%;
     transform: translate(-50%,-50%);
     display: inline-block;
    overflow: hidden;
@@ -114,7 +103,7 @@
     width:50px;
     height:100%;
     background:rgba(255,255,255,0.5);
-    transform:skewX(45deg) translateX(350px);
+    transform:skewX(45deg) translateX(450px);
     transition:1s;
     overflow: hidden;
 }

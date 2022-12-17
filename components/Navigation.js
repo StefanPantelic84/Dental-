@@ -31,17 +31,13 @@ function Navigation() {
     setMenuShow(false)
     setMenuHidden(false)
     document.body.style.overflow = 'hidden'
-    document.querySelector(".nav-img").style.display="block"
-  
   }
 
   const menuClose = () => {
     setMenuShow(true)
     setMenuHidden(true)
     document.body.style.overflow = 'visible'
-    document.querySelector(".nav-img").style.display="none"
-
-  }
+  } 
 
   return (
     <div className= {show ? 'navigation-container-fix' : 'navigation-container'} >

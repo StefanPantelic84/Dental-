@@ -1,9 +1,8 @@
 import React from 'react'
-
+ 
 function HomeImage() {
   return (
     <div>
-      <div className='home-img'></div>
     <div className='homepage-container' >
     
         <div className='homepage-text'> 

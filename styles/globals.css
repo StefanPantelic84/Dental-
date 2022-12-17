@@ -3,13 +3,13 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family:Tangerine,Lato,sans-serif, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family:Lato,sans-serif,Great Vibes, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Mrs Saint Delafield, ;
 }
 
 :root {
   --gold: #9e8a4c;
-  --text: #1a1818;;
+  --text: rgb(26, 24, 24);
   --bg: #f1f1ed;
 }
 

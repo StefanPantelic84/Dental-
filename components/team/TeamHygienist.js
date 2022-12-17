@@ -7,13 +7,14 @@ function TeamHygienist() {
         Vi Ovde Pripadate
     </div>
     <div className='teamhyg-container'>
+    <div className='teamhyg-text'>
+      <div className='teamhyg-title'>
+      <h6>Dobro nam dosli</h6>
+      </div>
+      <p>Ovde vas dočekujemo sa osmehom.Od trenutka kada udjete želimo da se osećate kao da ovde pripadate.Uživajte u ličnoj pažnji našeg tima.Smatramo da je put kod stomatologa jedan od najvažnijih delova vašeg dana.</p>
+    </div>
     <div className='teamhyg-img'></div>
-  <div className='teamhyg-text'>
-
-    <p>NADAMO SE DA ĆEMO PROMENITI NAČIN KAKO VI VIDITE STOMATOLOGA. OVDE SE ČESTO SMEJEMO, GLASNO SE SMEJEMO.OVO JE PROSTOR GDE LIČNA PAŽNJA ZAMENJUJE OSUDU I ANKSIOZNOST.MESTO GDE LJUBAYNOST I IZVRSNOST GRADE TRAJNE VEZE. GDE VI UĐATE KAO STRANCI, ALI IZADJETE KAO PORODICA. </p>
   </div>
-  <div className='teamhyg-call'><a>vaša prva poseta?</a></div>
-</div>
 
 </div>
   )

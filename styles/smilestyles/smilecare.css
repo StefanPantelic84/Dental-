@@ -1,76 +1,71 @@
-.smilecareone-container {
-    background-image:url('../../public/cvece.png');
+.smilecare-container {
+    background-image:url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size:500px;
-    background-position: center;
+    background-size:contain;
+    background-position:left;
     width:100%;
-    height:600px;
     position: relative;
     background-color: var(--bg);
     font-family: 'Lato';
-    padding:130px 120px;
+    padding:120px 45px;
     display: flex;
     flex-direction: row;
     position:relative;
-}
-
-.smilecareone-text {
+  }
+  
+  .smilecare-text {
     display: flex;
     flex-direction: column;
     position: relative;
-    width:80%;
-    margin-right:250px;
-}
-
-.smilecareone-text p:after {
-    content:'';
-    display: inline-block;
-    width:50%;
-    height: 1px;
-    background-color: black;
-    align-items: center;
+    width:60%;
     justify-content: center;
-    position: absolute;
-    bottom:50%;
-    left:100%;
-    margin-left:30px;
-}
-
-
-.smilecareone-title {
+  }
+  
+  .smilecare-title {
     display: flex;
     flex-direction: row;
-}
-.smilecareone-text h1{
+  }
+  .smilecare-text h1{
     color:var(--gold);
-    font-size:50px;
+    font-size:80px;
     font-family: 'Mrs Saint Delafield';
-}
-
-.smilecareone-text h6{
+  }
+  
+  .smilecare-text h6{
     color:var(--gold);
     font-size:32px;
-    font-weight: 400;
-    max-width: 240px;
-    padding-left: 15px;
-    padding-top:20px;
+    font-weight: 300;
+    max-width: 72%;
+    padding-bottom:20px;
     text-transform: uppercase;
-}
-
-.smilecareone-text p {
-    font-size:16px;
+  }
+  
+  .smilecare-text p {
+    font-size:18px;
     color:var(--text);
-    padding-top:20px;
     text-transform: uppercase;
     line-height: 28px;
-    width:100%;
-}
-
-.smilecareone-img {
+    font-weight: 400;
+    display: relative;
+    max-width:72%;
+  }
+  
+  .smilecare-img::after {
+    content:'';
+    width:35%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top:60%;
+    left:-40%;
+  }
+  
+  .smilecare-img {
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
-    height:300px;
+    width:40%;
+    height:calc(35vw);
     border:3px double #9e8a4c;
-}
+    position: relative;
+  }

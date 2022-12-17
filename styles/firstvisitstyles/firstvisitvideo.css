@@ -1,19 +1,21 @@
 .full-container-video {
     background-image:url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: cover;
     background-position: center;
     width:100%;
-    height:600px;
     position: relative;
     background-color: #f1f1ed;
-    font-family: 'Tangerine';
+    display: flex;
+    padding: 100px 45px;
 }
 
 .container-video {
+    width:40%;
+    height: calc(26vw);
     display: flex;
     flex-direction: row;
-    padding:150px 120px;
+    margin-right:10%;
 }
 
 .video-left {
@@ -26,22 +28,27 @@
 }
 
 .video-text {
+    font-family: 'Great Vibes';
+    font-size:64px;
+    font-weight: 300;
+    width:50%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size:50px;
-    font-weight: 700;
-    color:#1a1818;
-    line-height: 60px;
+    justify-content: center;
+    position: relative;
 }
 .video-text p{
-    margin-left: 30px;
+    max-width:75%;
+    margin-left:25%;
 }
 .video-text:before {
     content: "";
-    width:50%;
+    position: absolute;
+    left:-20%;
+    top:50%;
+    width:35%;
     height:1px;
     background-color: black;
     display: inline-block;
-   margin-left:30px;
+    margin-left:30px;
 }

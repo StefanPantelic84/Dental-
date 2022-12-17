@@ -15,34 +15,35 @@
 } 
 
 .smiledark-text {
-    font-size: 56px;
-    line-height: 72px;
+    font-size: 36px;
+    line-height: 65px;
     color:#fff;
-    width:60%;
-   margin:auto;
-    letter-spacing: 3px;
+    width:67%;
+    margin:auto;
+    padding:60px 0;
+    font-style: italic;
     position: relative;
 }
 
 .smiledark-text p {
-    font-family: 'Tangerine';
+    font-family: 'Lato'; 
 }
 
-.smiledark-text:before {
+.smiledark-text p:before {
     content: "";
     position:absolute;
-    right:110%;
+    left:-35%;
     top:50%;
-    width: 50%;
+    width: 30%;
     height:1px;
     background-color: var(--gold);
 }
-.smiledark-text:after {
+.smiledark-text p:after {
     content: "";
     position:absolute;
-    left:110%;
+    right:-35%;
     top:50%;
-    width: 50%;
+    width: 30%;
     height:1px;
     background-color: var(--gold);
 }
