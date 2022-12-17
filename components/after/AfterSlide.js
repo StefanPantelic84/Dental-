@@ -42,7 +42,13 @@ function AfterSlide() {
 ]
 
   return (
+    <div>
+        <div className='afterslide-title'>
+            <p>Naši Radovi:</p>
+        </div>
+   
     <div className='afterslide-container'>
+        
         {beforeAfter.map((ba,i)=>{
             if (i%2 == 0){
             return (
@@ -76,6 +82,7 @@ function AfterSlide() {
         
         }
    
+    </div>
     </div>
   )
 }

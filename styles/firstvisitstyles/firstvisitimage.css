@@ -1,39 +1,31 @@
 .firstvisitimage-container {
-    height:550px;
-    max-width:100%;
-    display:flex;
-    flex-direction: column; 
-    justify-content: center;
-    background-image: url('../../public/smile.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-    align-items: center;
-    overflow: hidden;
-}
+  height:550px; 
+  max-width:100%;
+  margin-top: 160px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../public/smeh.jpg');
+  background-color: var(--text);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  align-items: center;
+  overflow: hidden;
+} 
 
-.color-overlay-visit {
-    background: linear-gradient(#1a1818, #131212a8,#1a1818);
-    margin-top: 230px;
-    width:100%;
-    height:550px;
-    position:absolute;
-    left:0;
-    top:0;
-    opacity:1;
-}
 
 .firstvisitimage-text {
-    font-family: 'Lato';
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    position:relative;
-    display:block;
-    padding:30px;
-    z-index:20;
-    position:relative;
-    cursor:default;
-    margin-bottom:100px;
+  font-family: 'Lato';
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  position:relative;
+  display:block;
+  padding:30px;
+  z-index:20;
+  position:relative;
+  cursor:default;
+  margin-bottom:250px;
 }
 .firstvisitimage-text h1 {
     transition:5s;
@@ -45,8 +37,6 @@
     position: relative;
     text-align: center;
 }
-
-
 
 .firstvisitimage-text:before {
   background-color:#9e8a4c;
@@ -78,20 +68,8 @@
     background-size: cover;
     width:100%;
     height: 100px;
-    background-color: var(--text);
     opacity:1;
-    position: relative;
-    
+    position:absolute;
+    bottom:-90px;
+    left:0;
   }
-
-  .firstvisittop-img {
-    background-image: url('../../public/ivica.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%; 
-    height: 100px;
-    margin-top: 130px;
-    background-color: var(--text);
-    opacity:1;
-    position: relative;
-}

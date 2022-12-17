@@ -4,7 +4,6 @@
     background-size: 200px;
     background-position: left;
     display: flex;
-    height:300px;
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -16,13 +15,26 @@
     position: re;
 }
 
+.contactlast-container h6 {
+    background-color: var(--bg);
+    justify-content: center;
+    padding-top:120px;
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: 6px;
+    display: flex;
+    font-family: 'Great Vibes';
+    font-weight: 300;
+}
+
 .contactlast-container p {
     font-size: 20px;
     line-height:28px;
+    max-width:40%;
 }
 
 .contactlast-container a {
-    padding:20px 30px;
+    padding:15px 60px;
     background-color: var(--gold);
     letter-spacing: 3px;
     transition: 2s;
@@ -32,6 +44,7 @@
    color:var(--bg);
    font-weight: 700;
    cursor: pointer;
+   margin: 15px;
 }
 
 .contactlast-container a:before {

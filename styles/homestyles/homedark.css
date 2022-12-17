@@ -63,7 +63,7 @@
 
 .homedark-text .span-A {
     display:block;
-    opacity:0;
+    opacity:0; 
     align-items: right;
     text-align: right;
     line-height: 30px;

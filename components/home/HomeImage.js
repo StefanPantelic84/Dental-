@@ -10,10 +10,9 @@ function HomeImage() {
             <p>Vaš Zubar, Milošević/Dental</p>
         </div>
     </div>
-    <div className='color-overlay'></div>
     <div className='bottom-img'></div>
     </div>
-        
+         
   )
 }
 

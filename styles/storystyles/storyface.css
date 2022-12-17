@@ -1,16 +1,16 @@
 .storyfacelast-container {
     background-image: url('../../public/gorelist.png');
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 200px; 
     background-position: left;
     display: flex;
-    height:300px;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'lato';
     gap:50px;
+    padding:100px 45px;
     color:var(--text);
     background-color: var(--bg);
     position: re;
@@ -19,10 +19,11 @@
 .storyfacelast-container p {
     font-size: 20px;
     line-height:28px;
+    font-weight: 400;
 }
 
-.storyfacelast-container a {
-    padding:20px 30px;
+.storyface-div a {
+    padding:15px 70px;
     background-color: var(--gold);
     letter-spacing: 3px;
     transition: 2s;
@@ -32,9 +33,10 @@
    color:var(--bg);
    font-weight: 700;
    cursor: pointer;
+   margin:0 20px;
 }
 
-.storyfacelast-container a:before {
+.storyface-div a:before {
     content: '';
     position:absolute;
     top:0;
@@ -47,11 +49,11 @@
     overflow: hidden;
 }
 
-.storyfacelast-container a:hover:before {
+.storyface-div a:hover:before {
     transform:translateX(-350px) skewX(45deg);
 
 }
 
-.storyfacelast-container a:hover {
+.storyface-div a:hover {
     background-color: var(--text);
 }

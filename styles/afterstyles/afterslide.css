@@ -1,3 +1,15 @@
+.afterslide-title {
+    background-color: var(--bg);
+    justify-content: center;
+    padding:120px;
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: 6px;
+    display: flex;
+    font-family: 'Great Vibes';
+    font-weight: 300;
+}
+
 .afterslide-container {
     width:100%;
     display: flex;
@@ -90,3 +102,4 @@
     position:absolute;
     font-weight: 700;
 }
+

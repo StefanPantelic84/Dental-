@@ -7,7 +7,7 @@ function ContactImage() {
   <div className='contactimage-container' >
   
       <div className='contactimage-text'> 
-          <h1>VAŠA PRVA POSETA</h1>
+          <h1>KONTAKTIRAJTE NAS</h1>
       </div>
   </div>
   <div className='color-overlay-contact'></div>
