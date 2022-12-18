@@ -40,7 +40,7 @@
     color:#fff;
 }
 
-.footer-icon a {
+.footer-a a {
     margin:10px;
     cursor: pointer;
 }
@@ -67,7 +67,7 @@
     .footer-icon {
         margin-right: 30px;
     }
-    .footer-icon a {
+    .footer-a a {
         margin:0;
     }
 }

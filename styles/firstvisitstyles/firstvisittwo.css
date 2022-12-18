@@ -78,3 +78,48 @@
     border:3px double #9e8a4c;
     position: relative;
 }
+
+@media only screen and (max-width:600px) {
+    .firstvisittwo-container {
+        padding:60px 15px;
+        flex-direction: column;
+    }
+    .firstvisittwo-img {
+        width:100%;
+        height:calc(80vw);
+    }
+     
+    .firstvisittwo-text { 
+        width:100%;
+    }
+    .firstvisittwo-title {
+        flex-direction: column;
+    }
+    .firstvisittwo-text h1{
+        font-size:80px;
+        max-width:100%;
+        margin-left:0%;
+        padding-top:20px
+    }
+    
+    .firstvisittwo-text h6{
+        font-size:32px;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-top:0px;
+        padding-bottom:10px;
+    }
+    
+    .firstvisittwo-text p {
+        font-size:14px;
+        line-height: 28px;
+        max-width:100%;
+        margin-left:0%;
+    }
+    
+    .firstvisittwo-img:after {
+     display: none;
+    }
+     
+  
+}

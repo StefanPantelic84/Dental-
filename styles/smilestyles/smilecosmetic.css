@@ -21,18 +21,6 @@
     justify-content: center;
 }
 
-.smilecosmetic-title {
-    display: flex;
-    flex-direction: row;
-}
-.smilecosmetic-text h1{
-    color:var(--gold);
-    font-size:80px;
-    font-family: 'Mrs Saint Delafield';
-    max-width:72%;
-    margin-left:28%;
-}
-
 .smilecosmetic-text h6{
     color:var(--gold);
     font-size:32px;
@@ -78,3 +66,41 @@
     border:3px double #9e8a4c;
     position: relative;
 }
+
+@media only screen and (max-width:600px) {
+
+    .smilecosmetic-container {
+      padding:70px 15px;
+      flex-direction: column;
+    }
+    
+    .smilecosmetic-text {
+      width:100%;
+    }
+  
+    
+    .smilecosmetic-text h6{
+      font-size:32px;
+      max-width: 100%;
+      margin-left:0%;
+      padding-top: 60px;
+    }
+    
+    .smilecosmetic-text p {
+      font-size:14px;
+      max-width:100%;
+      margin-left:0%;
+    }
+    
+    .smilecosmetic-img::after {
+  display: none;
+    }
+    
+    .smilecosmetic-img {
+      width:100%;
+      height:calc(80vw);
+      margin-bottom: 40px;
+    }
+  
+    }
+  

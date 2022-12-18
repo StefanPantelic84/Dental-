@@ -82,3 +82,37 @@
     background-color: var(--bg);
     position: relative;
 }
+
+@media only screen and (max-width:600px) {
+  
+    
+    .smiledark-text {
+        font-size: 24px;
+        line-height: 40px;
+        width:100%; 
+        margin:auto;
+        padding:60px 15px;
+    }
+    
+    .smiledark-text p {
+        font-family: 'Lato'; 
+    }
+    
+    .smiledark-text p:before {
+       display: none;
+    }
+    .smiledark-text p:after {
+      display: none;
+    }
+    
+    .smiledark-text .span {
+        transform: translate3d(0px,0px,0px);
+        transform-style: preserve-3d;
+    }
+    
+    .smiledark-text .span-A {  
+        transform: translate3d(200px,0px,0px);
+        transform-style: preserve-3d;
+    }
+
+}

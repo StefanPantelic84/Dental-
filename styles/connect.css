@@ -79,7 +79,7 @@
     border:3px double #9e8a4c;
 }
 
-.connect-call a {
+.connect-call {
     padding:15px 80px;
     width:72%;
     background-color: var(--gold);
@@ -95,7 +95,7 @@
    
 }
 
-.connect-call a:before {
+.connect-call:before {
     content: '';
     position:absolute;
     top:0;
@@ -108,12 +108,12 @@
     overflow: hidden;
 }
 
-.connect-call a:hover:before {
+.connect-call:hover:before {
     transform:translateX(-350px) skewX(45deg);
 
 }
 
-.connect-call a:hover {
+.connect-call:hover {
     background-color: var(--text);
 }
 
@@ -158,7 +158,7 @@
     .connect-call2 a {
         padding:15px 40px;
     }
-    .connect-call a {
+    .connect-call {
         padding:15px 40px;
     } 
 }
@@ -190,9 +190,6 @@
     }
     .connect-call{
         width:100%;
-    }
-    .connect-call a {
-        width: 100%;
     }
     .connect-call2 a {
         width: 100%;

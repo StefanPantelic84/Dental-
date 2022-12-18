@@ -47,12 +47,12 @@ function AfterSlide() {
             <p>Naši Radovi:</p>
         </div>
    
-    <div className='afterslide-container'>
+    
         
         {beforeAfter.map((ba,i)=>{
             if (i%2 == 0){
             return (
-            <>
+                <div className='afterslide-container'>
                 <div className='afterslide-holder'>
                     <div className='slide-back' style = {{backgroundImage : `url(${ba.back})`}}></div>
                     <div className='slide-front' style = {{backgroundImage : `url(${ba.front})`}}><div className='slide-right'>{'→'}</div></div>
@@ -63,10 +63,10 @@ function AfterSlide() {
                     <h1>{ba.title}</h1>
                     <p>{ba.p}</p>
                 </div>
-            </>)}
+            </div>)}
             else {
                 return (
-                    <>
+                    <div className='afterslideL-container'>
                      <div className='afterslide-text'>
                             <h1>{ba.title}</h1>
                             <p>{ba.p}</p>
@@ -76,13 +76,12 @@ function AfterSlide() {
                             <div className='slide-front' style = {{backgroundImage : `url(${ba.front})`}}><div className='slide-right'>{'→'}</div></div>
                         </div>
                        
-                    </>)
+                    </div>)
             }
         })
         
         }
    
-    </div>
     </div>
   )
 }

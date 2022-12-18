@@ -21,21 +21,10 @@
     justify-content: center;
 }
 
-.teamhead-title {
-    display: flex;
-    flex-direction: row;
-}
-.teamhead-text h1{
-    color:var(--gold);
-    font-size:80px;
-    font-family: 'Mrs Saint Delafield';
-    max-width:72%;
-    margin-left:28%;
-}
 
 .teamhead-text h6{
     color:var(--gold);
-    font-size:32px;
+    font-size:38px;
     font-weight: 300;
     max-width: 240px;
     padding-bottom:20px;
@@ -77,4 +66,46 @@
     height:calc(35vw);
     border:3px double #9e8a4c;
     position: relative;
+}
+
+@media only screen and (max-width:600px) {
+    .teamhead-container {
+        padding:40px 15px;
+        flex-direction: column;
+    }
+     
+    .teamhead-text {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width:100%;
+        justify-content: center;
+        padding-top:40px;
+    }
+    
+    
+    .teamhead-text h6{
+        color:var(--gold);
+        font-size:32px;
+        font-weight: 300;
+        padding-top:20px;
+        padding-bottom:20px;
+        max-width:100%;
+        margin-left:0%;
+    }
+    
+    .teamhead-text p {
+        font-size:14px;
+        max-width:100%;
+        margin-left:0%;
+    }
+    
+    .teamhead-img:after {
+        display: none;
+    }
+    
+    .teamhead-img {
+        width:100%;
+        height:calc(80vw);
+    }
 }

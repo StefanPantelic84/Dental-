@@ -13,7 +13,6 @@
     padding:100px 45px;
     color:var(--text);
     background-color: var(--bg);
-    position: re;
 }
 
 .storyfacelast-container p {
@@ -51,9 +50,38 @@
 
 .storyface-div a:hover:before {
     transform:translateX(-350px) skewX(45deg);
-
 }
 
 .storyface-div a:hover {
     background-color: var(--text);
+}
+
+@media only screen and (max-width:600px) {
+    .storyfacelast-container {
+        padding:50px 15px;
+    }
+    
+    .storyfacelast-container p {
+        font-size: 16px;
+        line-height:22px;
+    }
+    .storyface-div {
+        text-align: center;
+    }
+    .storyface-div a {    
+       width:100%;
+       margin:0 0px;
+    }
+    
+    .storyface-div a:before {
+        transform:skewX(45deg) translateX(550px);
+    }
+    
+    .storyface-div a:hover:before {
+        transform:translateX(-350px) skewX(45deg);
+    }
+    
+    .storyface-div a:hover {
+        background-color: var(--text);
+    }
 }

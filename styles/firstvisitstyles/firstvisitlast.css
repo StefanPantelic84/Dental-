@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'lato';
+    font-family: 'Lato';
     gap:50px;
     color:var(--text);
     background-color: var(--bg);
@@ -55,4 +55,25 @@
 
 .firstvisitlast-container a:hover {
     background-color: var(--text);
+}
+
+@media only screen and (max-width:600px) {
+    .firstvisitlast-container {
+        padding:60px 15px;
+        flex-direction: column;
+    }
+   
+    .firstvisitlast-container p {
+        font-size:14px;
+        line-height: 28px;
+        max-width:100%;
+        margin-left:0%;
+        text-align: center;
+    }
+    
+    .firstvisitlast-img:after {
+     display: none;
+    }
+     
+  
 }

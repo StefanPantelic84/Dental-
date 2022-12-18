@@ -20,8 +20,8 @@ function Footer() {
             </div>
         </div>
         <div className='footer-icon'>
-            <div><a href="https://www.instagram.com/" target="_blank"><BsInstagram /></a></div>
-            <div><a href="https://www.facebook.com/" target="_blank"><AiFillFacebook /></a></div>
+            <div className='footer-a'><a href="https://www.instagram.com/" target="_blank"><BsInstagram /></a></div>
+            <div className='footer-a'><a href="https://www.facebook.com/" target="_blank"><AiFillFacebook /></a></div>
             
         </div>
     </div>

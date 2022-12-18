@@ -70,3 +70,48 @@
   border:3px double #9e8a4c;
   position: relative;
 }
+
+@media only screen and (max-width:600px) {
+  .firstvisitthree-container {
+      padding:60px 15px;
+      flex-direction: column-reverse;
+  }
+  .firstvisitthree-img {
+      width:100%;
+      height:calc(80vw);
+  }
+   
+  .firstvisitthree-text { 
+      width:100%;
+  }
+  .firstvisitthree-title {
+      flex-direction: column;
+  }
+  .firstvisitthree-text h1{
+      font-size:80px;
+      max-width:100%;
+      margin-left:0%;
+      padding-top:20px
+  }
+  
+  .firstvisitthree-text h6{
+      font-size:32px;
+      max-width: 100%;
+      padding-left: 0px;
+      padding-top:0px;
+      padding-bottom:10px;
+  }
+  
+  .firstvisitthree-text p {
+      font-size:14px;
+      line-height: 28px;
+      max-width:100%;
+      margin-left:0%;
+  }
+  
+  .firstvisitthree-img:after {
+   display: none;
+  }
+   
+
+}

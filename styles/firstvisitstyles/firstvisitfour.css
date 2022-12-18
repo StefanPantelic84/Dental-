@@ -77,3 +77,48 @@
     border:3px double #9e8a4c;
     position: relative;
 }
+
+@media only screen and (max-width:600px) {
+    .firstvisitfour-container {
+        padding:60px 15px;
+        flex-direction: column;
+    }
+    .firstvisitfour-img {
+        width:100%;
+        height:calc(80vw);
+    }
+     
+    .firstvisitfour-text { 
+        width:100%;
+    }
+    .firstvisitfour-title {
+        flex-direction: column;
+    }
+    .firstvisitfour-text h1{
+        font-size:80px;
+        max-width:100%;
+        margin-left:0%;
+        padding-top:20px
+    }
+    
+    .firstvisitfour-text h6{
+        font-size:32px;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-top:0px;
+        padding-bottom:10px;
+    }
+    
+    .firstvisitfour-text p {
+        font-size:14px;
+        line-height: 28px;
+        max-width:100%;
+        margin-left:0%;
+    }
+    
+    .firstvisitfour-img:after {
+     display: none;
+    }
+     
+  
+}

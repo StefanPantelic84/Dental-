@@ -116,3 +116,58 @@
 .teamassistents-call a:hover {
     background-color: var(--text);
 }
+
+@media only screen and (max-width:600px) {
+    .teamassistents-container {
+        padding:40px 15px;
+        flex-direction: column;
+    }
+
+    .teamassistents-title1{
+        background-color: var(--bg);
+        justify-content: center;
+        padding-top:0px;
+        padding-bottom:0px;
+        font-size: 40px;
+        line-height: 90px;
+        letter-spacing: 4px;
+        display: flex;
+        font-family: 'Great Vibes';
+        font-style: italic;
+    }
+     
+    .teamassistents-text {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width:100%;
+        justify-content: center;
+        padding-top:40px;
+    }
+    
+    
+    .teamassistents-text h6{
+        color:var(--gold);
+        font-size:32px;
+        font-weight: 300;
+        padding-top:20px;
+        padding-bottom:20px;
+        max-width:100%;
+        margin-left:0%;
+    }
+    
+    .teamassistents-text p {
+        font-size:14px;
+        max-width:100%;
+        margin-left:0%;
+    }
+    
+    .teamassistents-img:after {
+        display: none;
+    }
+    
+    .teamassistents-img {
+        width:100%;
+        height:calc(80vw);
+    }
+}
