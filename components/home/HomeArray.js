@@ -43,14 +43,13 @@ function HomeArray() {
         <p>{myArray[arrayIndex].passus}</p>
         <h6>{myArray[arrayIndex].name}</h6>
         </div>
-        <div className='homearray-call'><a>ISKUSTVA PACIJENATA</a></div>
+        <div className='homearray-call'><a>ISKUSTVA PACIJENATA</a>
         <div className={firstRef.inView ? 'homearray-right' : 'homearray-right-A'} onClick={()=>{
             if (arrayIndex < 4) {
                setArrayIndex(arrayIndex + 1)
             }else {
                 setArrayIndex(0)
-            }
-            console.log(arrayIndex)
+            }   
         }}>{'>'}</div>
         
         <div ref={firstRef.ref} className={firstRef.inView ? 'homearray-left' : 'homearray-left-A'} onClick={()=>{
@@ -59,8 +58,7 @@ function HomeArray() {
             }else {
                 setArrayIndex(4)
             }
-            console.log(arrayIndex)
-        }}>{'<'}</div>
+        }}>{'<'}</div></div>
         
         </div>
   )

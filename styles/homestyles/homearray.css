@@ -7,8 +7,9 @@
    background-position:right;
     background-size: contain;
     background-color: var(--bg);
+    font-family: 'Lato';
 }
- 
+  
 .homearray-text {
     display: flex;
     flex-direction: column;
@@ -25,6 +26,7 @@
     letter-spacing: 5px;
     font-style: italic;
     transition:5s;
+    font-weight: 400;
 }
 
 .homearray-text p {
@@ -41,7 +43,7 @@
     text-align: right;
     color:var(--gold);
     font-size:30px;
-    font-weight: 400;
+    font-weight: 300;
     padding-top:30px;
 }
 
@@ -49,6 +51,8 @@
    margin:auto;
     padding: 50px 0;
     width:65%;
+    white-space: nowrap;
+    position:relative;
 }
 .homearray-call a {
     padding:15px 70px;
@@ -92,21 +96,22 @@
 .homearray-right {
     position:absolute;
     font-size:80px;
-    right:8%;
-    top:40%;
+    right:-12%;
+    top:-130%;
     color:var(--text);
     cursor:pointer;
     padding:10px;
     transition: 0.5s;
+    font-weight:300;
 }
 
 .homearray-right-A {
     position:absolute;
     font-size:80px;
-    right:8%;
+    right:-12%;
     transform: translate3d(-100px,0px,0px);
     transform-style: preserve-3d;
-    top:40%;
+    top:-130%;
     color:var(--text);
     cursor:pointer;
     padding:10px;
@@ -116,22 +121,23 @@
 .homearray-left {
     position:absolute;
     font-size:80px;
-    left:6%;
-    top:40%;
+    left:-14%;
+    top:-130%;
     color:var(--text);
     cursor:pointer;
     padding:10px;
     transition: 0.5s;
     opacity:1;
+    font-weight: 300;
 }
 
 .homearray-left-A {
     position:absolute;
     font-size:80px;
-    left:6%;
+    left:-14%;
     transform: translate3d(100px,0px,0px);
     transform-style: preserve-3d;
-    top:40%;
+    top:-130%;
     color:var(--text);
     cursor:pointer;
     padding:10px;
@@ -146,5 +152,39 @@
 
 .homearray-left:hover {
     color:var(--gold)
+}
+
+@media only screen and (max-width: 600px) {
+    .homearray-container {
+        padding-top:10px;
+    }
+    .homearray-text {
+        width:75%;
+    }
+
+   .homearray-text h1 {
+    font-size: 50px;
+   }
+   .homearray-text p {
+    font-size:14px;
+   }
+   .homearray-text h6{
+    font-size: 22px;
+   }
+   .homearray-left {
+    left:-20%;
+    top:-180%;
+    font-size: 60px;
+   }
+   .homearray-right {
+    right:-16%;
+    top:-180%;
+    font-size: 60px;
+   }
+   .homearray-call {
+    width:75%;
+   }
+   .homearray-call a {
+    padding:15px 5px;}
 }
 

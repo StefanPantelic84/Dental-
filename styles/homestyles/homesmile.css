@@ -9,7 +9,10 @@
     padding:150px 45px;
     display: flex;
     flex-direction: row;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
 }
 
 .homesmile-text {
@@ -69,6 +72,7 @@
     background-size: cover;
     height: calc(35.00vw);
     border:3px double #9e8a4c;
+   
 }
 
 .homesmile-call {
@@ -76,7 +80,6 @@
     left:50%;
     top:75%;
     transform: translate(-50%,-50%);
-
 }
 .homesmile-call a {
     padding:15px 70px;
@@ -92,6 +95,7 @@
    font-family: 'lato';
    text-transform: uppercase;
    text-align: center;
+   white-space: nowrap;
 }
 
 .homesmile-call a:before {
@@ -114,4 +118,48 @@
 
 .homesmile-call a:hover {
     background-color: var(--text);
+}
+
+@media only screen and (max-width: 1200px) {
+    .homesmile-call {
+        top:92%
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .homesmile-container {
+        padding:120px 45px;
+    }
+}
+@media only screen and (max-width: 600px) {
+.homesmile-call a {
+    padding:15px 40px;
+    width:100%;
+}
+.homesmile-container {
+    flex-direction: column;
+    padding:120px 15px;
+}
+.homesmile-img {
+    width:100%;
+    height: calc(80vw);
+}
+.homesmile-text {
+    width: 100%;
+}
+
+.homesmile-text p {
+    margin-left: 0;
+    max-width:100%;
+    font-size: 14px;
+}
+.homesmile-text h6 {
+    max-width:100%;
+    font-size: 32px;
+    margin-left: 0;
+}
+
+.homesmile-text p:before {
+    display: none;
+}
 }

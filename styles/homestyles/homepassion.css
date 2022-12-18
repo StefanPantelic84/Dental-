@@ -25,7 +25,6 @@
     font-size:72px;
     font-weight: 300;
     width:60%;
-    text-align: center;
     justify-content: center;
 }
 .homepassion-text h5{
@@ -33,7 +32,6 @@
     font-size:72px;
     font-weight: 300;
     width:70%;
-    text-align: center;
     justify-content: center;
     padding-left: 10px;
 }
@@ -46,7 +44,8 @@
     width:25%;
     height:1px;
     background-color: var(--text);
-}
+    
+} 
 .homepassion-img {
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
@@ -55,20 +54,16 @@
     height: calc(25.00vw);
     border:3px double #9e8a4c;
 }
-.homepassion-call {
-    position:absolute;
+
+.homepassion-call a {
+    padding:15px 70px;
     left:35%;
     top:80%;
-    transform: translate(-50%,-50%);
-}
-.homepassion-call a {
-    padding:15px 80px;
     background-color: var(--gold);
     letter-spacing: 3px;
     transition: 2s;
     position: absolute;
     overflow: hidden;
-   display: inline-block;
    color:var(--bg);
    font-weight: 700;
    cursor: pointer;
@@ -84,7 +79,7 @@
     width:50px;
     height:100%;
     background:rgba(255,255,255,0.5);
-    transform:skewX(45deg) translateX(350px);
+    transform:skewX(45deg) translateX(550px);
     transition:1s;
     overflow: hidden;
 }
@@ -96,4 +91,58 @@
 
 .homepassion-call a:hover {
     background-color: var(--text);
+}
+
+@media only screen and (max-width: 1224px) {
+    .homepassion-text h5 {
+        width:100%;
+    }
+    .homepassion-text h6 {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .homepassion-container {
+        padding:120px 45px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .homepassion-call a {
+        left:0;
+        top:92%;
+        width:100%;
+        padding:15px 0;
+        text-align: center;
+    }
+
+    .homepassion-text {
+        width:100%;
+        text-align: center;
+    }
+    .homepassion-text h5 {
+        font-size: 50px;
+        width:100%;
+    }
+    .homepassion-text h6 {
+        font-size: 50px;
+        padding-top:30px;
+        width:100%;
+    }
+    .homepassion-text h6:after {
+        display: none;
+    }
+
+    .homepassion-container {
+        flex-direction: column-reverse;
+        padding:20px 15px;
+        padding-bottom:100px;
+    }
+
+    .homepassion-img {
+            width:100%;
+            height: calc(80vw);
+          
+    }
+    
 }

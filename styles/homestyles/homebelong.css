@@ -9,6 +9,9 @@
     padding:60px 45px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
 }
 
 .homebelong-text {
@@ -16,6 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom:70px;
 }
 
 .homebelong-text p:before {
@@ -48,7 +52,7 @@
     font-size:18px;
     color:var(--text);
     text-transform: uppercase;
-    line-height: 28px;
+    line-height: 30px;
     max-width:70%;
     font-weight: 400;
    margin-left: 30%;
@@ -62,6 +66,7 @@
     background-size: cover;
     height: calc(35.00vw);
     border:3px double #9e8a4c;
+   
 } 
 
 .homebelong-call a {
@@ -79,6 +84,7 @@
    font-weight: 700;
    cursor: pointer;
    text-transform: uppercase;
+   white-space: nowrap;
 }
 
 .homebelong-call a:before {
@@ -101,4 +107,55 @@
 
 .homebelong-call a:hover {
     background-color: var(--text);
+}
+
+@media only screen and (max-width: 1200px) {
+    .homebelong-call a {
+        top:95%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .homebelong-text p:before {
+        display: none;
+    }
+
+    .homebelong-container {
+        flex-direction: column;
+        padding:10px 15px 40px 15px;
+    }
+    .homebelong-img {
+        width:100%;
+        height: calc(80vw);
+        margin-bottom: 40px;
+    }
+    .homebelong-text {
+        width:100%;
+    }
+    .homebelong-text p{
+        max-width:100%;
+        margin-left: 0%;
+        font-size: 14px;
+    }
+    .homebelong-text h6 {
+        max-width: 100%;
+        font-size: 32px;
+    }
+
+    .homebelong-title1 {
+        font-size: 50px;
+        padding-top:30px;
+    }
+    
+    .homebelong-call  a {
+        top:100%;
+        margin:20px 0;
+        font-size: 15px;
+    }
+    .homebelong-call a {
+        top:92%;
+    }
+    .homebelong-img {
+        
+    }
 }

@@ -13,6 +13,6 @@ function HomePassion() {
       <div className='homepassion-call'><a>DR.MILOŠEVIĆ</a></div>
     </div>
   )
-}
+} 
 
 export default HomePassion

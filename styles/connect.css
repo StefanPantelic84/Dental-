@@ -11,6 +11,8 @@
     display: flex;
     flex-direction: row;
     position:relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .connect-text {
@@ -90,6 +92,7 @@
    font-weight: 700;
    cursor: pointer;
    text-align: center;
+   
 }
 
 .connect-call a:before {
@@ -149,4 +152,49 @@
 
 .connect-call2 a:hover {
     background-color: var(--text);
+}
+
+@media only screen and (max-width: 970px) {
+    .connect-call2 a {
+        padding:15px 40px;
+    }
+    .connect-call a {
+        padding:15px 40px;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .connect-container {
+        padding:20px 15px 120px 15px;
+        flex-direction: column-reverse;
+    }
+    .connect-img {
+        width:100%;
+        height: calc(80vw);
+    }
+    .connect-text {
+        width:100%;
+    }
+
+    .connect-text p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .connect-text h6 {
+        max-width: 100%;
+        padding-top:30px;
+        font-size: 32px;
+    }
+    .connect-text p:after {
+        display: none;
+    }
+    .connect-call{
+        width:100%;
+    }
+    .connect-call a {
+        width: 100%;
+    }
+    .connect-call2 a {
+        width: 100%;
+    }
 }

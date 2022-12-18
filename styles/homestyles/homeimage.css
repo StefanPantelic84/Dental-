@@ -14,8 +14,6 @@
     overflow: hidden;
 }
 
-
-
 .homepage-text {
     font-family: 'Lato';
     letter-spacing: 6px;
@@ -88,4 +86,10 @@
     position:absolute;
     bottom:-90px;
     left:0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .homepage-text h6 {
+      font-size: 30px;
+    }
   }

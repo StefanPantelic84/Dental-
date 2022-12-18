@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Connect() {
   return (
@@ -8,8 +9,8 @@ function Connect() {
         <h6>POVEŽITE SE SA NAMA</h6>
         </div>
         <p>SMATRAMO DA ZASLUŽUJETE NAJBOLJE STOMATOLOŠKO ISKUSTVO. POZOVITE <a href='tel:00381652828678'>(+381)65/2828678</a> ILI KLIKNITE DOLE DA ZAKAŽETE SVOJU PRVU POSETU. RADUJEMO SE NAŠEM SUSRETU!</p>
-        <div className='connect-call'><a>RADNO VREME & LOKACIJA</a></div>
-      <div className='connect-call2'><a>ZAKAŽITE PREGLED</a></div>
+        <Link href='/Contact'><div className='connect-call'><a>RADNO VREME & LOKACIJA</a></div></Link>
+      <div className='connect-call2'><a href='tel:00385652828678'>ZAKAŽITE PREGLED</a></div>
       </div>
       <div className='connect-img'></div>
       
