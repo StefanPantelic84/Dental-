@@ -2,9 +2,8 @@ import React from 'react'
  
 function HomeImage() {
   return (
-    <div>
+    <div className='home-home'>
     <div className='homepage-container' >
-    
         <div className='homepage-text'> 
             <h6>Stomatologija, Estetika</h6>
             <p>Vaš Zubar, Milošević/Dental</p>

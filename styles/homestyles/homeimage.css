@@ -1,5 +1,9 @@
+.home-home {
+  position:relative;
+}
+
 .homepage-container {
-    height:550px; 
+  height:550px;
     max-width:100%;
     margin-top: 160px;
     display:flex;
@@ -83,12 +87,19 @@
     height: 100px;
     opacity:1;
     position:absolute;
-    bottom:-90px;
+    bottom:-30px;
     left:0;
   }
 
   @media only screen and (max-width: 600px) {
     .homepage-text h6 {
       font-size: 30px;
+      line-height: 40px;
     }
+    .homepage-container {
+      height: 300px;
+    }
+    
+   
+
   }
