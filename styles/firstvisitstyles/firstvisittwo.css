@@ -7,7 +7,7 @@
     position: relative;
     background-color: var(--bg);
     font-family: 'Lato';
-    padding:130px 45px;
+    padding:120px 45px;
     display: flex;
     flex-direction: row;
     position:relative;
@@ -25,10 +25,22 @@
     display: flex;
     flex-direction: row;
 }
-.firstvisittwo-text h1{
+
+.firstvisittwo-text .number02{
     color:var(--gold);
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
+    transition: 1s;
+    max-width:72%;
+    margin-left:28%;
+}
+.firstvisittwo-text .bignumber02{
+    color:var(--gold);
+    scale:1.1;
+    font-size:80px;
+    font-family: 'Mrs Saint Delafield';
+    transition: 1s;
+    opacity:0;
     max-width:72%;
     margin-left:28%;
 }
@@ -95,7 +107,13 @@
     .firstvisittwo-title {
         flex-direction: column;
     }
-    .firstvisittwo-text h1{
+    .firstvisittwo-text .number02{
+        font-size:80px;
+        max-width:100%;
+        margin-left:0%;
+        padding-top:20px
+    }
+    .firstvisittwo-text .bignumber02{
         font-size:80px;
         max-width:100%;
         margin-left:0%;

@@ -72,3 +72,20 @@
     bottom:-90px;
     left:0;
   }
+
+  @media only screen and (max-width: 600px) {
+    .team-text h1 {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .team-container {
+      height: 330px;
+    }
+    .team-text:before {
+      left:-145%;
+    }
+    
+    .team-text:after {
+        right:-145%;
+      }
+  }

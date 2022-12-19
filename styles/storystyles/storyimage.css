@@ -72,3 +72,21 @@
     bottom:-90px;
     left:0;
   }
+
+  
+  @media only screen and (max-width: 600px) {
+    .storyimage-text h1 {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .storyimage-container {
+      height: 330px;
+    }
+    .storyimage-text:before {
+      left:-145%;
+    }
+    
+    .storyimage-text:after {
+        right:-145%;
+      }
+  }

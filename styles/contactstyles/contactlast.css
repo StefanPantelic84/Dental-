@@ -72,7 +72,7 @@
 @media only screen and (max-width:600px) {
     .contactlast-container {
         width: 100%;
-        padding:80px 15px 60px 15px;
+        padding:40px 15px 60px 15px;
         gap:10px;
     }
     
@@ -81,6 +81,7 @@
         line-height: 60px;
         letter-spacing: 5px;
         max-width: 100%;
+        padding-left: 15px;
     }
     
     .contactlast-container p {

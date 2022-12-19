@@ -72,3 +72,21 @@
     bottom:-90px;
     left:0;
   }
+
+  
+  @media only screen and (max-width: 600px) {
+    .smileimage-text h1 {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .smileimage-container {
+      height: 330px;
+    }
+    .smileimage-text:before {
+      left:-145%;
+    }
+    
+    .smileimage-text:after {
+        right:-145%;
+      }
+  }

@@ -77,3 +77,21 @@ animation: lettersScale 1s;
   bottom:-90px;
   left:0;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .afterimage-text h6 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .afterimage-container {
+    height: 330px;
+  }
+  .afterimage-text:before {
+    left:-145%;
+  }
+  
+  .afterimage-text:after {
+      right:-145%;
+    }
+}

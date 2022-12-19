@@ -25,10 +25,19 @@
     display: flex;
     flex-direction: row;
 }
-.firstvisitone-text h1{
+.firstvisitone-text .number01{
     color:var(--gold);
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
+    transition: 1s;
+}
+.firstvisitone-text .bignumber01{
+    color:var(--gold);
+    scale:1.1;
+    font-size:80px;
+    font-family: 'Mrs Saint Delafield';
+    transition: 1s;
+    opacity:0;
 }
 
 .firstvisitone-text h6{
@@ -88,7 +97,11 @@
     .firstvisitone-title {
         flex-direction: column;
     }
-    .firstvisitone-title h1 {
+    .firstvisitone-title .number01 {
+        font-size: 80px;
+        padding-top:20px;   
+    }
+    .firstvisitone-title .bignumber01 {
         font-size: 80px;
         padding-top:20px;   
     }

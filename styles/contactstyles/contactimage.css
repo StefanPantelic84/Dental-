@@ -1,3 +1,7 @@
+.contact-contact {
+  position: relative;
+}
+
 .contactimage-container {
   height:550px; 
   max-width:100%;
@@ -25,7 +29,6 @@
   z-index:20;
   position:relative;
   cursor:default;
-  margin-bottom:250px;
 }
 .contactimage-text h1 {
     transition:5s;
@@ -70,6 +73,24 @@
     height: 100px;
     opacity:1;
     position:absolute;
-    bottom:-90px;
+    bottom:-30px;
     left:0;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .contactimage-text h1 {
+      font-size: 25px;
+      line-height: 34px;
+    }
+    .contactimage-container {
+      height: 330px;
+    }
+    .contactimage-text:before {
+      left:-130%;
+    }
+    
+    .contactimage-text:after {
+        right:-130%;
+      }
   }

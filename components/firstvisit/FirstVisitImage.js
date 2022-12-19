@@ -2,7 +2,7 @@ import React from 'react'
  
 function FirstVisitImage() {
   return (
-    <div>
+    <div className='first-first'>
   <div className='firstvisitimage-container' >
   
       <div className='firstvisitimage-text'> 
@@ -10,7 +10,7 @@ function FirstVisitImage() {
       </div>
   </div>
   <div className='firstvisitbottom-img'></div>
-  </div>
+  </div> 
   )
 }
 

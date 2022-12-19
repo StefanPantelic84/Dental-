@@ -25,10 +25,22 @@
   display: flex;
   flex-direction: row;
 }
-.firstvisitthree-text h1{
+
+.firstvisitthree-text .number03{
   color:var(--gold);
   font-size:80px;
   font-family: 'Mrs Saint Delafield';
+  transition: 1s;
+
+}
+.firstvisitthree-text .bignumber03{
+  color:var(--gold);
+  scale:1.1;
+  font-size:80px;
+  font-family: 'Mrs Saint Delafield';
+  transition: 1s;
+  opacity:0;
+
 }
 
 .firstvisitthree-text h6{
@@ -38,7 +50,7 @@
   max-width: 240px;
   padding-left: 15px;
   padding-top:20px;
-  text-transform: uppercase;
+  text-transform: uppercase; 
 }
 
 .firstvisitthree-text p {
@@ -87,7 +99,13 @@
   .firstvisitthree-title {
       flex-direction: column;
   }
-  .firstvisitthree-text h1{
+  .firstvisitthree-text .number03{
+    font-size:80px;
+    max-width:100%;
+    margin-left:0%;
+    padding-top:20px
+}
+  .firstvisitthree-text .bignumber03{
       font-size:80px;
       max-width:100%;
       margin-left:0%;
