@@ -1,4 +1,8 @@
-.storydark-container {
+.story-story {
+    position: relative;
+}
+
+.storydark-container { 
     background-color: #262626;
     overflow: hidden;
 }
@@ -10,9 +14,20 @@
     width:100%;
     height: 100px;
     opacity:1;
-    background-color: var(--bg);
-    position: relative;
+    position: absolute;
+    top:-60px;
 } 
+
+.storydark-botimg {
+    background-image: url('../../public/darkbot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100px;
+    opacity:1;
+    position:absolute;
+    bottom:-60px;
+}
 
 .storydark-text {
     font-size: 30px;
@@ -72,16 +87,7 @@
     font-family: 'Great Vibes';
 }
 
-.storydark-botimg {
-    background-image: url('../../public/darkbot.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    height: 100px;
-    opacity:1;
-    background-color: var(--bg);
-    position: relative;
-}
+
 
 .storylight-container {
     background-color: #f1f1ed;

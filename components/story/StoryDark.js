@@ -44,15 +44,17 @@ function StoryDark() {
 
   return (<>
     {stories.map((story,i)=>{
-        if (i%2 == 0) return (<div className='storydark-container'>
+        if (i%2 == 0) return (<div className='story-story'>
         <div className='storydark-topimg'></div>
-        <div  className='storydark-text'><p>"Najbolji deo onoga sto radim je kad vidim kako dentalna estetika moze da transformise osobu - njeno samopouzdanje, zdravlje i pogled na zivot. Veoma sam ponosna na nacin na koji moj tim i ja tretiramo nase pacijente."<span className="span"><br></br>-Dr.Milosevic</span></p></div>
+        <div className='storydark-container'>      
+        <div  className='storydark-text'><p>"Najbolji deo onoga sto radim je kad vidim kako dentalna estetika moze da transformise osobu - njeno samopouzdanje, zdravlje i pogled na zivot. Veoma sam ponosna na nacin na koji moj tim i ja tretiramo nase pacijente."<span className="span"><br></br>-Dr.Milosevic</span></p></div>      
+        </div>
         <div className='storydark-botimg'></div>
-    </div>)
+        </div>    )
     else return ( <div className='storylight-container'>
     <div className='storylight-text'><p>"Najbolji deo onoga sto radim je kad vidim kako dentalna estetika moze da transformise osobu - njeno samopouzdanje, zdravlje i pogled na zivot. Veoma sam ponosna na nacin na koji moj tim i ja tretiramo nase pacijente."<span className="span"><br></br>-Dr.Milosevic</span></p></div>
 </div>)
-    }) 
+    })  
     }
 </>
   )

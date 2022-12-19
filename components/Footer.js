@@ -6,9 +6,10 @@ import { BsInstagram } from "react-icons/bs";
 
 
 function Footer() {
-  return (
+  return (<div className='foot'>
+    <div className='footer-top-img'></div>
     <div className='footer-container'>
-        <div className='footer-top-img'></div>
+        
         <div className='footer-text'>
             <div className='footer-passus'>
                 <p>MILOŠEVIĆ DENTAL</p>
@@ -24,6 +25,7 @@ function Footer() {
             <div className='footer-a'><a href="https://www.facebook.com/" target="_blank"><AiFillFacebook /></a></div>
             
         </div>
+    </div>
     </div>
   )
 }

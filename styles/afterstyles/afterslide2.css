@@ -1,4 +1,4 @@
-.afterslide-title {
+.afterslide2-title {
     background-color: var(--bg);
     justify-content: center;
     padding:120px;
@@ -10,7 +10,7 @@
     font-weight: 300;
 }
 
-.afterslide-container {
+.afterslide2-container {
     width:100%;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
     background-color: var(--bg);
 }
 
-.afterslide-holder {
+.afterslide2-holder {
     width:50%;
     height:250px;
     position:relative;
@@ -33,8 +33,8 @@
     margin-bottom:120px;
 }
 
-.slide-back {
-    background-image: url("/nah1.jpg");
+.slide2-back {
+    background-image: url("/bljak1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,8 +52,8 @@
     transition: 1.5s;
 }
 
-.slide-front {
-    background-image: url("/nah2.jpg");
+.slide2-front {
+    background-image: url("/bljak2.jpg");
     background-repeat: no-repeat;
     margin-left:10%;
     margin-right:10%;
@@ -69,16 +69,16 @@
     transition: 1.5s;
 }
 
-.slide-front:hover {
+.slide2-front:hover {
     transform: translate3d(100%,0,0);
     transition:1.5s;
 }
-.afterslide-holder:hover .slide-back{
+.afterslide2-holder:hover .slide2-back{
     filter:brightness(100%);
     transition: 1.5s;
 }
 
-.afterslide-text {
+.afterslide2-text {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@
     margin:auto;
 }
 
-.afterslide-text p {
+.afterslide2-text p {
     text-align: center;
     font-weight: 300;
     color:var(--text);
@@ -96,7 +96,7 @@
     margin-bottom:30px;
 }
 
-.afterslide-text h1 {
+.afterslide2-text h1 {
     text-align: center;
     font-weight: 300;
     font-size:28px;
@@ -104,7 +104,7 @@
     margin-bottom:30px;
 }
 
-.slide-right {
+.slide-right2 {
     display: none;
    right:15%;
    top:-5%;
@@ -114,7 +114,7 @@
     font-weight: 700;
     cursor: pointer;
 }
-.slide-left {
+.slide-left2 {
     display: none;
     left:15%;
     top:-5%;
@@ -126,56 +126,56 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .afterslide-title {
+    .afterslide2-title {
         background-color: var(--bg);
         justify-content: center;
         padding:100px 15px 60px 15px;
         font-size: 50px;
         letter-spacing: 5px;
     }
-    .afterslide-container {
-        flex-direction: column-reverse;
+    .afterslide2-container {
+        flex-direction: column;
         padding-bottom:0px;
     }
 
-    .afterslide-text {
+    .afterslide2-text {
         width:90%;
         margin:auto;
         margin-top:20px;
     }
 
-    .afterslide-text p {
+    .afterslide2-text p {
         font-size:14px;
     }
     
-    .afterslide-text h1 {
+    .afterslide2-text h1 {
         font-size:26px;
         margin-bottom:10px;
     }
-    .slide-left,
-    .slide-right {
+    .slide-left2,
+    .slide-right2 {
         display: block;
     }
 
-    .afterslide-holder {
+    .afterslide2-holder {
         width:100%;
         margin-top:30px;
     }
     
-    .slide-back {
+    .slide2-back {
         width:100%;
         height:80%;
-       
+        left:0%;
         top:20%;
         transform: translate(0%);
         margin-left:0%;
         margin-right:0%;
     }
     
-    .slide-front {
+    .slide2-front {
         width:100%;
         height:80%;
-       
+        left:0%;
         top:20%;
         transform: translate(0%);
         margin-left:0%;

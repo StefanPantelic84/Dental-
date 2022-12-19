@@ -12,7 +12,7 @@ function HomeImage() {
     </div>
     <div className='bottom-img'></div>
     </div>
-         
+          
   )
 }
 

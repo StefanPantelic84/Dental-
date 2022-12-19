@@ -7,7 +7,7 @@ function SmileImage() {
   <div className='smileimage-container' >
   
       <div className='smileimage-text'> 
-          <h1>VAS OSMEH</h1>
+          <h1>VAŠ OSMEH</h1>
       </div>
   </div>
   <div className='color-overlay-smile'></div>

@@ -12,6 +12,7 @@
   position:relative;
   align-items: center;
   overflow: hidden;
+
 }
 
 
@@ -26,8 +27,6 @@
   z-index:20;
   position:relative;
   cursor:default;
-  margin-bottom:250px;
-
 }
 
 .afterimage-text h6 {

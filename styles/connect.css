@@ -13,6 +13,7 @@
     position:relative;
     justify-content: center;
     align-items: center;
+    z-index: -10;
 }
 
 .connect-text {
@@ -165,8 +166,9 @@
 
 @media only screen and (max-width: 600px) {
     .connect-container {
-        padding:20px 15px 120px 15px;
+        padding:80px 15px 120px 15px;
         flex-direction: column-reverse;
+       
     }
     .connect-img {
         width:100%;

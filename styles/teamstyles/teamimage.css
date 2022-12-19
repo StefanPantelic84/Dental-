@@ -25,7 +25,6 @@
   z-index:20;
   position:relative;
   cursor:default;
-  margin-bottom:250px;
 }
 .team-text h1 {
     transition:5s;
@@ -62,7 +61,7 @@
     animation: lettersScale 1s;
   }
 
-  .firstvisitbottom-img {
+  .bottom-team-img {
     background-image: url('../../public/ivicadole.png');
     background-repeat: no-repeat;
     background-size: cover;
