@@ -63,7 +63,7 @@
     background-color: var(--gold);
 }
 
-.storydark-text .span {
+.storydark-text .span-1 {
     display:block;
     align-items: right;
     text-align: right;
@@ -75,14 +75,14 @@
     font-family: 'Great Vibes';
 }
 
-.storydark-text .span-A {
+.storylight-text .span-2 {
     display:block;
-    opacity:0;
+    opacity:1;
     align-items: right;
     text-align: right;
     line-height: 30px;
     transition:1s;
-    transform: translate3d(500px,0px,0px);
+    transform: translate3d(100px,0px,0px);
     transform-style: preserve-3d;
     font-family: 'Great Vibes';
 }
