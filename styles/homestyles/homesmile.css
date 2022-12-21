@@ -70,6 +70,7 @@
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
     height: calc(35.00vw);
     border:3px double #9e8a4c;
    
