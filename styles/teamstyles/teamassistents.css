@@ -76,7 +76,6 @@
     background-size: cover;
     background-position: 50% 50%;
     height: calc(35.00vw);
-    border:3px double #9e8a4c;
 } 
 
 .teamassistents-call a {
@@ -129,7 +128,7 @@
 
 @media only screen and (max-width:700px) {
     .teamassistents-container {
-        padding:40px 15px;
+        padding:40px 0px;
         flex-direction: column;
     }
 
@@ -152,7 +151,7 @@
         position: relative;
         width:100%;
         justify-content: center;
-        padding-top:40px;
+        padding:40px 15px 0 15px;
     }
     
     

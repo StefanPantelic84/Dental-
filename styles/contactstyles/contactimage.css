@@ -13,6 +13,7 @@
   background-color: var(--text);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   position:relative;
   align-items: center;
   overflow: hidden;

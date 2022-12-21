@@ -1,8 +1,8 @@
-.firstvisitfour-container {
-    background-image:url('../../public/list.png');
+.diffone-container {
+    background-image:url('../../public/gorelist.png');
     background-repeat: no-repeat;
-    background-size:  40%;
-    background-position: right;
+    background-size: 20%;
+    background-position:left;
     width:100%;
     position: relative;
     background-color: var(--bg);
@@ -12,8 +12,8 @@
     flex-direction: row;
     position:relative;
 }
- 
-.firstvisitfour-text {
+
+.diffone-text {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -21,32 +21,26 @@
     justify-content: center;
 }
 
-.firstvisitfour-title {
+.diffone-title {
     display: flex;
     flex-direction: row;
 }
-
-
-.firstvisitfour-text .number04{
+.diffone-text .numberD01{
     color:var(--gold);
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
     transition: 1s;
-    max-width:72%;
-    margin-left:28%;
 }
-.firstvisitfour-text .bignumber04{
+.diffone-text .bignumberD01{
     color:var(--gold);
     scale:1.1;
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
     transition: 1s;
     opacity:0;
-    max-width:72%;
-    margin-left:28%;
 }
 
-.firstvisitfour-text h6{
+.diffone-text h6{
     color:var(--gold);
     font-size:32px;
     font-weight: 300;
@@ -54,10 +48,9 @@
     padding-left: 15px;
     padding-top:20px;
     text-transform: uppercase;
-    max-width:72%;
 }
 
-.firstvisitfour-text p {
+.diffone-text p {
     font-size:18px;
     color:var(--text);
     text-transform: uppercase;
@@ -65,23 +58,19 @@
     font-weight: 400;
     display: relative;
     max-width:72%;
-    margin-left:28%;
 }
 
-.firstvisitfour-img:after {
+.diffone-img::after {
     content:'';
-    display: inline-block;
     width:35%;
     height: 1px;
     background-color: black;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     top:60%;
-    right:-40%;
+    left:-40%;
 }
 
-.firstvisitfour-img {
+.diffone-img {
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,60 +80,46 @@
     position: relative;
 }
 
+
 @media only screen and (max-width: 1000px) {
-    .firstvisitfour-container {
+    .diffone-video {
         padding:80px 15px;
     }
 }
 
-@media only screen and (max-width:700px) {
-    .firstvisitfour-container {
-        padding:60px 0px;
-        flex-direction: column;
+@media only screen and (max-width: 700px) {
+    .diffone-container {
+        padding:0px 0px;
+        flex-direction: column-reverse;
     }
-    .firstvisitfour-img {
-        width:100%;
+    .diffone-img {
         height:calc(80vw);
+        width:100%;
     }
-     
-    .firstvisitfour-text { 
+    .diffone-text {
         width:100%;
         padding:0 15px 0 15px;
     }
-    .firstvisitfour-title {
+    .diffone-title {
         flex-direction: column;
     }
-    .firstvisitfour-text .number04{
-        font-size:80px;
-        max-width:100%;
-        margin-left:0%;
-        padding-top:20px
+    .diffone-title .numberD01 {
+        font-size: 80px;
+        padding-top:20px;   
     }
-    .firstvisitfour-text .bignumber04{
-        font-size:80px;
-        max-width:100%;
-        margin-left:0%;
-        padding-top:20px
+    .diffone-title .bignumberD01 {
+        font-size: 80px;
+        padding-top:20px;   
     }
-    
-    .firstvisitfour-text h6{
-        font-size:32px;
-        max-width: 100%;
+    .diffone-text h6{
         padding-left: 0px;
-        padding-top:0px;
         padding-bottom:10px;
-    }
-    
-    .firstvisitfour-text p {
-        font-size:14px;
-        line-height: 28px;
+        padding-top:0px;
+        font-size: 32px;
         max-width:100%;
-        margin-left:0%;
     }
-    
-    .firstvisitfour-img:after {
-     display: none;
+    .diffone-text p {
+        font-size:14px;
+        max-width: 100%;
     }
-     
-  
 }

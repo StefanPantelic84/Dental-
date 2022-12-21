@@ -1,7 +1,7 @@
-.firstvisitfour-container {
+.difftwo-container {
     background-image:url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size:  40%;
+    background-size:20%;
     background-position: right;
     width:100%;
     position: relative;
@@ -13,7 +13,7 @@
     position:relative;
 }
  
-.firstvisitfour-text {
+.difftwo-text {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -21,13 +21,12 @@
     justify-content: center;
 }
 
-.firstvisitfour-title {
+.difftwo-title {
     display: flex;
     flex-direction: row;
 }
 
-
-.firstvisitfour-text .number04{
+.difftwo-text .numberD02{
     color:var(--gold);
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
@@ -35,7 +34,7 @@
     max-width:72%;
     margin-left:28%;
 }
-.firstvisitfour-text .bignumber04{
+.difftwo-text .bignumberD02{
     color:var(--gold);
     scale:1.1;
     font-size:80px;
@@ -46,7 +45,7 @@
     margin-left:28%;
 }
 
-.firstvisitfour-text h6{
+.difftwo-text h6{
     color:var(--gold);
     font-size:32px;
     font-weight: 300;
@@ -57,7 +56,7 @@
     max-width:72%;
 }
 
-.firstvisitfour-text p {
+.difftwo-text p {
     font-size:18px;
     color:var(--text);
     text-transform: uppercase;
@@ -68,7 +67,7 @@
     margin-left:28%;
 }
 
-.firstvisitfour-img:after {
+.difftwo-img:after {
     content:'';
     display: inline-block;
     width:35%;
@@ -80,8 +79,8 @@
     top:60%;
     right:-40%;
 }
-
-.firstvisitfour-img {
+ 
+.difftwo-img {
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,42 +91,42 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .firstvisitfour-container {
+    .difftwo-container {
         padding:80px 15px;
     }
 }
 
 @media only screen and (max-width:700px) {
-    .firstvisitfour-container {
+    .difftwo-container {
         padding:60px 0px;
         flex-direction: column;
     }
-    .firstvisitfour-img {
+    .difftwo-img {
         width:100%;
         height:calc(80vw);
     }
      
-    .firstvisitfour-text { 
+    .difftwo-text { 
         width:100%;
         padding:0 15px 0 15px;
     }
-    .firstvisitfour-title {
+    .difftwo-title {
         flex-direction: column;
     }
-    .firstvisitfour-text .number04{
+    .difftwo-text .numberD02{
         font-size:80px;
         max-width:100%;
         margin-left:0%;
         padding-top:20px
     }
-    .firstvisitfour-text .bignumber04{
+    .difftwo-text .bignumberD02{
         font-size:80px;
         max-width:100%;
         margin-left:0%;
         padding-top:20px
     }
     
-    .firstvisitfour-text h6{
+    .difftwo-text h6{
         font-size:32px;
         max-width: 100%;
         padding-left: 0px;
@@ -135,14 +134,14 @@
         padding-bottom:10px;
     }
     
-    .firstvisitfour-text p {
+    .difftwo-text p {
         font-size:14px;
         line-height: 28px;
         max-width:100%;
         margin-left:0%;
     }
     
-    .firstvisitfour-img:after {
+    .difftwo-img:after {
      display: none;
     }
      

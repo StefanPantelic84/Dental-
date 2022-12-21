@@ -80,7 +80,6 @@
   background-position: 50% 50%;
   width:40%;
   height:calc(35vw);
-  border:3px double #9e8a4c;
   position: relative;
 }
 
@@ -92,7 +91,7 @@
 
 @media only screen and (max-width:700px) {
   .firstvisitthree-container {
-      padding:60px 15px;
+      padding:60px 0px;
       flex-direction: column-reverse;
   }
   .firstvisitthree-img {
@@ -102,6 +101,7 @@
    
   .firstvisitthree-text { 
       width:100%;
+      padding:0 15px 0 15px;
   }
   .firstvisitthree-title {
       flex-direction: column;

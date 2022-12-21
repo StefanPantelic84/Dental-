@@ -6,6 +6,7 @@ function Menu({menuClose}) {
   return (
     <div className='menu-container' >
         <ul className='menu-paths'>
+            <Link href="/Difference" onClick={menuClose}><li>KLASA</li></Link>
             <Link href="/FirstVisit" onClick={menuClose}><li>VAŠA PRVA POSETA</li></Link>
             <Link href="/Team" onClick={menuClose}><li>UPOZNAJTE TIM</li></Link>
             <Link href="/Smile" onClick={menuClose}><li>NAJLEPSI OSMEH</li></Link>

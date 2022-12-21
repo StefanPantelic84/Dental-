@@ -77,7 +77,6 @@
     background-position: 50% 50%;
     width:40%;
     height:calc(35vw);
-    border:3px double #9e8a4c;
     position: relative;
 }
 
@@ -90,7 +89,7 @@
 
 @media only screen and (max-width: 700px) {
     .firstvisitone-container {
-        padding:0px 15px;
+        padding:0px 0px;
         flex-direction: column-reverse;
     }
     .firstvisitone-img {
@@ -99,7 +98,7 @@
     }
     .firstvisitone-text {
         width:100%;
-    
+        padding:0 15px 0 15px;
     }
     .firstvisitone-title {
         flex-direction: column;

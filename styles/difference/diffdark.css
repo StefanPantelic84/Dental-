@@ -1,0 +1,129 @@
+.diffdark-container {
+    background-color: #262626;
+    overflow: hidden;
+}
+
+.diffdark-topimg {
+    background-image: url('../../public/dark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100px;
+    opacity:1;
+    background-color: var(--bg);
+    position: relative;
+} 
+
+.diffdark-text {
+    font-size: 30px;
+    line-height: 65px;
+    color:#fff;
+    width:67%; 
+    margin:auto;
+    padding:60px 0;
+    font-style: italic;
+    position: relative;
+}
+
+.diffdark-text p {
+    font-family: 'Lato'; 
+}
+
+.diffdark-text p:before {
+    content: "";
+    position:absolute;
+    left:-35%;
+    top:50%;
+    width: 30%;
+    height:1px;
+    background-color: var(--gold);
+}
+.diffdark-text p:after {
+    content: "";
+    position:absolute;
+    right:-35%;
+    top:50%;
+    width: 30%;
+    height:1px;
+    background-color: var(--gold);
+}
+
+.diffdark-text .span-Db {
+    display:block;
+    align-items: right;
+    text-align: right;
+    line-height: 30px;
+    transition: 1s;
+    opacity:1;
+    transform: translate3d(100px,0px,0px);
+    transform-style: preserve-3d;
+    font-family: 'Great Vibes';
+}
+.diffdark-text .span-DB {
+    display:block;
+    align-items: right;
+    text-align: right;
+    line-height: 30px;
+    transition: 1s;
+    opacity:1;
+    transform: translate3d(500px,0px,0px);
+    transform-style: preserve-3d;
+    font-family: 'Great Vibes';
+}
+
+.diffdark-text .span-A {
+    display:block;
+    opacity:0;
+    align-items: right;
+    text-align: right;
+    line-height: 30px;
+    transition:1s;
+    transform: translate3d(500px,0px,0px);
+    transform-style: preserve-3d;
+    font-family: 'Great Vibes';
+}
+
+.diffdark-botimg {
+    background-image: url('../../public/darkbot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100px;
+    opacity:1;
+    background-color: var(--bg);
+    position: relative;
+} 
+
+@media only screen and (max-width:600px) {
+  
+    
+    .diffdark-text {
+        font-size: 24px;
+        line-height: 40px;
+        width:100%; 
+        margin:auto;
+        padding:60px 15px;
+    }
+    
+    .diffdark-text p {
+        font-family: 'Lato'; 
+    }
+    
+    .diffdark-text p:before {
+       display: none;
+    }
+    .diffdark-text p:after {
+      display: none;
+    }
+    
+    .diffdark-text .span-Db {
+        transform: translate3d(000px,0px,0px);
+        transform-style: preserve-3d;
+    }
+    
+    .diffdark-text .span-DB {  
+        transform: translate3d(200px,0px,0px);
+        transform-style: preserve-3d;
+    }
+
+}

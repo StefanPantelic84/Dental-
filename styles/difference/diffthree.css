@@ -1,8 +1,8 @@
-.firstvisitfour-container {
-    background-image:url('../../public/list.png');
+.diffthree-container {
+    background-image:url('../../public/gorelist.png');
     background-repeat: no-repeat;
-    background-size:  40%;
-    background-position: right;
+    background-size: 20%;
+    background-position:left;
     width:100%;
     position: relative;
     background-color: var(--bg);
@@ -11,53 +11,49 @@
     display: flex;
     flex-direction: row;
     position:relative;
-}
- 
-.firstvisitfour-text {
+  }
+  
+  .diffthree-text {
     display: flex;
     flex-direction: column;
     position: relative;
     width:60%;
     justify-content: center;
-}
-
-.firstvisitfour-title {
+  }
+  
+  .diffthree-title {
     display: flex;
     flex-direction: row;
-}
-
-
-.firstvisitfour-text .number04{
+  }
+  
+  .diffthree-text .numberD03{
     color:var(--gold);
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
     transition: 1s;
-    max-width:72%;
-    margin-left:28%;
-}
-.firstvisitfour-text .bignumber04{
+  
+  }
+  .diffthree-text .bignumberD03{
     color:var(--gold);
     scale:1.1;
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
     transition: 1s;
     opacity:0;
-    max-width:72%;
-    margin-left:28%;
-}
-
-.firstvisitfour-text h6{
+  
+  }
+  
+  .diffthree-text h6{
     color:var(--gold);
     font-size:32px;
     font-weight: 300;
     max-width: 240px;
     padding-left: 15px;
     padding-top:20px;
-    text-transform: uppercase;
-    max-width:72%;
-}
-
-.firstvisitfour-text p {
+    text-transform: uppercase; 
+  }
+  
+  .diffthree-text p {
     font-size:18px;
     color:var(--text);
     text-transform: uppercase;
@@ -65,23 +61,19 @@
     font-weight: 400;
     display: relative;
     max-width:72%;
-    margin-left:28%;
-}
-
-.firstvisitfour-img:after {
+  }
+  
+  .diffthree-img::after {
     content:'';
-    display: inline-block;
     width:35%;
     height: 1px;
     background-color: black;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     top:60%;
-    right:-40%;
-}
-
-.firstvisitfour-img {
+    left:-40%;
+  }
+  
+  .diffthree-img {
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,45 +81,45 @@
     width:40%;
     height:calc(35vw);
     position: relative;
-}
-
-@media only screen and (max-width: 1000px) {
-    .firstvisitfour-container {
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .diffthree-container {
         padding:80px 15px;
     }
-}
-
-@media only screen and (max-width:700px) {
-    .firstvisitfour-container {
+  }
+  
+  @media only screen and (max-width:700px) {
+    .diffthree-container {
         padding:60px 0px;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
-    .firstvisitfour-img {
+    .diffthree-img {
         width:100%;
         height:calc(80vw);
     }
      
-    .firstvisitfour-text { 
+    .diffthree-text { 
         width:100%;
         padding:0 15px 0 15px;
     }
-    .firstvisitfour-title {
+    .diffthree-title {
         flex-direction: column;
     }
-    .firstvisitfour-text .number04{
-        font-size:80px;
-        max-width:100%;
-        margin-left:0%;
-        padding-top:20px
-    }
-    .firstvisitfour-text .bignumber04{
+    .diffthree-text .numberD03{
+      font-size:80px;
+      max-width:100%;
+      margin-left:0%;
+      padding-top:20px
+  }
+    .diffthree-text .bignumberD03{
         font-size:80px;
         max-width:100%;
         margin-left:0%;
         padding-top:20px
     }
     
-    .firstvisitfour-text h6{
+    .diffthree-text h6{
         font-size:32px;
         max-width: 100%;
         padding-left: 0px;
@@ -135,16 +127,16 @@
         padding-bottom:10px;
     }
     
-    .firstvisitfour-text p {
+    .diffthree-text p {
         font-size:14px;
         line-height: 28px;
         max-width:100%;
         margin-left:0%;
     }
     
-    .firstvisitfour-img:after {
+    .diffthree-img:after {
      display: none;
     }
      
   
-}
+  }

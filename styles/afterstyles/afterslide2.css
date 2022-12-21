@@ -52,9 +52,6 @@
     left:0%;
     top:20%;
     filter:brightness(30%); 
-    border-top:3px double #9e8a4c;
-    border-bottom:3px double #9e8a4c;
-    border-left:3px double #9e8a4c;
     transition: 1.5s;
 }
 
@@ -69,9 +66,6 @@
     position:absolute;
     left:10%;
     top:20%;
-    border-top:3px double #9e8a4c;
-    border-bottom:3px double #9e8a4c;
-    border-left:1px solid #9e8a4c;
     transition: 1.5s;
 }
 

@@ -64,7 +64,6 @@
     background-position: 50% 50%;
     width:40%;
     height:calc(35vw);
-    border:3px double #9e8a4c;
     position: relative;
 }
 
@@ -76,7 +75,7 @@
 
 @media only screen and (max-width:700px) {
     .teamhead-container {
-        
+        padding:40px 0px;
         flex-direction: column;
     }
       
@@ -86,7 +85,7 @@
         position: relative;
         width:100%;
         justify-content: center;
-        padding-top:40px;
+        padding:40px 15px 0 15px;
     }
     
     

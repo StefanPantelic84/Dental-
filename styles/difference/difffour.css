@@ -1,4 +1,4 @@
-.firstvisitfour-container {
+.difffour-container {
     background-image:url('../../public/list.png');
     background-repeat: no-repeat;
     background-size:  40%;
@@ -13,7 +13,7 @@
     position:relative;
 }
  
-.firstvisitfour-text {
+.difffour-text {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -21,13 +21,13 @@
     justify-content: center;
 }
 
-.firstvisitfour-title {
+.difffour-title {
     display: flex;
     flex-direction: row;
 }
 
 
-.firstvisitfour-text .number04{
+.difffour-text .numberD04{
     color:var(--gold);
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
@@ -35,7 +35,7 @@
     max-width:72%;
     margin-left:28%;
 }
-.firstvisitfour-text .bignumber04{
+.difffour-text .bignumberD04{
     color:var(--gold);
     scale:1.1;
     font-size:80px;
@@ -46,7 +46,7 @@
     margin-left:28%;
 }
 
-.firstvisitfour-text h6{
+.difffour-text h6{
     color:var(--gold);
     font-size:32px;
     font-weight: 300;
@@ -57,7 +57,7 @@
     max-width:72%;
 }
 
-.firstvisitfour-text p {
+.difffour-text p {
     font-size:18px;
     color:var(--text);
     text-transform: uppercase;
@@ -68,7 +68,7 @@
     margin-left:28%;
 }
 
-.firstvisitfour-img:after {
+.difffour-img:after {
     content:'';
     display: inline-block;
     width:35%;
@@ -81,7 +81,7 @@
     right:-40%;
 }
 
-.firstvisitfour-img {
+.difffour-img {
     background-image: url('../../public/smeh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,42 +92,42 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .firstvisitfour-container {
+    .difffour-container {
         padding:80px 15px;
     }
 }
 
 @media only screen and (max-width:700px) {
-    .firstvisitfour-container {
+    .difffour-container {
         padding:60px 0px;
         flex-direction: column;
     }
-    .firstvisitfour-img {
+    .difffour-img {
         width:100%;
         height:calc(80vw);
     }
      
-    .firstvisitfour-text { 
+    .difffour-text { 
         width:100%;
         padding:0 15px 0 15px;
     }
-    .firstvisitfour-title {
+    .difffour-title {
         flex-direction: column;
     }
-    .firstvisitfour-text .number04{
+    .difffour-text .numberD04{
         font-size:80px;
         max-width:100%;
         margin-left:0%;
         padding-top:20px
     }
-    .firstvisitfour-text .bignumber04{
+    .difffour-text .bignumberD04{
         font-size:80px;
         max-width:100%;
         margin-left:0%;
         padding-top:20px
     }
     
-    .firstvisitfour-text h6{
+    .difffour-text h6{
         font-size:32px;
         max-width: 100%;
         padding-left: 0px;
@@ -135,14 +135,14 @@
         padding-bottom:10px;
     }
     
-    .firstvisitfour-text p {
+    .difffour-text p {
         font-size:14px;
         line-height: 28px;
         max-width:100%;
         margin-left:0%;
     }
     
-    .firstvisitfour-img:after {
+    .difffour-img:after {
      display: none;
     }
      

@@ -178,6 +178,7 @@
     }
     .connect-text {
         width:100%;
+        padding:0 15px 0 15px;
     }
 
     .connect-text p {
