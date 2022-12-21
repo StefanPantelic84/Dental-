@@ -79,7 +79,7 @@
     width:50px;
     height:100%;
     background:rgba(255,255,255,0.5);
-    transform:skewX(45deg) translateX(550px);
+    transform:skewX(45deg) translateX(650px);
     transition:1s;
     overflow: hidden;
 }
@@ -102,17 +102,17 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .homepassion-container {
         padding:120px 45px;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .homepassion-call a {
-        left:0;
+        left:50%;
+        transform:translateX(-50%);
         top:92%;
         width:100%;
-        padding:15px 0;
         text-align: center;
     }
 

@@ -116,12 +116,12 @@
       display: none;
     }
     
-    .smiledark-text .span {
-        transform: translate3d(0px,0px,0px);
+    .smiledark-text .span-b {
+        transform: translate3d(000px,0px,0px);
         transform-style: preserve-3d;
     }
     
-    .smiledark-text .span-A {  
+    .smiledark-text .span-B {  
         transform: translate3d(200px,0px,0px);
         transform-style: preserve-3d;
     }

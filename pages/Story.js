@@ -9,12 +9,9 @@ import Footer from '../components/Footer'
 function Story() {
   return (
     <div>
-      <Navigation />
       <StoryImage />
       <StoryFace />
       <StoryDark />
-      <Connect />
-      <Footer />
     </div>
   )
 }

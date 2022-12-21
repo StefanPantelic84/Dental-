@@ -57,7 +57,13 @@
     background-color: var(--text);
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 1000px) {
+    .firstvisitlast-container {
+        padding:80px 15px;
+    }
+}
+
+@media only screen and (max-width:700px) {
     .firstvisitlast-container {
         padding:60px 15px;
         flex-direction: column;

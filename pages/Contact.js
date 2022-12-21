@@ -8,11 +8,8 @@ import ContactLast from '../components/contact/ContactLast'
 function Contact() {
   return (
     <div>
-        <Navigation />
         <ContactImage />
         <ContactLast />
-        <Connect />
-        <Footer />
     </div>
   )
 }

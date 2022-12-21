@@ -69,6 +69,12 @@
     background-color: var(--text);
 }
 
+@media only screen and (max-width: 1000px) {
+    .contactlast-container p{
+        max-width:80%;
+    }
+}
+
 @media only screen and (max-width:600px) {
     .contactlast-container {
         width: 100%;
@@ -102,3 +108,4 @@
     }
 
 }
+

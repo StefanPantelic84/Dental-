@@ -75,7 +75,7 @@
     font-family: 'Great Vibes';
 }
 
-.storylight-text .span-2 {
+.storylight-text .span-light {
     display:block;
     opacity:1;
     align-items: right;
@@ -85,6 +85,7 @@
     transform: translate3d(100px,0px,0px);
     transform-style: preserve-3d;
     font-family: 'Great Vibes';
+    color:var(--text)
 }
 
 
@@ -130,32 +131,8 @@
     background-color: var(--gold);
 }
 
-.storylight-text .span {
-    display:block;
-    align-items: right;
-    text-align: right;
-    line-height: 30px;
-    transition: 1s;
-    opacity:1;
-    transform: translate3d(100px,0px,0px);
-    transform-style: preserve-3d;
-    font-family: 'Great Vibes';
-}
 
-.storylight-text .span-A {
-    display:block;
-    opacity:0;
-    align-items: right;
-    text-align: right;
-    line-height: 30px;
-    transition:1s;
-    transform: translate3d(500px,0px,0px);
-    transform-style: preserve-3d;
-    font-family: 'Great Vibes';
-}
-
-
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
   
     
     .storydark-text {
@@ -177,14 +154,15 @@
       display: none;
     }
     
-    .storydark-text .span {
+    .storydark-text .span-1 {
         transform: translate3d(0px,0px,0px);
         transform-style: preserve-3d;
     }
     
-    .storydark-text .span-A {  
-        transform: translate3d(200px,0px,0px);
+    .storylight-text .span-light {  
+        transform: translate3d(0px,0px,0px);
         transform-style: preserve-3d;
+
     }
 
     .storylight-text {
@@ -205,15 +183,6 @@
     .storylight-text p:after {
       display: none;
     }
-    
-    .storylight-text .span {
-        transform: translate3d(0px,0px,0px);
-        transform-style: preserve-3d;
-    }
-    
-    .storylight-text .span-A {  
-        transform: translate3d(200px,0px,0px);
-        transform-style: preserve-3d;
-    }
+
 
 }

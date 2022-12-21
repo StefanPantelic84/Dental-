@@ -126,19 +126,19 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .homesmile-container {
-        padding:120px 45px;
+        padding:80px 45px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 .homesmile-call a {
     padding:15px 40px;
     width:100%;
 }
 .homesmile-container {
     flex-direction: column;
-    padding:120px 15px;
+    padding:40px 15px 120px 15px;
 }
 .homesmile-img {
     width:100%;

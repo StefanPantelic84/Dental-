@@ -10,13 +10,10 @@ import Footer from '../components/Footer'
 function Team() {
   return (
     <div>
-      <Navigation />
       <TeamImage />
       <TeamHead />
       <TeamFamily />
       <TeamAssistents />
-      <Connect />
-      <Footer />
     </div>
   )
 }

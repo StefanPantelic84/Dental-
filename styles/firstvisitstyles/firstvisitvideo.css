@@ -56,7 +56,13 @@
     margin-left:30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    .full-container-video {
+        padding:80px 15px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
     .full-container-video {
         flex-direction: column;
         padding:60px 15px;

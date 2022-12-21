@@ -164,7 +164,7 @@
     opacity:1;
     right:0px;
     transition: 0.4;
-    transform: translate3d(50px,0px,0px);
+    transform: translate3d(10px,0px,0px);
     transform-style :preserve-3d;
     padding:30px;
 }
@@ -187,18 +187,27 @@
     opacity:1;
     z-index:100;
 }
+
+@media only screen and (max-width: 1000px) {
+    .call {
+        margin-left: 30px;}
+        .menu {
+            margin-right:30px;
+
+        }
+}
  
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
     .call {
         margin-left: 0px;
         margin-right:0px;
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .menu {
         margin-right:0px;
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .logo {
@@ -208,7 +217,7 @@
 
     .closeH {
      
-        transform: translate3d(15px,0px,0px);
+        transform: translate3d(0px,0px,0px);
     }
 
     .call:hover .poziv {

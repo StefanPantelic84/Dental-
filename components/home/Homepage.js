@@ -20,7 +20,6 @@ function Homepage() {
     <HomePassion />
     <HomeSmile />
     <HomeArray />
-    <Connect />
     </div>
   )
 }

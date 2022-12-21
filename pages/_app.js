@@ -36,9 +36,17 @@ import '../styles/afterstyles/afterslide2.css'
 import '../styles/contactstyles/contactimage.css'
 import '../styles/contactstyles/contactlast.css'
 import '../styles/contactstyles/contactform.css'
+import Navigation from '../components/Navigation'
+import Connect from '../components/Connect'
+import Footer from '../components/Footer'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <>
+  <Navigation />
+  <Component {...pageProps} />
+  <Connect />
+  <Footer />
+  </>
 }
 
 export default MyApp

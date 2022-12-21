@@ -10,13 +10,10 @@ import Footer from '../components/Footer'
 function Smile() {
   return (
     <div>
-        <Navigation />
         <SmileImage />
         <SmileCare />
         <SmileDark />
         <SmileCosmetic />
-        <Connect />
-        <Footer />
     </div>
   )
 }

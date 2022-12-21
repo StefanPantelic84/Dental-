@@ -89,13 +89,13 @@
     background-color: var(--text);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .homedifference-container {
-        padding:120px 45px;
+        padding:80px 45px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .homedifference-container {
         flex-direction: column-reverse;
         padding: 40px 15px;
@@ -121,7 +121,7 @@
         top:92%;
         margin:20px 0;
         font-size: 15px;
-        width:100%;
+ 
     }
     
 }

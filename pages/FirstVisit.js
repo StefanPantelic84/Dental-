@@ -13,7 +13,6 @@ import Footer from '../components/Footer'
 function FirstVisit() {
   return (
     <div>
-        <Navigation />
         <FirstVisitImage />
         <FirstVisitVideo />
         <FirstVisitOne />
@@ -21,8 +20,6 @@ function FirstVisit() {
         <FirstVisitThree />
         <FirstVisitFour />
         <FirstVisitLast />
-        <Connect />
-        <Footer />
     </div>
   )
 }

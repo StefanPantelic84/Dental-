@@ -8,11 +8,8 @@ import AfterSlide from '../components/after/AfterSlide'
 function After() {
   return (
     <div>
-        <Navigation />
         <AfterImage />
         <AfterSlide />
-        <Connect />
-        <Footer />
     </div>
   )
 }

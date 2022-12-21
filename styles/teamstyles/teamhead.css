@@ -68,12 +68,18 @@
     position: relative;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 1000px) {
     .teamhead-container {
-        padding:40px 15px;
+        padding:40px 15px; 
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .teamhead-container {
+        
         flex-direction: column;
     }
-     
+      
     .teamhead-text {
         display: flex;
         flex-direction: column;

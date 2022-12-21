@@ -67,7 +67,13 @@
     position: relative;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1000px) {
+  .smilecosmetic-container {
+    padding:60px 15px;
+}
+}
+
+@media only screen and (max-width:700px) {
 
     .smilecosmetic-container {
       padding:70px 15px;

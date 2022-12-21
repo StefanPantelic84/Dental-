@@ -162,6 +162,8 @@
     .connect-call {
         padding:15px 40px;
     } 
+    .connect-container {
+        padding:60px 15px 120px 15px;}
 }
 
 @media only screen and (max-width: 600px) {

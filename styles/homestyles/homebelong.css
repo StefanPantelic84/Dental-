@@ -109,13 +109,20 @@
     background-color: var(--text);
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .homebelong-call a {
-        top:95%
+        top:85%
     }
+    .homebelong-title1 {
+        padding:60px 0px 0px 0px;
+    }
+    .homebelong-container {
+        padding:60px 45px 120px 45px;
+    }
+
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .homebelong-text p:before {
         display: none;
     }
@@ -150,11 +157,9 @@
     }
     
     .homebelong-call  a {
-        
         margin:20px 0;
         font-size: 15px;
+    
     }
-    .homebelong-call a {
-        top:82%;
-    }
+  
 }
