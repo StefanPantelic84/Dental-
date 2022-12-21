@@ -1,7 +1,7 @@
 .homedifference-container {
     background-image:url('../../public/cvece.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:40%;
     background-position:center;
     position:relative;
     width:100%; 
@@ -43,12 +43,12 @@
 
 .homedifference-img {
     width:50%;
-    background-image: url('../../public/smeh.jpg');
+    background-image: url('../../public/klassaTop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     height: calc(25.00vw);
-    border:3px double #9e8a4c;
+
 }
 
 .homedifference-call  a{
@@ -99,7 +99,7 @@
 @media only screen and (max-width: 700px) {
     .homedifference-container {
         flex-direction: column-reverse;
-        padding: 40px 15px;
+        padding: 40px 0px;
     }
     .homedifference-img {
         width:100%;

@@ -1,7 +1,7 @@
 .connect-container {
     background-image:url('../public/list.png');
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:40%;
     background-position: left;
     width:100%;
     position: relative;
@@ -78,7 +78,6 @@
     background-position: 50% 50%;
     width:50%;
     height:calc(35vw);
-    border:3px double #9e8a4c;
 }
 
 .connect-call {
@@ -169,7 +168,7 @@
 
 @media only screen and (max-width: 600px) {
     .connect-container {
-        padding:60px 15px 120px 15px;
+        padding:60px 0px 120px 0px;
         flex-direction: column-reverse;
        
     }

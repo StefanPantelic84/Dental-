@@ -1,7 +1,7 @@
 .firstvisitthree-container {
-  background-image:url('../../public/list.png');
+  background-image:url('../../public/gorelist.png');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: 20%;
   background-position:left;
   width:100%;
   position: relative;

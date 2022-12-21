@@ -5,7 +5,7 @@
     background-image:url('../../public/cvece.png');
     background-repeat: no-repeat;
    background-position:right;
-    background-size: contain;
+    background-size: 40%;
     background-color: var(--bg);
     font-family: 'Lato';
 }

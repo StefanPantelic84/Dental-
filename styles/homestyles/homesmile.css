@@ -1,7 +1,7 @@
 .homesmile-container {
     background-image:url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:40%;
     background-position: right;
     width:100%;
     position: relative;
@@ -71,9 +71,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    height: calc(35.00vw);
-    border:3px double #9e8a4c;
-   
+    height: calc(35.00vw);  
 }
 
 .homesmile-call {
@@ -139,7 +137,7 @@
 }
 .homesmile-container {
     flex-direction: column;
-    padding:40px 15px 120px 15px;
+    padding:40px 0px 120px 0px;
 }
 .homesmile-img {
     width:100%;

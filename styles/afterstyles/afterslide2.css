@@ -1,4 +1,4 @@
-.afterslide2-title {
+.afterslide-title {
     background-color: var(--bg);
     justify-content: center;
     padding:120px;
@@ -8,6 +8,10 @@
     display: flex;
     font-family: 'Great Vibes';
     font-weight: 300;
+    background-image:url('../../public/list.png');
+    background-size:  30%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .afterslide2-container {
@@ -18,8 +22,10 @@
     position:relative;
     flex-wrap: wrap;
     padding-bottom:50px;
-    background-image:url('../../public/list.png');
-    background-size: contain;
+    background-image:url('../../public/gorelist.png');
+    background-size:  20%;
+    background-position: left;
+    background-repeat: no-repeat;
     background-color: var(--bg);
 }
 

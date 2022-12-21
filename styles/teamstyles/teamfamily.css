@@ -1,7 +1,7 @@
 .teamfamily-container {
-    background-image:url('../../public/list.png');
+    background-image:url('../../public/cvece.png');
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: 40%;
     background-position:left;
     width:100%;
     position: relative;

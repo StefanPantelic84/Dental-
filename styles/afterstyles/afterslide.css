@@ -19,7 +19,9 @@
     flex-wrap: wrap;
     padding-bottom:50px;
     background-image:url('../../public/list.png');
-    background-size: contain;
+    background-size:  40%;
+    background-repeat: no-repeat;
+    background-position: right;
     background-color: var(--bg);
 }
 

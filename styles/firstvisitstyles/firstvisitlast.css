@@ -1,7 +1,7 @@
 .firstvisitlast-container {
     background-image: url('../../public/list.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:  30%;
     background-position: left;
     display: flex;
     width: 100%;
