@@ -2,7 +2,7 @@ import React from 'react'
 
 function AfterImage() {
   return (
-    <div>
+    <div className='after-after'>
   <div className='afterimage-container' >
   
       <div className='afterimage-text'> 

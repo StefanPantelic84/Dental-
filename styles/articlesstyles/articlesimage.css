@@ -1,8 +1,8 @@
-.diff-diff {
+.articles-first {
     position:relative;
   }
   
-  .diffimage-container {
+  .articlesimage-container {
     height:730px; 
     max-width:100%;
     margin-top: 160px;
@@ -20,7 +20,7 @@
   } 
   
   
-  .diffimage-text {
+  .articlesimage-text {
     font-family: 'Lato';
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -30,7 +30,7 @@
     z-index:20;
     cursor:default;
   }
-  .diffimage-text h1 {
+  .articlesimage-text h1 {
       transition:5s;
       animation: lettersScale 1.2s;
       font-size: 50px;
@@ -41,7 +41,7 @@
       text-align: center;
   }
   
-  .diffimage-text:before {
+  .articlesimage-text:before {
     background-color:#9e8a4c;
     content: "";
     display: inline-block;
@@ -53,7 +53,7 @@
     animation: lettersScale 1s;
   }
   
-  .diffimage-text:after {
+  .articlesimage-text:after {
       background-color: #9e8a4c;
       content: "";
       display: inline-block;
@@ -65,7 +65,7 @@
       animation: lettersScale 1s;
     }
   
-    .diffbottom-img {
+    .articlesbottom-img {
       background-image: url('../../public/ivicadole.png');
       background-repeat: no-repeat;
       background-size: cover;
@@ -78,18 +78,18 @@
     }
   
     @media only screen and (max-width: 700px) {
-      .diffimage-text h1 {
+      .articlesimage-text h1 {
         font-size: 25px;
         line-height: 40px;
       }
-      .diffimage-container {
+      .articlesimage-container {
         height: 330px;
       }
-      .diffimage-text:before {
+      .articlesimage-text:before {
         left:-130%;
       }
       
-      .diffimage-text:after {
+      .articlesimage-text:after {
           right:-130%;
         }
     }

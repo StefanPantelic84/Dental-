@@ -4,7 +4,7 @@ import TeamAssistents from '../components/team/TeamAssistents'
 import TeamFamily from '../components/team/TeamFamily'
 import TeamHead from '../components/team/TeamHead'
 import TeamImage from '../components/team/TeamImage'
-import Connect from '../components/Connect'
+
 import Footer from '../components/Footer'
 
 function Team() {

@@ -13,7 +13,6 @@
     position:relative;
     justify-content: center;
     align-items: center;
-    z-index: -10;
 }
 
 .connect-text {
@@ -22,7 +21,7 @@
     justify-content: center;
     position: relative;
     width:50%;
-}
+} 
 
 .connect-text p:after {
     content:'';
@@ -72,11 +71,17 @@
 }
 
 .connect-img {
-    background-image: url('../public/smeh.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
     width:50%;
+    overflow: hidden;
+    height: calc(35.00vw);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px double var(--gold)
+}
+
+.connect-img2 {
+    width:100%;
     height:calc(35vw);
 }
 
@@ -166,7 +171,7 @@
         padding:60px 15px 120px 15px;}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .connect-container {
         padding:60px 0px 120px 0px;
         flex-direction: column-reverse;
@@ -174,11 +179,15 @@
     }
     .connect-img {
         width:100%;
-        height: calc(80vw);
+        height: calc(60vw);
+    }
+    .connect-img2 {
+        width:100%;
+        height: calc(60vw);
     }
     .connect-text {
         width:100%;
-        padding:0 15px 0 15px;
+        padding:0 15px 0 15px; 
     }
 
     .connect-text p {

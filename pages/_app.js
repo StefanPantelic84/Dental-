@@ -42,9 +42,13 @@ import '../styles/difference/diffthree.css'
 import '../styles/difference/difffour.css'
 import '../styles/difference/diffdark.css'
 import '../styles/difference/diffimage.css'
+import '../styles/articlesstyles/articlesimage.css'
+import '../styles/articlesstyles/articlesarticles.css'
+import '../styles/allpages.css'
 import Navigation from '../components/Navigation'
 import Connect from '../components/Connect'
 import Footer from '../components/Footer'
+
 
 function MyApp({ Component, pageProps }) {
   return <>

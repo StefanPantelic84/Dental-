@@ -2,7 +2,7 @@ import React from 'react'
 
 function StoryImage() {
   return (
-    <div>
+    <div className='story-story'>
   <div className='storyimage-container' >
   
       <div className='storyimage-text'> 

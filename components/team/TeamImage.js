@@ -2,7 +2,7 @@ import React from 'react'
 
 function TeamImage() {
   return (
-    <div>
+    <div className='team-team'>
   <div className='team-container' >
   
       <div className='team-text'> 

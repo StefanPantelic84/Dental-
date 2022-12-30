@@ -3,13 +3,13 @@
 }
 
 .homepage-container {
-  height:550px;
+  height:730px;
     max-width:100%;
     margin-top: 160px;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../public/dentalM.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../public/dentalM.jpg');
     background-color: var(--text);
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function SmileImage() {
+function SmileImage() { 
   return (
-    <div>
+    <div className='smile-smile'>
     <div className='smiletop-img'></div>
   <div className='smileimage-container' >
   

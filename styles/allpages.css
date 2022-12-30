@@ -1,0 +1,171 @@
+.global-global {
+    position:relative;
+  }
+  
+  .globalpage-container {
+    height:730px;
+      max-width:100%;
+      margin-top: 160px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+    
+      background-color: var(--text);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 60%;
+      position:relative;
+      align-items: center;
+      overflow: hidden;
+  }
+  
+  .globalpage-text {
+    font-family: 'Lato';
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    position:relative;
+    display:block;
+    padding:30px;
+    z-index:20;
+    cursor:default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .globalpage-text h1 {
+    max-width: 60%;
+      transition:5s;
+      animation: lettersScale 1.2s;
+      font-size: 50px;
+      line-height: 60px;
+      font-weight:300;   
+      color:#9e8a4c;
+      display:block;
+      position: relative;
+      text-align: center;
+  }
+  
+  .globalpage-text:before {
+    background-color:#9e8a4c;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    left:-130%;
+    width: 150%;
+    top:50%;
+    animation: lettersScale 1s;
+  }
+  
+  .globalpage-text:after {
+      background-color: #9e8a4c;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      position: absolute;
+      right:-130%;
+      width:150%;
+      top:50%;
+      animation: lettersScale 1s;
+    }
+
+  
+
+
+  
+
+  
+    .global-img {
+      background-image: url('../public/ivicadole.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width:100%;
+      height: 100px;
+      opacity:1;
+      position:absolute;
+      bottom:-30px;
+      left:0;
+    }
+
+    .globalcontent-container {
+        background-image: url('../public/gorelist.png');
+        background-repeat: no-repeat;
+        background-size: 200px; 
+        background-position: left;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        font-family: 'lato';
+        gap:20px;
+        padding:60px 150px;
+        color:var(--text);
+        background-color: var(--bg);
+        }
+    .globalcontent-container h1 {
+        text-transform: uppercase;
+        margin-top: 30px;
+        color: #9e8a4c;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .globalcontent-container h3 {
+      margin-top: 30px;
+    color: #9e8a4c;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 26px;
+        line-height: 30px;
+    }
+    .globalcontent-container p {
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 34px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #494949;
+    }
+    .globalcontent-container a{
+      color:var(--gold);
+      text-decoration: underline;
+    }
+    @media only screen and (max-width: 1000px) {
+        .globalcontent-container {
+            padding:60px 45px;
+        }
+        .globalpage-text:before {
+          left:-140%;
+        }
+        
+        .globalpage-text:after {
+            right:-140%; 
+          }
+    }
+    @media only screen and (max-width: 700px) {
+      .globalpage-text h1 {
+        font-size: 25px;
+        line-height: 40px;
+        max-width: 80%;
+      }
+
+      .globalpage-container {
+        height: 330px;
+      }
+      .globalpage-text:after {
+        right:-140%;
+      }
+      .homepage-text:before {
+        left:-140%;
+      }
+      .globalcontent-container p {
+        font-size: 14px;
+        line-height: 27px;
+      }
+     
+  
+    }
