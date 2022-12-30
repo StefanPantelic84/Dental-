@@ -50,6 +50,7 @@
     font-weight: 300;
     text-transform: uppercase;
     max-width:72%;
+    text-shadow: 0.4px 0.4px var(--gold);
 }
 
 .connect-text p {

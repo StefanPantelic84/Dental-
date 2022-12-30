@@ -11,7 +11,7 @@
 .homedark-topimg {
     background-image: url('../../public/dark.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     width:100%;
     height: 100px;
     opacity:1;
@@ -31,8 +31,9 @@
 }
 
 .homedark-text {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 65px;
+    letter-spacing: 2px;
     color:#fff;
     width:67%; 
     margin:auto;
@@ -42,7 +43,7 @@
 }
 
 .homedark-text p {
-    font-family: 'Lato'; 
+    font-family: 'Great Vibes'; 
 }
 
 .homedark-text:before {

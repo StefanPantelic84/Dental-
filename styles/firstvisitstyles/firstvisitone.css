@@ -49,6 +49,7 @@
     padding-left: 15px;
     padding-top:20px;
     text-transform: uppercase;
+    text-shadow: 0.4px 0.4px var(--gold);
 }
 
 .firstvisitone-text p {
@@ -56,7 +57,7 @@
     color:var(--text);
     text-transform: uppercase;
     line-height: 28px;
-    font-weight: 400;
+    font-weight: 400; 
     display: relative;
     max-width:72%;
 }

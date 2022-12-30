@@ -6,7 +6,7 @@ function FirstVisitImage() {
   <div className='firstvisitimage-container' >
   
       <div className='firstvisitimage-text'> 
-          <h1>VAŠA PRVA POSETA</h1>
+          <h1>VAŠA PRVA POSETA</h1> 
       </div>
   </div>
   <div className='firstvisitbottom-img'></div>

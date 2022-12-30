@@ -44,7 +44,7 @@
     width:25%;
     height:1px;
     background-color: var(--text);
-    
+    text-shadow: 0.4px 0.4px var(--gold);
 } 
 .homepassion-img {
     background-image: url('../../public/smeh.jpg');
@@ -65,7 +65,7 @@
     position: absolute;
     overflow: hidden;
    color:var(--bg);
-   font-weight: 700;
+   font-weight: 700; 
    cursor: pointer;
    font-family: 'lato';
    
@@ -96,9 +96,11 @@
 @media only screen and (max-width: 1224px) {
     .homepassion-text h5 {
         width:100%;
+        font-size: 64px;
     }
     .homepassion-text h6 {
         width:100%;
+        font-size: 64px;
     }
 }
 
@@ -107,7 +109,7 @@
         padding:120px 45px;
     }
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 740px){
     .homepassion-call a {
         left:50%;
         transform:translateX(-50%);

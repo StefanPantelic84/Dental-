@@ -45,6 +45,7 @@
     font-size:30px;
     font-weight: 300;
     padding-top:30px;
+    text-shadow: 0.4px 0.4px var(--gold);
 }
 
 .homearray-call {

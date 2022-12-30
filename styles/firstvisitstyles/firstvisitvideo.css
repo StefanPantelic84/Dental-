@@ -15,7 +15,7 @@
 
 .container-video {
     width:40%;
-    height: calc(26vw);
+    height: calc(20vw);
     display: flex;
     flex-direction: row;
     margin-right:10%;
@@ -32,6 +32,7 @@
 
 .video-text {
     font-family: 'Great Vibes';
+    color:var(--text);
     font-size:64px;
     font-weight: 300;
     width:50%;
@@ -59,6 +60,13 @@
 @media only screen and (max-width: 1000px) {
     .full-container-video {
         padding:80px 15px;
+    }
+    .video-text{
+        width: 75%;
+        font-size: 44px;
+        margin:auto;
+        padding:100px 0 60px 0;
+        text-align: center;
     }
 }
 

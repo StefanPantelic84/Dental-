@@ -51,6 +51,7 @@
     padding-left: 15px;
     padding-top:20px;
     text-transform: uppercase; 
+    text-shadow: 0.4px 0.4px var(--gold);
   }
   
   .diffthree-text p {

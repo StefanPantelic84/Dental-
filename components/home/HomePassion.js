@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function HomePassion() {
@@ -6,11 +7,11 @@ function HomePassion() {
       <div className='homepassion-text'>
         <div className='homepassion-title'>
         <h6>Strast Prema</h6>
-        <h5>Svojoj Veštini</h5>
+        <h5>Svom Poslu</h5> 
         </div>
       </div>
       <div className='homepassion-img'></div>
-      <div className='homepassion-call'><a>DR.MILOŠEVIĆ</a></div>
+      <div className='homepassion-call'><Link href="/Team">DR.MILOŠEVIĆ</Link></div>
     </div>
   )
 } 

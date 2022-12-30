@@ -40,7 +40,8 @@
 .homebelong-title1{
     background-color: var(--bg);
     justify-content: center;
-    padding-top:140px;
+    padding-top:120px;
+    text-align: center;
     font-size: 70px;
     line-height: 90px;
     letter-spacing: 6px;
@@ -115,6 +116,7 @@
     }
     .homebelong-title1 {
         padding:60px 0px 0px 0px;
+        line-height: 70px;
     }
     .homebelong-container {
         padding:60px 45px 120px 45px;

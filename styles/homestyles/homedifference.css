@@ -29,7 +29,7 @@
     max-width: 78%;
     text-transform: uppercase;
     margin:30px 0 25px;
-    
+    text-shadow: 0.4px 0.4px var(--gold);
 }
 
 .homedifference-text p {
@@ -120,10 +120,15 @@
     }
     
     .homedifference-call  a {
+        width: 100%;
+        text-align: center;
         top:92%;
         margin:20px 0;
         font-size: 15px;
  
+    }
+    .homedifference-call a:before {
+        transform:skewX(45deg) translateX(750px);
     }
     
 }
