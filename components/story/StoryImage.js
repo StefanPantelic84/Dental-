@@ -9,7 +9,7 @@ function StoryImage() {
           <h1>VAŠA ISKUSTVA</h1>
       </div>
   </div>
-  <div className='storybottom-img'></div>
+  <div className='storybottom-img'></div> 
   </div>
   )
 }

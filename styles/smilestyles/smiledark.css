@@ -15,14 +15,15 @@
 } 
 
 .smiledark-text {
-    font-size: 30px;
-    line-height: 65px;
+    font-size: 22px;
+    line-height: 45px;
     color:#fff;
     width:67%; 
     margin:auto;
     padding:60px 0;
     font-style: italic;
     position: relative;
+    letter-spacing: 0.3px;
 }
 
 .smiledark-text p {
@@ -52,17 +53,20 @@
     display:block;
     align-items: right;
     text-align: right;
+    font-size: 28px;
     line-height: 30px;
     transition: 1s;
     opacity:1;
     transform: translate3d(100px,0px,0px);
     transform-style: preserve-3d;
     font-family: 'Great Vibes';
+    letter-spacing: 4px;
 }
 .smiledark-text .span-B {
     display:block;
     align-items: right;
     text-align: right;
+    font-size: 28px;
     line-height: 30px;
     transition: 1s;
     opacity:1;
@@ -76,6 +80,7 @@
     opacity:0;
     align-items: right;
     text-align: right;
+    font-size: 28px;
     line-height: 30px;
     transition:1s;
     transform: translate3d(500px,0px,0px);

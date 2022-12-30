@@ -18,7 +18,9 @@
   position:relative;
   align-items: center;
   overflow: hidden;
-
+  text-shadow: 0.4px 0.4px var(--gold);
+  letter-spacing: 8px;
+  font-style: oblique;
 }
 
 

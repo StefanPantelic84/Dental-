@@ -42,6 +42,17 @@
     max-width:72%;
     margin-left:28%;
 }
+.smilecosmetic-text li {
+  font-size:18px;
+  color:var(--text);
+  text-transform: uppercase;
+  line-height: 28px;
+  font-weight: 400;
+  display: relative;
+  max-width:72%;
+  margin-left:34%;
+  
+}
 
 .smilecosmetic-img:after {
     content:'';

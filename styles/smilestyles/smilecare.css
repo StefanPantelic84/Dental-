@@ -29,6 +29,7 @@
     max-width: 72%;
     padding-bottom:20px;
     text-transform: uppercase;
+    text-shadow: 0.4px 0.4px var(--gold);
   }
   
   .smilecare-text p {
@@ -39,6 +40,17 @@
     font-weight: 400;
     display: relative;
     max-width:72%;
+    margin-bottom:10px;
+  }
+  .smilecare-text li {
+    font-size:18px;
+    color:var(--text);
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 400;
+    display: relative;
+    max-width:72%;
+    margin-left: 40px;
   }
   
   .smilecare-img::after {
