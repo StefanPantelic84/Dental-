@@ -18,14 +18,14 @@
     flex-direction: column;
     position: relative;
     width:60%;
-    justify-content: center;
+    justify-content: center; 
   }
   
   .diffthree-title {
     display: flex;
     flex-direction: row;
-  }
-  
+  } 
+   
   .diffthree-text .numberD03{
     color:var(--gold);
     font-size:80px;
@@ -47,7 +47,7 @@
     color:var(--gold);
     font-size:32px;
     font-weight: 300;
-    max-width: 240px;
+    max-width: 340px;
     padding-left: 15px;
     padding-top:20px;
     text-transform: uppercase; 
@@ -61,6 +61,7 @@
     font-weight: 400;
     display: relative;
     max-width:72%;
+    margin-top: 20px;
   }
   
   .diffthree-img::after {

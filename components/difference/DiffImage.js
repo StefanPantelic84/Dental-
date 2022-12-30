@@ -6,8 +6,8 @@ function DiffImage() {
   <div className='diffimage-container' >
   
       <div className='diffimage-text'> 
-          <h1>KLASSA</h1>
-      </div>
+          <h1>NAŠA UVERENJA</h1>
+      </div> 
   </div>
   <div className='diffbottom-img'></div>
   </div> 

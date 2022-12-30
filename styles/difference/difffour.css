@@ -28,7 +28,7 @@
 
 
 .difffour-text .numberD04{
-    color:var(--gold);
+    color:var(--gold); 
     font-size:80px;
     font-family: 'Mrs Saint Delafield';
     transition: 1s;
