@@ -1,5 +1,5 @@
 import React from "react";
-import { useInView } from "react-intersection-observer";
+import { useInView } from "react-intersection-observer"; 
 
 function HomeDark() {
   const firstRef = useInView({ triggerOnce: true });

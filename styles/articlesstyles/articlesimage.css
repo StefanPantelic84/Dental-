@@ -50,8 +50,8 @@
     display: inline-block;
     height: 1px;
     position: absolute;
-    left:-150%;
-    width: 150%;
+    left:-220%;
+    width: 180%;
     top:50%;
     animation: lettersScale 1s;
   }
@@ -62,8 +62,8 @@
       display: inline-block;
       height: 1px;
       position: absolute;
-      right:-150%;
-      width:150%;
+      right:-220%;
+      width:180%;
       top:50%;
       animation: lettersScale 1s;
     }
@@ -89,10 +89,10 @@
         height: 330px;
       }
       .articlesimage-text:before {
-        left:-130%;
+        left:-200%;
       }
       
       .articlesimage-text:after {
-          right:-130%;
+          right:-200%;
         }
     }

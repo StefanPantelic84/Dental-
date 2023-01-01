@@ -1,14 +1,14 @@
 import React from 'react'
 import ContactImage from '../components/contact/ContactImage'
-import Navigation from '../components/Navigation'
-import Connect from '../components/Connect'
-import Footer from '../components/Footer'
+
 import ContactLast from '../components/contact/ContactLast'
+import ContactPrice from '../components/contact/ContactPrice'
 
 function Contact() {
   return (
     <div>
         <ContactImage />
+        <ContactPrice />
         <ContactLast />
     </div>
   )

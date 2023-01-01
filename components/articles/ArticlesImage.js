@@ -8,7 +8,7 @@ function ArticlesImage() {
     <div className='articlesimage-container' >
     
         <div className='articlesimage-text'> 
-            <h1>ČLANCI</h1>
+            <h1>ČLANCI</h1> 
         </div>
     </div>
     <div className='articlesbottom-img'></div>

@@ -43,6 +43,7 @@
 
 .storydark-text p {
     font-family: 'Lato'; 
+    text-transform: uppercase;
 }
 
 .storydark-text:before {
@@ -75,7 +76,9 @@
     transform: translate3d(100px,0px,0px);
     transform-style: preserve-3d;
     font-family: 'Great Vibes';
+    text-transform: none;
 }
+
 
 .storylight-text .span-1 {
     display:block;
@@ -88,7 +91,8 @@
     transform: translate3d(100px,0px,0px);
     transform-style: preserve-3d;
     font-family: 'Great Vibes';
-    color:var(--text)
+    color:var(--text);
+    text-transform:none;
 }
 
 
@@ -114,6 +118,7 @@
 
 .storylight-text p {
     font-family: 'Lato'; 
+    text-transform: uppercase;
 }
 
 .storylight-text:before {
