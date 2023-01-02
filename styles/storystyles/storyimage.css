@@ -37,7 +37,7 @@
 .storyimage-text h1 {
     transition:5s;
     animation: lettersScale 1.2s;
-    font-size: 50px;
+    font-size: 56px;
     font-weight:300;   
     color:#9e8a4c;
     display:block;
@@ -51,7 +51,7 @@
   display: inline-block;
   height: 1px;
   position: absolute;
-  left:-150%;
+  left:-160%;
   width: 150%;
   top:50%;
   animation: lettersScale 1s;
@@ -63,7 +63,7 @@
     display: inline-block;
     height: 1px;
     position: absolute;
-    right:-150%;
+    right:-160%;
     width:150%;
     top:50%;
     animation: lettersScale 1s;
@@ -81,20 +81,27 @@
     left:0;
   }
 
+  @media only screen and (max-width: 768px) {
+    .storyimage-text h1 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  }
+
   
   @media only screen and (max-width: 700px) {
     .storyimage-text h1 {
-      font-size: 25px;
+      font-size: 35px;
       line-height: 40px;
     }
     .storyimage-container {
       height: 330px;
     }
     .storyimage-text:before {
-      left:-145%;
+      left:-152%;
     }
     
     .storyimage-text:after {
-        right:-145%;
+        right:-152%;
       }
   }

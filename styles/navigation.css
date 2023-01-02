@@ -88,7 +88,7 @@
     padding:30px;
     transform:translate3d(0px, 0px, 0px) ;
     transform-style: preserve-3d;
-}
+} 
 .call:hover .poziv {
     opacity:0;
     transform:translate3d(-100px, 0px, 0px) ;
@@ -232,6 +232,44 @@
         left:50px;
         transform:translate3d(0px, 0px, 0px);
         transform-style: preserve-3d;
+        padding:30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .number {
+        position: absolute; 
+        left:-50px;
+        transition: 0.4s;
+        opacity: 0;
+        padding:30px;
+        transform:translate3d(0px, 0px, 0px);
+        transform-style: preserve-3d;
+    }
+    .call:hover .number{
+        opacity:0;
+        left:0;
+        transform:translate3d(0px, -100px, 0px);
+        transform-style: preserve-3d;
+        padding:30px;
+    }
+    .close {
+        position: absolute;
+        opacity:0;
+        right:0px;
+        transition:0.4s;
+        transform: translate3d(0px,-100px,0px);
+        transform-style :preserve-3d;
+        padding:30px;
+    }
+    
+    .closeH {
+        position: absolute;
+        opacity:1;
+        right:0px;
+        transition: 0.4;
+        transform: translate3d(10px,0px,0px);
+        transform-style :preserve-3d;
         padding:30px;
     }
 }

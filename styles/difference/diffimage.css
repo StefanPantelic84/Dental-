@@ -36,7 +36,7 @@
   .diffimage-text h1 {
       transition:5s;
       animation: lettersScale 1.2s;
-      font-size: 50px;
+      font-size: 56px;
       line-height: 60px;
       font-weight:300;   
       color:#9e8a4c;
@@ -54,7 +54,7 @@
     display: inline-block;
     height: 1px;
     position: absolute;
-    left:-150%;
+    left:-160%;
     width: 150%;
     top:50%;
     animation: lettersScale 1s;
@@ -67,7 +67,7 @@
       display: inline-block;
       height: 1px;
       position: absolute;
-      right:-150%;
+      right:-160%;
       width:150%;
       top:50%;
       animation: lettersScale 1s;
@@ -84,11 +84,17 @@
       bottom:-30px;
       left:0;
     }
+    @media only screen and (max-width: 768px) {
+      .diffimage-text h1 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+    }
   
     @media only screen and (max-width: 700px) {
     
       .diffimage-text h1 {
-        font-size: 25px;
+        font-size: 35px;
         line-height: 34px;
         max-width: 80%;
       }
@@ -96,10 +102,10 @@
         height: 330px;
       }
       .diffimage-text:before {
-        left:-130%;
+        left:-135%;
       }
       
       .diffimage-text:after {
-          right:-130%;
+          right:-135%;
         }
     }

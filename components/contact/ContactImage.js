@@ -6,7 +6,7 @@ function ContactImage() {
   <div className='contactimage-container' >
   
       <div className='contactimage-text'> 
-          <h1>KONTAKTIRAJTE NAS</h1>
+          <h1>CENOVNIK</h1>
       </div>
   </div>
   <div className='contactbottom-img'></div>

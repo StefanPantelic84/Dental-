@@ -36,7 +36,7 @@
 .firstvisitimage-text h1 {
     transition:5s;
     animation: lettersScale 1.2s;
-    font-size: 50px;
+    font-size: 56px;
     font-weight:300;   
     color:#9e8a4c;
     display:block;
@@ -50,7 +50,7 @@
   display: inline-block;
   height: 1px;
   position: absolute;
-  left:-150%;
+  left:-160%;
   width: 150%;
   top:50%;
   animation: lettersScale 1s;
@@ -62,7 +62,7 @@
     display: inline-block;
     height: 1px;
     position: absolute;
-    right:-150%;
+    right:-160%;
     width:150%;
     top:50%;
     animation: lettersScale 1s;
@@ -79,20 +79,26 @@
     bottom:-30px;
     left:0;
   }
+  @media only screen and (max-width: 800px) {
+    .firstvisitimage-text h1 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  }
 
   @media only screen and (max-width: 700px) {
     .firstvisitimage-text h1 {
-      font-size: 25px;
+      font-size: 35px;
       line-height: 40px;
     }
     .firstvisitimage-container {
       height: 330px;
     }
     .firstvisitimage-text:before {
-      left:-145%;
+      left:-146%;
     }
     
     .firstvisitimage-text:after {
-        right:-145%;
+        right:-146%;
       }
   }

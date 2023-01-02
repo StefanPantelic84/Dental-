@@ -49,8 +49,8 @@ function ArticlesArticles() {
     },
     {
       id: "Whitening",
-      texth1: "3332233ddadwa333sgrgr",
-      textp: "33333333333333",
+      texth1: "Izbeljivanje zuba",
+      textp: "Izbeljivanje zuba je postupak koji se obično obavlja u stomatološkoj ordinaciji i uključuje korišćenje laserskog ili LED svetla da bi se aktivirao izbeljivač. Ovaj postupak je efikasniji od kućnog izbeljivanja, ali je i skuplji.",
       url: "/smeh.jpg",
     },
     {
