@@ -55,19 +55,6 @@ function Whitening() {
           posebnih proizvoda za njegu zuba koji pomažu da se održi belina.
         </li>
         </ol>
-        <h1>HAlooo kako ste</h1>
-        <p>
-          dkwdpwapdakdkwpkad wk apdkp akd akd kwd kawdp fjpo wjfo gr uhg HGOH
-          ioh gio go iw g wiOHG IWhg Ihg HfIO FIo fhF IOhf ioef eIOHF of ihW
-          Estetika
-        </p>
-        <h1>da dali dald ladlal </h1>
-        <p>
-          dijdadjawjdaodajdawodjapowd dpwkdpawpdkawpdakw pd kawdp kawd
-          adkwdpwapdakdkwpkad wk apdkp akd akd kwd kawdp fjpo wjfo gr uhg HGOH
-          ioh gio go iw g wiOHG IWhg Ihg HfIO FIo fhF IOhf ioef eIOHF of ihW
-          Estetika
-        </p>
       </div>
     </>
   );

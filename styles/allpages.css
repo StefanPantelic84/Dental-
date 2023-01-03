@@ -9,7 +9,6 @@
       display:flex;
       flex-direction: column;
       justify-content: center;
-    
       background-color: var(--text);
       background-repeat: no-repeat;
       background-size: cover;
@@ -20,6 +19,7 @@
   }
   
   .globalpage-text {
+    max-width: 60%;
     font-family: 'Lato';
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
     text-align: center;
   }
   .globalpage-text h1 {
-    max-width: 60%;
+  
       transition:5s;
       animation: lettersScale 1.2s;
       font-size: 50px;
@@ -52,7 +52,7 @@
     display: inline-block;
     height: 1px;
     position: absolute;
-    left:-130%;
+    left:-155%;
     width: 150%;
     top:50%;
     animation: lettersScale 1s;
@@ -64,17 +64,11 @@
       display: inline-block;
       height: 1px;
       position: absolute;
-      right:-130%;
+      right:-155%;
       width:150%;
       top:50%;
       animation: lettersScale 1s;
     }
-
-  
-
-
-  
-
   
     .global-img {
       background-image: url('../public/ivicadole.png');
@@ -130,7 +124,7 @@
         margin-bottom: 10px;
         color: #494949;
     }
-    .globalcontent-container ol {
+    .globalcontent-container ol{
       text-transform: uppercase;
       font-size: 18px;
       line-height: 34px;
@@ -138,6 +132,15 @@
       margin-bottom: 10px;
       color: #494949;
       list-style: number inside;
+  }
+  .globalcontent-container ul{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 34px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #494949;
+    list-style: circle inside;
   }
     .globalcontent-container a{
       color:var(--gold);
