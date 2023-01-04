@@ -78,27 +78,27 @@ function ArticlesArticles() {
       url: "/smeh.jpg",
     },
     {
-      id: "Habits",
-      texth1: "8dawdwa8sewe",
-      textp: "888888888888",
+      id: "FiksnaProteza",
+      texth1: "Fiksna Proteza",
+      textp: "Fiksna proteza za ispravljanje zuba je umjetni zubni nakit koji se stavlja na postojeće zube ili implantate kako bi se popravio izgled i funkcija zuba. Fiksna proteza se obično sastoji od više zuba koji su povezani zajedno i učvršćeni za zube ili implantate pomoću cementa ili nekog drugog ljepila.",
       url: "/smeh.jpg",
     },
     {
-      id: "Habits",
-      texth1: "9999sewew",
-      textp: "1111111111111111111",
+      id: "Apikotomija",
+      texth1: "Apikotomija",
+      textp: "Apikotomija je hirurška procedura koja se obično sprovodi na korijenu zuba kako bi se uklonio oštećeni dio korijena. Cilj ove procedure je da se spasi zub i da se izbjegne potreba za uklanjanjem zuba.Apikotomija se obično sprovodi kada je korijen zuba oštećen ili inficiran.",
       url: "/smeh.jpg",
     },
     {
-      id: "Habits",
-      texth1: "99999sew",
-      textp: "2222222222222222222222222",
+      id: "Frenulektomija",
+      texth1: "Frenulektomija",
+      textp: "Frenulektomija je hirurška procedura koja se sprovodi kako bi se uklonio mali živčani snop (frenulum) koji se nalazi na donjem dijelu usne šupljine. Frenulum je mali snop mišića koji spaja neka tkiva ili organe na određenom mjestu u tijelu.",
       url: "/smeh.jpg",
     },
     {
-      id: "Habits",
-      texth1: "9999sda",
-      textp: "33333333333333",
+      id: "Desni",
+      texth1: "Povlačenje desni",
+      textp: "Povlačenje desni se obično događa kada se gornje ili donje desna povuku prema unutra, prema ždrijelu. To se može dogoditi zbog različitih razloga.Ono može da zahvati jedan zub ili, u nekim slučajevima, sve zube.Vrlo često, mogu biti crvene, upaljene, otečene i da na dodir krvare. ",
       url: "/smeh.jpg",
     },
     {
@@ -170,7 +170,7 @@ function ArticlesArticles() {
       url: "/smeh.jpg",
     },
     {
-      texth1: "666awdad66sf",
+      texth1: "Habits",
       textp: "666666666666",
       url: "/smeh.jpg",
     },
@@ -178,11 +178,12 @@ function ArticlesArticles() {
 
   return (
     <div className="articles-container" ref={articleRef}>
+      
       {displayArray == 1 &&
         artArray.slice(0, 8).map((art) => {
           return (
             <Link
-              href={"/Articles/" + art.id}
+              href={"/Articles/" + art.id} target="_blank"
               key={art.texth1}
               className="articles-box"
               style={{ backgroundImage: `url(${art.url})` }}
@@ -197,7 +198,8 @@ function ArticlesArticles() {
       {displayArray == 2 &&
         artArray.slice(8, 16).map((art) => {
           return (
-            <div
+            <Link
+            href={"/Articles/" + art.id} target="_blank"
               key={art.texth1}
               className="articles-box"
               style={{ backgroundImage: `url(${art.url})` }}
@@ -206,14 +208,14 @@ function ArticlesArticles() {
                 <h1>{art.texth1}</h1>
                 <p>{art.textp}</p>
               </div>
-            </div>
+            </Link>
           );
         })}
       {displayArray == 3 &&
         artArray.slice(16, 24).map((art) => {
           return (
-            <div
-              onClick={() => {}}
+            <Link
+            href={"/Articles/" + art.id} target="_blank"
               key={art.texth1}
               className="articles-box"
               style={{ backgroundImage: `url(${art.url})` }}
@@ -222,7 +224,7 @@ function ArticlesArticles() {
                 <h1>{art.texth1}</h1>
                 <p>{art.textp}</p>
               </div>
-            </div>
+            </Link>
           );
         })}
       <div className="arrows">
