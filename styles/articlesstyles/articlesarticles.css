@@ -168,7 +168,6 @@
 @media only screen and (max-width:800px) {
    .articles-container {
       grid-template-columns: repeat(1,100%);
- 
    }
    .articles-box {
       height: 320px

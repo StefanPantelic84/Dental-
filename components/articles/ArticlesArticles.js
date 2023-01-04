@@ -2,35 +2,6 @@ import Link from "next/link";
 import React, { useRef, useState } from "react";
 
 function ArticlesArticles() {
-  const [displayArray, setDisplayArray] = useState(1);
-  const articleRef = useRef();
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop - 110,
-      behavior: "smooth",
-    });
-  };
-  const previousPage = () => {
-    if (displayArray > 1) {
-      setDisplayArray(displayArray - 1);
-      scrollToSection(articleRef);
-    } else {
-      setDisplayArray(3);
-      scrollToSection(articleRef);
-    }
-  };
-
-  console.log(displayArray);
-
-  const nextPage = () => {
-    if (displayArray < 3) {
-      setDisplayArray(displayArray + 1);
-      scrollToSection(articleRef);
-    } else {
-      setDisplayArray(1);
-      scrollToSection(articleRef);
-    }
-  };
 
   const artArray = [
     {
@@ -107,80 +78,13 @@ function ArticlesArticles() {
       textp: "444444444444444444",
       url: "/smeh.jpg",
     },
-    {
-      id: "Habits",
-      texth1: "1111111sdaw",
-      textp: "1111111111111111111",
-      url: "/smeh.jpg",
-    },
-    {
-      id: "Habits",
-      texth1: "22222222222222sdwa",
-      textp: "2222222222222222222222222",
-      url: "/smeh.jpg",
-    },
-    {
-      id: "Habits",
-      texth1: "3332233ddadwa333sdaw",
-      textp: "33333333333333",
-      url: "/smeh.jpg",
-    },
-    {
-      id: "Habits",
-      texth1: "44d444444sdw",
-      textp: "444444444444444444",
-      url: "/smeh.jpg",
-    },
-    {
-      id: "Habits",
-      texth1: "55555555sas",
-      textp: "5555555555555555",
-      url: "/smeh.jpg",
-    },
-    {
-      id: "Habits",
-      texth1: "666awdad66ss",
-      textp: "666666666666",
-      url: "/smeh.jpg",
-    },
-    {
-      id: "Habits",
-      texth1: "1111111sas",
-      textp: "1111111111111111111",
-      url: "/smeh.jpg",
-    },
-    {
-      texth1: "2222222222222222sas",
-      textp: "2222222222222222222222222",
-      url: "/smeh.jpg",
-    },
-    {
-      texth1: "3332233ddadwada333s",
-      textp: "33333333333333",
-      url: "/smeh.jpg",
-    },
-    {
-      texth1: "44d444444sf",
-      textp: "444444444444444444",
-      url: "/smeh.jpg",
-    },
-    {
-      texth1: "55555555sf",
-      textp: "5555555555555555",
-      url: "/smeh.jpg",
-    },
-    {
-      texth1: "Habits",
-      textp: "666666666666",
-      url: "/smeh.jpg",
-    },
+
   ];
 
   return (
-    <div className="articles-container" ref={articleRef}>
+    <div className="articles-container">
       
-      {displayArray == 1 &&
-        artArray.slice(0, 8).map((art) => {
+      {artArray.map((art) => {
           return (
             <Link
               href={"/Articles/" + art.id} target="_blank"
@@ -195,46 +99,6 @@ function ArticlesArticles() {
             </Link>
           );
         })}
-      {displayArray == 2 &&
-        artArray.slice(8, 16).map((art) => {
-          return (
-            <Link
-            href={"/Articles/" + art.id} target="_blank"
-              key={art.texth1}
-              className="articles-box"
-              style={{ backgroundImage: `url(${art.url})` }}
-            >
-              <div className="articles-text">
-                <h1>{art.texth1}</h1>
-                <p>{art.textp}</p>
-              </div>
-            </Link>
-          );
-        })}
-      {displayArray == 3 &&
-        artArray.slice(16, 24).map((art) => {
-          return (
-            <Link
-            href={"/Articles/" + art.id} target="_blank"
-              key={art.texth1}
-              className="articles-box"
-              style={{ backgroundImage: `url(${art.url})` }}
-            >
-              <div className="articles-text">
-                <h1>{art.texth1}</h1>
-                <p>{art.textp}</p>
-              </div>
-            </Link>
-          );
-        })}
-      <div className="arrows">
-        <div onClick={previousPage} className="articles-previous">
-          <a>{"< prethodna"}</a>
-        </div>
-        <div onClick={nextPage} className="articles-next">
-          <a>{"sledeca >"}</a>
-        </div>
-      </div>
     </div>
   );
 }
