@@ -11,8 +11,8 @@
       justify-content: center;
       background-color: var(--text);
       background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50% 60%;
+      background-size:cover;
+      background-position: 50% 70%;
       position:relative;
       align-items: center;
       overflow: hidden;
@@ -37,13 +37,16 @@
   
       transition:5s;
       animation: lettersScale 1.2s;
-      font-size: 50px;
+      font-size: 56px;
       line-height: 60px;
       font-weight:300;   
       color:#9e8a4c;
       display:block;
       position: relative;
       text-align: center;
+      letter-spacing: 8px;
+      font-style: oblique;
+      text-shadow: 0.4px 0.4px var(--gold);
   }
   
   .globalpage-text:before {

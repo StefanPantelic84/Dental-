@@ -8,7 +8,7 @@ function Desni() {
         className="globalpage-container"
         style={{
           backgroundImage:
-            "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/smeh.jpg')",
+            "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/desni.jpg')",
         }}
       >
         <div className="globalpage-text">
