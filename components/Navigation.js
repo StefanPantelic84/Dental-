@@ -34,7 +34,7 @@ function Navigation() {
   }
 
   const menuClose = () => {
-    setMenuShow(true)
+    setMenuShow(true) 
     setMenuHidden(true)
     document.body.style.overflow = 'visible'
   } 
