@@ -24,7 +24,7 @@
     font-family: 'Great Vibes';
     font-size:72px;
     font-weight: 300;
-    width:60%;
+    width:90%;
     justify-content: center;
 }
 .homepassion-text h5{
@@ -47,10 +47,10 @@
     text-shadow: 0.4px 0.4px var(--gold);
 } 
 .homepassion-img {
-    background-image: url('../../public/smeh.jpg');
+    background-image: url('../../public/dental74.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 45%;
     width:53%;
     height: calc(25.00vw);
 }

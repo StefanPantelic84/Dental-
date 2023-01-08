@@ -1,8 +1,9 @@
 html,
 body {
+  max-width: 1920px;
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: auto;
   font-family:Lato,sans-serif,Great Vibes, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Mrs Saint Delafield, ;
 }
@@ -105,6 +106,13 @@ a, a:hover, a:active, a:visited, a:focus {
     top:-150px
   }to {
     top:0;
+  }
+}
+@keyframes fromBottom {
+  from {
+    top:0px
+  }to {
+    top:-150;
   }
 }
 

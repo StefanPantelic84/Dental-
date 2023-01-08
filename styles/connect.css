@@ -99,7 +99,10 @@
    font-weight: 700;
    cursor: pointer;
    text-align: center;
-   
+   margin-bottom: 10px;
+}
+.connect-call a {
+    color:white;
 }
 
 .connect-call:before {
@@ -110,18 +113,19 @@
     width:50px;
     height:100%;
     background:rgba(255,255,255,0.5);
-    transform:skewX(45deg) translateX(550px);
+    transform:skewX(45deg) translateX(750px);
     transition:1s;
     overflow: hidden;
 }
 
 .connect-call:hover:before {
     transform:translateX(-350px) skewX(45deg);
-
+    
 }
 
 .connect-call:hover {
     background-color: var(--text);
+    
 }
 
 .connect-call2 a {
@@ -147,7 +151,7 @@
     width:50px;
     height:100%;
     background:rgba(255,255,255,0.5);
-    transform:skewX(45deg) translateX(550px);
+    transform:skewX(45deg) translateX(750px);
     transition:1s;
     overflow: hidden;
 }
