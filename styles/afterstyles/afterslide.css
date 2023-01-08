@@ -2,6 +2,7 @@
     background-color: var(--bg);
     justify-content: center;
     padding:120px;
+    padding-bottom:20px;
     font-size: 70px;
     line-height: 90px;
     letter-spacing: 6px;
@@ -36,7 +37,7 @@
 }
 
 .slide-back {
-    background-image: url("/nah1.jpg");
+    background-image: url("/bljak11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,7 +53,7 @@
 }
 
 .slide-front {
-    background-image: url("/nah2.jpg");
+    background-image: url("/bljak22.jpg");
     background-repeat: no-repeat;
     margin-left:10%;
     margin-right:10%;
@@ -77,7 +78,6 @@
 
 .afterslide-text {
     display: flex;
-    align-items: left;
     justify-content: left;
     flex-direction: column;
     width:40%;
@@ -87,7 +87,7 @@
 }
 
 .afterslide-text p {
-   
+    line-height: 28px;
     font-weight: 400;
     color:var(--text);
     font-size:18px;
@@ -186,6 +186,8 @@
         margin-left:0%;
         margin-right:0%;
     }
+    .afterslide-holder:hover .slide-front {
+        transform: none;
+    }
 
-    
 }

@@ -1,6 +1,7 @@
 .smiledark-container {
-    background-color: #262626;
+    background-color: var(--bg);
     overflow: hidden;
+    position: relative;
 }
 
 .smiledark-topimg {
@@ -10,24 +11,28 @@
     width:100%;
     height: 100px;
     opacity:1;
-    background-color: var(--bg);
     position: relative;
+    background-color: var(--bg);
+    top:10px;
 } 
 
 .smiledark-text {
+    background-color: #262626;
     font-size: 22px;
     line-height: 45px;
     color:#fff;
-    width:67%; 
     margin:auto;
     padding:60px 0;
     font-style: italic;
     position: relative;
     letter-spacing: 0.3px;
+    display: flex;
+    justify-content: center;
 }
 
 .smiledark-text p {
     font-family: 'Lato'; 
+    width:67%; 
 }
 
 .smiledark-text p:before {
@@ -95,23 +100,25 @@
     width:100%;
     height: 100px;
     opacity:1;
-    background-color: var(--bg);
     position: relative;
+    top:-10px;
 } 
 
 @media only screen and (max-width:600px) {
   
     
     .smiledark-text {
-        font-size: 24px;
-        line-height: 40px;
-        width:100%; 
+        font-size: 14px;
+        line-height: 22px;
+     
         margin:auto;
-        padding:60px 15px;
+        padding:30px 15px;
+        letter-spacing: 2px;
     }
     
     .smiledark-text p {
         font-family: 'Lato'; 
+        width:100%; 
     }
     
     .smiledark-text p:before {
@@ -124,11 +131,13 @@
     .smiledark-text .span-b {
         transform: translate3d(000px,0px,0px);
         transform-style: preserve-3d;
+        font-size: 18px;
     }
     
     .smiledark-text .span-B {  
         transform: translate3d(200px,0px,0px);
         transform-style: preserve-3d;
+        font-size: 18px;
     }
 
 }

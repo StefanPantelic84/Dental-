@@ -103,6 +103,10 @@
     font-size:14px;
     max-width:100%;
   }
+  .smilecare-text li {
+    font-size:14px;
+    max-width:100%;
+  }
   
   .smilecare-img::after {
 display: none;
