@@ -6,9 +6,9 @@ function ArticlesArticles() {
   const artArray = [
     {
       id: "Habits",
-      texth1: "PET SVAKODNEVNIH NAVIKA KOJE OŠTEĆUJU VAŠE ZUBE",
+      texth1: "PET NAVIKA KOJE OŠTEĆUJU VAŠE ZUBE",
       textp:
-        "Naši zubi igraju ključnu ulogu u našim životima. Pomažu nam da žvaćemo i varimo hranu i razgovaramo jasno. Oni takođe doprinose našem izgledu. Zdravi zubi takođe pomažu u sprečavanju mnogih zdravstvenih stanja kao što su bolesti srca i dijabetes. Međutim,prema istraživanjima, skoro 20 odsto odraslih starijih od 65 godina izgubilo je sve zube.",
+        "Naši zubi igraju ključnu ulogu u našim životima. Pomažu nam da žvaćemo i varimo hranu i razgovaramo jasno. Oni takođe doprinose našem izgledu. Zdravi zubi takođe pomažu u sprečavanju mnogih zdravstvenih stanja kao što su bolesti srca i dijabetes.",
       url: "/habits.jpg",
     },
     {
@@ -33,7 +33,7 @@ function ArticlesArticles() {
     {
       id: "Implants",
       texth1: "Zubni Implanti",
-      textp: "Zubni implantati su stalni zubni nadomjestci koji se ugrađuju u tijelo kao zamjena za izgubljene ili uklonjene zube.Obično se koriste za zamjenu pojedinačnih izgubljenih zuba, ali također se mogu koristiti i za zamjenu višestrukih zuba ili čak cijelih gornjih ili donjih redova zuba",
+      textp: "Zubni implantati su stalni zubni nadomjestci koji se ugrađuju u tijelo kao zamjena za izgubljene ili uklonjene zube.Obično se koriste za zamjenu pojedinačnih izgubljenih zuba, ali također se mogu koristiti i za zamjenu višestrukih zuba ili čak cijelih gornjih ili donjih redova zuba.",
       url: "/implant.jpg",
     },
     {

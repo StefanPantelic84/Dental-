@@ -51,10 +51,17 @@ import '../styles/allpages.css'
 import Navigation from '../components/Navigation'
 import Connect from '../components/Connect'
 import Footer from '../components/Footer'
+import Head from 'next/head'
+
 
 
 function MyApp({ Component, pageProps }) {
   return <>
+  <Head>  <title>My Page</title>
+        <meta property="og:title" content="Stomatolog Zubar Beograd" />
+        <meta property="og:description" content="Smatramo da zaslužujete najbolju stomatološku negu. Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti." />
+        <meta property="og:image" content="/whitee.jpg" />
+  </Head>
   <Navigation />
   <Component {...pageProps} />
   <Connect />

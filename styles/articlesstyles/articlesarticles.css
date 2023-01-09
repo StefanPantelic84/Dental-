@@ -162,6 +162,9 @@
       padding:100px 12px;
       padding-bottom: 450px;
    }
+   .articles-box {
+      height: fit-content;
+   }
    
 }
 
@@ -170,7 +173,7 @@
       grid-template-columns: repeat(1,100%);
    }
    .articles-box {
-      height: 320px
+      height: fit-content;
    }
    .arrows {
       width:100%;

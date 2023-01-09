@@ -28,9 +28,9 @@
 
 .menu-paths li {
     display: inline-block;
-    padding:7px 35px;
-    margin-bottom: 7px;
-    font-size: 18px;
+    padding:7px 45px;
+    margin-bottom: 11px;
+    font-size:19px;
     letter-spacing: 4px;
     cursor: pointer;
 }
@@ -38,4 +38,10 @@
 .menu-paths li:hover {
     background-color: var(--gold);
     transition:1s;
+}
+
+@media screen and (max-width:700px) {
+    .menu-paths li {
+        font-size: 15px;
+}
 }

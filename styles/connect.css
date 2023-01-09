@@ -214,3 +214,11 @@
         width: 100%;
     }
 }
+
+@media only screen and (min-width: 1968px) {
+    .connect-img {
+        width:50%;
+        overflow: hidden;
+        height: calc(20.00vw);
+    } 
+}

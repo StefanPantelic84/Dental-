@@ -1,5 +1,5 @@
 .diffdark-container {
-    background-color: #262626;
+    background-color: var(--bg);
     overflow: hidden;
 }
 
@@ -12,6 +12,7 @@
     opacity:1;
     background-color: var(--bg);
     position: relative;
+    top:10px;
 } 
 
 .diffdark-text {
@@ -19,15 +20,17 @@
     line-height: 65px;
     letter-spacing: 2px;
     color:#fff;
-    width:67%; 
+
     margin:auto;
     padding:60px 0;
     font-style: italic;
     position: relative;
+    background-color: #262626;
 }
 
 .diffdark-text p {
     font-family: 'Great Vibes'; 
+    width:67%; 
 }
 
 .diffdark-text p:before {
@@ -91,8 +94,8 @@
     width:100%;
     height: 100px;
     opacity:1;
-    background-color: var(--bg);
     position: relative;
+    bottom: 30px;
 } 
  
 @media only screen and (max-width:600px) {
@@ -101,13 +104,14 @@
     .diffdark-text {
         font-size: 20px;
         line-height: 30px;
-        width:100%; 
+       
         margin:auto;
         padding:60px 15px;
     }
     
     .diffdark-text p {
         font-family: 'Great Vibes'; 
+        width:100%; 
     }
     
     .diffdark-text p:before {

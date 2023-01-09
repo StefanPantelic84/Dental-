@@ -10,10 +10,10 @@ function Menu({menuClose}) {
             <Link href="/FirstVisit" onClick={menuClose}><li>VAŠA PRVA POSETA</li></Link>
             <Link href="/Team" onClick={menuClose}><li>UPOZNAJTE TIM</li></Link>
             <Link href="/Smile" onClick={menuClose}><li>NAJLEPSI OSMEH</li></Link>
-            <Link href="/Story" onClick={menuClose}><li >ISKUSTVA PACIJENATA</li></Link>
+            <Link href="/Story" onClick={menuClose}><li >ISKUSTVA</li></Link>
             <Link href="/After" onClick={menuClose}><li>PRE I POSLE</li></Link>  
-            <Link href="/Contact" onClick={menuClose}><li >CENOVNIK</li></Link>
-            <Link href="/Articles" onClick={menuClose}><li >ČLANCI</li></Link>
+            <Link href="/Contact" onClick={menuClose}><li>CENOVNIK</li></Link>
+            <Link href="/Articles" onClick={menuClose}><li>ČLANCI</li></Link>
 
         </ul>
 

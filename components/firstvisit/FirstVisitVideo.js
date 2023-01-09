@@ -6,7 +6,10 @@ function FirstVisitVideo() {
     <div className='full-container-video'>
       <div className='container-video'>
       <div className='video-left'></div></div>
-      <div className='video-text'><p>Sta Ocekivati Prilikom Posete</p></div>
+      <div className='video-text'>
+        <p>Sta Ocekivati</p> 
+        <p>Prilikom Posete</p>
+      </div>
       
     </div> 
    
