@@ -20,12 +20,13 @@
     line-height: 65px;
     letter-spacing: 2px;
     color:#fff;
-
     margin:auto;
     padding:60px 0;
     font-style: italic;
     position: relative;
     background-color: #262626;
+    display: flex;
+    justify-content: center;
 }
 
 .diffdark-text p {

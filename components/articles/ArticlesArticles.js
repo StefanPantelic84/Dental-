@@ -87,7 +87,7 @@ function ArticlesArticles() {
       {artArray.map((art) => {
           return (
             <Link
-              href={"/Articles/" + art.id} target="_blank"
+              href={"/Articles/" + art.id}
               key={art.texth1}
               className="articles-box"
               style={{ backgroundImage: `url(${art.url})` }}

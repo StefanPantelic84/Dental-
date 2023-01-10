@@ -10,7 +10,6 @@ function Story() {
   return (
     <div>
       <StoryImage />
-      <StoryFace />
       <StoryDark />
     </div>
   )

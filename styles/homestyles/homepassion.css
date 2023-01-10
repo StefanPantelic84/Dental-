@@ -114,8 +114,9 @@
         left:50%;
         transform:translateX(-50%);
         top:92%;
-        width:100%;
+        width:80%;
         text-align: center;
+        padding: 15px 30px;
     }
 
     .homepassion-text {

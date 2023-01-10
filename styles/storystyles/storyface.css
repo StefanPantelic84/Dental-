@@ -10,7 +10,7 @@
     align-items: center;
     font-family: 'lato';
     gap:50px;
-    padding:60px 45px 100px 45px;
+    padding:20px 45px 160px 45px;
     color:var(--text);
     background-color: var(--bg);
 }

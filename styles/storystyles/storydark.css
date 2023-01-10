@@ -1,3 +1,7 @@
+.storybackground {
+    background-color: var(--bg);
+}
+
 .story-story {
     position: relative;
 }
@@ -5,6 +9,7 @@
 .storydark-container { 
     background-color: #262626;
     overflow: hidden;
+   margin-bottom: 40px;
 }
 
 .storydark-topimg {
@@ -27,6 +32,7 @@
     opacity:1;
     position:absolute;
     bottom:-60px;
+    background-color: var(--bg);
 }
 
 .storydark-text {

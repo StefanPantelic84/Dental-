@@ -1,4 +1,5 @@
 import React from 'react'
+import StoryFace from './StoryFace'
 
 function StoryDark() {
 
@@ -54,10 +55,8 @@ function StoryDark() {
 
     
 
-  return (<>
-    {stories.map((story,i)=>{
-
-
+  return (<div className='storybackground'>
+    {stories.slice(0,4).map((story,i)=>{
 
         if (i%2 == 0) return (<div key={i} className='story-story'>
 
@@ -72,7 +71,26 @@ function StoryDark() {
 </div>) 
     })  
     }
-</>
+    <StoryFace />
+
+ {stories.slice(4,9).map((story,i)=>{
+
+        if (i%2 == 0) return (<div key={i} className='story-story'>
+
+        <div  className='storydark-topimg'></div>
+        <div className='storydark-container' >      
+        <div  className='storydark-text'><p>{story.passus}<span className='span-1'><br></br>{story.span}</span></p></div>      
+        </div>
+        <div className='storydark-botimg'></div>
+        </div>    )
+    else return ( <div key={i} className='storylight-container'>
+    <div className='storylight-text'><p>{story.passus}<span  className="span-1"><br></br>{story.span}</span></p></div>      
+</div>) 
+    })  
+    }
+
+
+</div>
   )
 }
 

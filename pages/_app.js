@@ -35,6 +35,7 @@ import '../styles/afterstyles/afterslide.css'
 import '../styles/afterstyles/afterslide2.css'
 import '../styles/afterstyles/afterslide3.css'
 import '../styles/afterstyles/afterslide4.css'
+import '../styles/afterstyles/afterslide5.css'
 import '../styles/contactstyles/contactimage.css'
 import '../styles/contactstyles/contactlast.css'
 import '../styles/contactstyles/contactform.css'
@@ -57,10 +58,10 @@ import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   return <>
-  <Head>  <title>My Page</title>
+  <Head>  <title>Milosevic/Dental</title>
         <meta property="og:title" content="Stomatolog Zubar Beograd" />
         <meta property="og:description" content="Smatramo da zaslužujete najbolju stomatološku negu. Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti." />
-        <meta property="og:image" content="/whitee.jpg" />
+        <meta property="og:image" content="/zubi.jpg" />
   </Head>
   <Navigation />
   <Component {...pageProps} />

@@ -150,6 +150,9 @@
       text-decoration: underline;
     }
     @media only screen and (max-width: 1000px) {
+      .globalpage-text {
+        max-width: 90%;
+      }
         .globalcontent-container {
             padding:60px 45px;
         }
@@ -165,7 +168,11 @@
       .globalpage-text h1 {
         font-size: 25px;
         line-height: 40px;
-        max-width: 80%;
+        max-width: 90%;
+      }
+      .globalcontent-container {
+
+        padding:60px 15px;
       }
 
       .globalpage-container {
