@@ -132,5 +132,24 @@ label {
   display: none;
 }
 
+.notFound {
+  background-image:url('../public/gorelist.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position:left;
+  width:100%;
+  position: relative;
+  background-color: var(--bg);
+  font-family: 'Lato';
+  padding:120px 45px;
+  display: flex;
+  flex-direction: row;
+  position:relative;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
 
 

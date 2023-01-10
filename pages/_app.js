@@ -62,6 +62,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Stomatolog Zubar Beograd" />
         <meta property="og:description" content="Smatramo da zaslužujete najbolju stomatološku negu. Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti." />
         <meta property="og:image" content="/zubi.jpg" />
+        <meta name="google" content="notranslate" />
   </Head>
   <Navigation />
   <Component {...pageProps} />

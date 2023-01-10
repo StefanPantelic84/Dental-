@@ -188,6 +188,14 @@
         font-size: 14px;
         line-height: 27px;
       }
+      .globalcontent-container ol {
+        font-size: 14px;
+        line-height: 27px;
+      }
+      .globalcontent-container ul {
+        font-size: 14px;
+        line-height: 27px;
+      }
      
   
     }

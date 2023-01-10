@@ -1,9 +1,6 @@
 import react from 'react'
-import Footer from '../components/Footer'
 import Homepage from '../components/home/Homepage'
-import Navigation from '../components/Navigation'
-
-
+import Team from './Team'
 
 
 export default function Home() {
