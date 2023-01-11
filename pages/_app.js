@@ -57,11 +57,14 @@ import Head from 'next/head'
 
 
 function MyApp({ Component, pageProps }) {
+
+
+
   return <>
   <Head>  <title>Milosevic/Dental</title>
-        <meta property="og:title" content="Stomatolog Zubar Beograd" />
-        <meta property="og:description" content="Smatramo da zaslužujete najbolju stomatološku negu. Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti." />
-        <meta property="og:image" content="/zubi.jpg" />
+        <meta property="og:title" content="Stomatolog broj 1 - Beograd!" />
+        <meta property="og:description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu. " />
+        <meta property="og:image" content='https://weblala.online/whiteTheeth.jpg' />
         <meta name="google" content="notranslate" />
   </Head>
   <Navigation />

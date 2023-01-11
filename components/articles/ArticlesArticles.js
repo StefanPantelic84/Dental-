@@ -78,6 +78,18 @@ function ArticlesArticles() {
       textp: "Zubni kamenac su naslage na zubima koje se sastoje od mikroskopskih čestica minerala. One najčešće nastaju od kalcija i fosfata u kombinaciji sa bakterijama i mogu se pojaviti na zubnim krunicama, ispod gumline i u interdentalnim prostorima.Može dovesti do problema sa zubima i desnima.",
       url: "/kamenac.jpg",
     },
+    {
+      id: "Kiretaza",
+      texth1: "Kiretaža",
+      textp: "Kiretaža je parodontološki postupak kojim se usklanjaju naslage koje su se godinama taložile ispod desni na zubu.Ove naslage mogu napraviti ogroman problem jer stvaraju kamenac. Zubni kamenac je odlično tlo za stvaranje bakterija koje uzrokuju upalu, gubitak koštane mase i, naravno, gubitak celog zuba.",
+      url: "/kiretaza.jpg",
+    },
+    {
+      id: "Splint",
+      texth1: "Splint",
+      textp: "Splint je dentalni aparat koji se koristi za liječenje bruksizma. Bruksizam je stanje u kojem se pacijentovi zubi stresuju, škripe ili zgnječe, najčešće noću dok spavaju. Ovo ponašanje može dovesti do oštećenja zuba i desni, kao i bolova u vilicama i vratu.",
+      url: "/splint.jpg",
+    },
 
   ];
 
