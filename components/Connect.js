@@ -9,7 +9,7 @@ function Connect() {
         <div className='connect-title'>
         <h6>POVEŽITE SE SA NAMA</h6>
         </div>
-        <p>SMATRAMO DA ZASLUŽUJETE NAJBOLJE STOMATOLOŠKO ISKUSTVO. POZOVITE <a href='tel:00381652828678'>(+381)65/2828678</a> ILI ZATRAŽITE ONLINE SASTANAK DA ZAKAŽETE SVOJU PRVU POSETU. RADUJEMO SE NAŠEM SUSRETU!</p>
+        <p>SMATRAMO DA ZASLUŽUJETE NAJBOLJE STOMATOLOŠKO ISKUSTVO. POZOVITE <a href='tel:00381606788761'>(+381)60/6788761</a> ILI ZATRAŽITE ONLINE SASTANAK DA ZAKAŽETE SVOJU PRVU POSETU. RADUJEMO SE NAŠEM SUSRETU!</p>
         <div className='connect-call'><a href="https://www.instagram.com/milosevicdental/" target='_blank'>INSTAGRAM</a></div>
         <div className='connect-call2'><a href='tel:00381606788761'>POZOVITE</a></div>
       </div>
