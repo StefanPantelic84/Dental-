@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
   <Head>  <title>Milosevic/Dental</title>
         <meta property="og:title" content="Stomatolog broj 1 - Beograd!" />
         <meta property="og:description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu. " />
-        <meta property="og:image" content='https://weblala.online/whiteTheeth.jpg' />
+        <meta property="og:image" content="https://weblala.online/whiteTheeth.jpg" />   
         <meta name="google" content="notranslate" />
   </Head>
   <Navigation />

@@ -86,7 +86,9 @@
     height:calc(35vw);
 }
 
-.connect-call {
+
+.connect-call a {
+    color:white;
     padding:15px 80px;
     width:72%;
     background-color: var(--gold);
@@ -101,11 +103,8 @@
    text-align: center;
    margin-bottom: 10px;
 }
-.connect-call a {
-    color:white;
-}
 
-.connect-call:before {
+.connect-call a:before {
     content: '';
     position:absolute;
     top:0;
@@ -118,12 +117,12 @@
     overflow: hidden;
 }
 
-.connect-call:hover:before {
+.connect-call a:hover:before {
     transform:translateX(-350px) skewX(45deg);
     
 }
 
-.connect-call:hover {
+.connect-call a:hover {
     background-color: var(--text);
     
 }
@@ -169,7 +168,7 @@
     .connect-call2 a {
         padding:15px 40px;
     }
-    .connect-call {
+    .connect-call a{
         padding:15px 40px;
     } 
     .connect-container {
@@ -207,7 +206,7 @@
     .connect-text p:after {
         display: none;
     }
-    .connect-call{
+    .connect-call a{
         width:100%;
     }
     .connect-call2 a {

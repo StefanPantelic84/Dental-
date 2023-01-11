@@ -36,14 +36,6 @@
     background-color:rgba(26,24,24,0.71);
  }
 
- .arrows {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   width:205%;
-   gap:20px;
- }
 
  .articles-text h1 {
     margin:20px 0;
@@ -158,9 +150,10 @@
  
  
    .articles-container {
-      grid-template-columns: repeat(1,100%);
+      display: flex;
+      gap:20px;
       padding:100px 12px;
-      padding-bottom: 450px;
+      flex-direction: column;
    }
    .articles-box {
       height: fit-content;
@@ -169,12 +162,7 @@
 }
 
 @media only screen and (max-width:800px) {
-   .articles-container {
-      grid-template-columns: repeat(1,100%);
-   }
-   .articles-box {
-      height: fit-content;
-   }
+
    .arrows {
       width:100%;
    }
