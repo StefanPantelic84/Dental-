@@ -11,7 +11,7 @@ function HomePassion() {
         </div>
       </div>
       <div className='homepassion-img'></div>
-      <div className='homepassion-call'><Link href="/Team">DR.MILOŠEVIĆ MILICA</Link></div>
+      <div className='homepassion-call'><Link href="/">DR.MILOŠEVIĆ MILICA</Link></div>
     </div>
   )
 } 

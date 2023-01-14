@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top:0;
+    top:0px;
     margin:auto;
     background-color: #ffffff;
     z-index:100;
@@ -14,7 +14,6 @@
     font-size: 17px;
     color:#231F20;
     font-weight:600;
-    animation:fromBottom 0.6s;
 }
 .navigation-container-fix {
     max-width: 1920px;
@@ -32,6 +31,7 @@
     color:#231F20;
     font-weight:600;
     animation:fromTop 0.6s;
+
 } 
 
 .nav-only {
@@ -49,6 +49,7 @@
     color:#231F20;
     font-weight:600;
     animation:lettersFromTop 2s; 
+
 }
  
 .logo {
@@ -229,15 +230,18 @@
         opacity:1;
         transform:translate3d(0px, 0px, 0px) ;
         transform-style: preserve-3d;
-        padding:30px;
+        padding:10px;
+        margin:20px;
     }
     .call:hover .number{
         opacity:0;
         left:50px;
         transform:translate3d(0px, 0px, 0px);
         transform-style: preserve-3d;
-        padding:30px;
+        padding:10px;
+        margin:20px;
     }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -246,16 +250,34 @@
         left:-50px;
         transition: 0.4s;
         opacity: 0;
-        padding:30px;
+        padding:10px;
+        margin:20px;
         transform:translate3d(0px, 0px, 0px);
         transform-style: preserve-3d;
+    }
+    .poziv {
+        left:-40px;
+        padding: 10px;
+        margin:20px;
+    }
+    .menus {
+        left:20px;
+        padding:10px;
+        margin:20px;
+    }
+    .closeH {
+        left:-60px;
+        padding:10px;
+        margin:20px;
     }
     .call:hover .number{
         opacity:0;
         left:0;
         transform:translate3d(0px, -100px, 0px);
         transform-style: preserve-3d;
-        padding:30px;
+        padding:10px;
+        margin:20px;
+      
     }
     .close {
         position: absolute;
@@ -264,7 +286,8 @@
         transition:0.4s;
         transform: translate3d(0px,-100px,0px);
         transform-style :preserve-3d;
-        padding:30px;
+        padding:10px;
+        margin:20px;
     }
     
     .closeH {
@@ -274,7 +297,9 @@
         transition: 0.4;
         transform: translate3d(10px,0px,0px);
         transform-style :preserve-3d;
-        padding:30px;
+    }
+    .nav-only {
+        justify-content: space-around;
     }
 }
 

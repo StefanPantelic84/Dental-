@@ -15,7 +15,7 @@ function Footer() {
         <div className='footer-text'>
             <div className='footer-passus'>
                 <p>MILOŠEVIĆ DENTAL</p>
-                <p>DUŠANA VUKASOVIĆA 122</p>
+                <p>DUŠANA VUKASOVIĆA 61</p>
                 <p>NOVI BEOGRAD</p>
             </div>
             <div className='footer-number'> 
