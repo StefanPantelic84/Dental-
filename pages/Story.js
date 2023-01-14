@@ -1,14 +1,19 @@
 import React from 'react'
 import StoryImage from '../components/story/StoryImage'
-import Navigation from '../components/Navigation'
-import StoryFace from '../components/story/StoryFace'
 import StoryDark from '../components/story/StoryDark'
-import Connect from '../components/Connect'
-import Footer from '../components/Footer'
+import Head from 'next/head'
+
 
 function Story() {
+  
   return (
     <div>
+          <Head>  <title>Milosevic/Dental</title>
+        <meta property="og:title" content="Za blistav osmeh!" />
+        <meta property="og:description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu. " />
+        <meta property="og:image" content="https://weblala.online/_next/static/media/c2.d556df6a.jpg" />   
+        <meta name="google" content="notranslate" />
+  </Head>
       <StoryImage />
       <StoryDark />
     </div>

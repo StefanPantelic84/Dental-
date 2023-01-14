@@ -1,8 +1,16 @@
 import React from "react";
+import Head from "next/head";
 
 function Benefits() {
   return (
+    
     <>
+      <Head>  <title>Milosevic/Dental</title>
+        <meta property="og:title" content="Beli zubi." />
+        <meta property="og:description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu. " />
+        <meta property="og:image" content="https://weblala.online/whiteTheeth.jpg" />   
+        <meta name="google" content="notranslate" />
+  </Head>
       <div className="global-global">
         <div
           className="globalpage-container"
