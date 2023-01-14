@@ -10,14 +10,13 @@ function SmileCosmetic() {
     </div>
     <p>NUDIMO ESTETSKU NEGU ZUBA DA BI VAM DALI ZDRAV, PRIRODAN, LEP OSMEH.</p>
     <ul>
-      <li>---</li>
-      <li>---</li>
-      <li>---</li>
-      <li>---</li>
-      <li>---</li>
-      <li>---</li>
-      <li>---</li>
-      <li>---</li>
+      <li>Izbeljivanje zuba</li>
+      <li>Providne folije</li>
+      <li>Ortodoncija</li>
+      <li>Fasete</li>
+      <li>Dizajn osmeha</li>
+      <li>Lepljenje zuba</li>
+      <li>Oblikovanje desni</li>
     </ul>
   </div>
 

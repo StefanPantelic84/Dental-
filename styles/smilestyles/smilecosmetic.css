@@ -18,7 +18,7 @@
     flex-direction: column;
     position: relative;
     width:60%;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .smilecosmetic-text h6{
@@ -41,6 +41,7 @@
     display: relative;
     max-width:72%;
     margin-left:28%;
+    margin-bottom: 10px;
 }
 .smilecosmetic-text li {
   font-size:18px;
@@ -65,7 +66,7 @@
     position: absolute;
     top:60%;
     right:-40%;
-}
+} 
 
 .smilecosmetic-img {
     background-image: url('../../public/zub.jpg');  
