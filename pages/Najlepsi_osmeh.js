@@ -5,7 +5,7 @@ import SmileDark from '../components/smile/SmileDark'
 import SmileImage from '../components/smile/SmileImage'
 import Head from 'next/head'
 
-function Smile() {
+function Najlepsi_osmeh() {
   return (
     <>
         <Head>  <title>Milosevic/Dental</title>
@@ -22,4 +22,4 @@ function Smile() {
   )
 }
 
-export default Smile
+export default Najlepsi_osmeh

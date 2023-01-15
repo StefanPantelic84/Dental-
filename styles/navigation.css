@@ -209,11 +209,13 @@
         margin-left: 0px;
         margin-right:0px;
         font-size: 28px;
+        cursor: default;
     }
 
     .menu {
         margin-right:0px;
         font-size: 28px;
+        cursor:default;
     }
 
     .logo {

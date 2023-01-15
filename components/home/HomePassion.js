@@ -11,9 +11,9 @@ function HomePassion() {
         </div>
       </div>
       <div className='homepassion-img'></div>
-      <div className='homepassion-call'><Link href="/">DR.MILOŠEVIĆ MILICA</Link></div>
+      <div className='homepassion-call'><Link href="/O_nama">DR.MILOŠEVIĆ MILICA</Link></div>
     </div>
-  )
+  ) 
 } 
 
 export default HomePassion

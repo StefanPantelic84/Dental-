@@ -3,7 +3,7 @@ import AfterImage from '../components/after/AfterImage'
 import AfterSlide from '../components/after/AfterSlide'
 import Head from 'next/head'
 
-function After() {
+function Pre_i_posle() {
   return (
     <div>
        <Head>  <title>Milosevic/Dental</title>
@@ -18,4 +18,4 @@ function After() {
   )
 }
 
-export default After
+export default Pre_i_posle

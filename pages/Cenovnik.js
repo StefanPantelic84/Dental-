@@ -4,7 +4,7 @@ import ContactLast from '../components/contact/ContactLast'
 import ContactPrice from '../components/contact/ContactPrice'
 import Head from 'next/head'
 
-function Contact() {
+function Cenovnik() {
   return (
     <div>
         <Head>  <title>Milosevic/Dental</title>
@@ -20,4 +20,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Cenovnik

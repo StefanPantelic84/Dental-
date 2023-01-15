@@ -119,6 +119,9 @@
       height:calc(80vw);
       margin-bottom: 40px;
     }
+    .smilecosmetic-text li {
+      font-size:14px;
+    }
   
     }
   

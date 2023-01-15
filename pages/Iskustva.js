@@ -4,7 +4,7 @@ import StoryDark from '../components/story/StoryDark'
 import Head from 'next/head'
 
 
-function Story() {
+function Iskustva() {
   
   return (
     <div>
@@ -20,4 +20,4 @@ function Story() {
   )
 }
 
-export default Story
+export default Iskustva

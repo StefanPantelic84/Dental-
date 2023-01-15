@@ -13,11 +13,11 @@ function HomeDifference() {
           za novim tehnologijama.A budući da nam je cilj da vaše iskustvo uvek
           bude pozitivno, mi naš posao obavljamo na način koji je opušten,
           umirujući i izuzetan.{" "}
-        </p>
+        </p> 
       </div>
       <div className="homedifference-img"></div>
       <div className="homedifference-call">
-        <Link href="/Difference">NAŠA UVERENJA</Link>
+        <Link href="/O_nama">NAŠA UVERENJA</Link>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ function HomeBelong() {
 
     <p>MI SE OVDE ČESTO SMEJEMO, KOD NAS PODRŠKA ZAMENJUJE OSUDU I UZNEMIRENOST.OVO JE MESTO GDE LJUBAZNOST I PAŽNJA GRADE DUGOTRAJNE VEZE. MESTO GDE UĐETE KAO STRANCI, A POSTANETE DEO PORODICE.</p>
   </div>
-  <div className='homebelong-call'><Link href="/FirstVisit">vaša prva poseta?</Link></div>
+  <div className='homebelong-call'><Link href="/Prva_poseta">vaša prva poseta?</Link></div>
 </div>
 
 </div>

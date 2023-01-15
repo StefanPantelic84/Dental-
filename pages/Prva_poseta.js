@@ -8,7 +8,7 @@ import FirstVisitLast from '../components/firstvisit/FirstVisitLast'
 import FirstVisitImage from '../components/firstvisit/FirstVisitImage'
 import Head from 'next/head'
 
-function FirstVisit() {
+function Prva_poseta() {
   return (
     <div >
        <Head>  <title>Milosevic/Dental</title>
@@ -28,4 +28,4 @@ function FirstVisit() {
   )
 }
 
-export default FirstVisit
+export default Prva_poseta

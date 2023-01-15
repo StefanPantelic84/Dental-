@@ -8,7 +8,7 @@ import DiffImage from '../components/difference/DiffImage'
 import Head from 'next/head'
 
 
-function Difference() {
+function O_nama() {
   
   return (
     <div>
@@ -28,4 +28,4 @@ function Difference() {
   )
 }
 
-export default Difference
+export default O_nama
