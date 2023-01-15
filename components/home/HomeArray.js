@@ -44,7 +44,7 @@ function HomeArray() {
         <p>{myArray[arrayIndex].passus}</p>
         <h6>{myArray[arrayIndex].name}</h6>
         </div>
-        <div className='homearray-call'><Link href="/Story">ISKUSTVA PACIJENATA</Link>
+        <div className='homearray-call'><Link href="/Iskustva">ISKUSTVA PACIJENATA</Link>
         <div className={firstRef.inView ? 'homearray-right' : 'homearray-right-A'} onClick={()=>{
             if (arrayIndex < 4) {
                setArrayIndex(arrayIndex + 1)
