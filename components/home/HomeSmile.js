@@ -7,7 +7,7 @@ function HomeSmile() {
       <div className="homesmile-img"></div>
       <div className="homesmile-text">
         <div className="homesmile-title">
-          <h6>NAJLEPSI OSMEH</h6>
+          <h6>ZA NAJLEPSI OSMEH</h6>
         </div>
         <p>
           SMATRAMO DA ZASLUŽUJTE NAJBOLJU STOMATOLOŠKU NEGU. ZATO NUDIMO ŠIROK

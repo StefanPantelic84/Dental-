@@ -97,7 +97,7 @@
     display: none;
    right:15%;
    top:-5%;
-    color:var(--gold);
+    
     font-size: 50px;
     position:absolute;
     font-weight: 700;
@@ -107,7 +107,7 @@
     display: none;
     left:15%;
     top:-5%;
-     color:var(--gold);
+     
      font-size: 50px;
      position:absolute;
      font-weight: 700;

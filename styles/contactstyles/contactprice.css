@@ -77,6 +77,18 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 } 
+.price-array h5{
+    font-size: 14px;
+    color:var(--text);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} 
+.price-array h6{
+    font-size: 14px;
+    color:var(--text);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} 
 .price-container span{
     position: absolute;
     bottom: 10px;
@@ -106,6 +118,12 @@
   }
 
   @media only screen and (max-width: 700px) {
+    .price-array h5{
+        font-size: 12px;
+    }
+    .price-array h6{
+            font-size: 12px;
+     }
     .price-box h1{
         font-size: 30px;  
     }
