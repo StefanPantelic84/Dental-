@@ -73,7 +73,7 @@
 }
 
 .diffone-img {
-    background-image: url('../../public/D1.jpg');
+    background-image: url('../../public/D1.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 700px) {
     .diffone-container {
-        padding:0px 0px;
+        padding:45px 0px;
         flex-direction: column-reverse;
     }
     .diffone-img {

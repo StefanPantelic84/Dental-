@@ -75,7 +75,7 @@
 @media only screen and (max-width: 700px) {
     .full-container-video {
         flex-direction: column;
-        padding:60px 0px;
+        padding:45px 0px;
     }
     .container-video {
         width:100%;
