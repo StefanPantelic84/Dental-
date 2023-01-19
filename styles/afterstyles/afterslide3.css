@@ -149,6 +149,8 @@
     .slide-left3,
     .slide-right3 {
         display: block;
+        font-weight: 400;
+    cursor: default;
     }
 
     .afterslide3-holder {

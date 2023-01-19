@@ -149,6 +149,8 @@
     .slide-left5,
     .slide-right5 {
         display: block;
+        font-weight: 400;
+    cursor: default;
     }
 
     .afterslide5-holder {

@@ -148,6 +148,8 @@
     .slide-left2,
     .slide-right2 {
         display: block;
+        font-weight: 400;
+    cursor: default;
     }
 
     .afterslide2-holder {
