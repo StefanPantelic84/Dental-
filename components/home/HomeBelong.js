@@ -9,7 +9,7 @@ function HomeBelong() {
         <div className="homebelong-img"></div>
         <div className="homebelong-text">
           <p>
-            RADIMO NA TO DA BUDEMO UVEK PRI RUCI I DA POMOGNEMO U SVIM POTREBAMA
+            RADIMO NA TOme DA BUDEMO UVEK PRI RUCI I DA POMOGNEMO U SVIM POTREBAMA
             NAŠIH KLIJENATA. KOD NAS uvek vlada PRIjATNA ATMOSFERA I trudimo se
             da LJUBAZNOŠĆU I PAŽNJOM IZGRADIMO DUGOTRAJNE VEZE. KOD NAS SE LJUDI
             OSEĆAJU KAO KOD KUĆE I POSTAJU DEO NAŠE PORODICE.
