@@ -24,7 +24,7 @@ a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  user-select:none;
+
 }
 a, a:hover, a:active, a:visited, a:focus {
   text-decoration:none;

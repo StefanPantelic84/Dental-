@@ -10,10 +10,10 @@ function HomeDifference() {
         </div>
         <p>
           Verujemo da je put ka uspehu konstantno učenje, usavršavanje i potraga
-          za novim tehnologijama.A budući da nam je cilj da vaše iskustvo uvek
-          bude pozitivno, mi naš posao obavljamo na način koji je opušten,
-          umirujući i izuzetan.{" "}
-        </p> 
+          za novim tehnologijama.Kao tim, trudimo se da vaše iskustvo bude uvek
+          pozitivno, da naš posao obavimo na način koji je opušten, umirujući i
+          izuzetan.
+        </p>
       </div>
       <div className="homedifference-img"></div>
       <div className="homedifference-call">
