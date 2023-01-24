@@ -19,7 +19,7 @@ function Footer() {
                 <p>NOVI BEOGRAD</p>
             </div>
             <div className='footer-number'> 
-            <a href="tel:00381606788761">+381/60-678-87-61</a>
+            <a href="tel:+381606788761">+381/60-678-87-61</a>
             </div>
         </div>
         <div className='footer-icon'>

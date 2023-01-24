@@ -11,32 +11,32 @@ function StoryDark() {
             ref:'nameRef1'
         },
         {
-            passus: '„MOJ MUŽ I JA SMO PACIJENTI U MILOŠEVIĆ/DENTAL-U SKORO PET GODINA. TIM JE UVEK LJUBAZAN I BRIŽAN. DR.MILICA JE PROFESIONALAC I VRLO JE PAŽLJIVA! CENIM ŠTO SE VREME ZAKAZIVANJA UVEK POŠTUJE I NIKAD SE NE ČEKA. TAKOĐE MOŽE SE PRIMETITI DA IMAJU NAJNOVIJU TEHNOLOGIJU JER ŽELE DA NJIHOVI PACIJENTI DOBIJU NAJVIŠU NEGU!”',
+            passus: '„Moj muž i ja smo pacijenti u Milošević/dental-u skoro pet godina. Tim je uvek ljubazan i brižan. Dr.Milica je profesionalac i vrlo je pažljiva! Cenim što se vreme zakazivanja uvek poštuje i nikad se ne čeka. Takođe, može se primetiti da imaju najnoviju tehnologiju jer žele da njihovi pacijenti dobiju najvišu negu!”',
             span: 'Marina P.',
             ref:'nameRef2'
         },
         {
-            passus: '„UVEK SAM SE PLAŠIO DA IDEM KOD STOMATOLOGA SVE DOK ME PRIJATELJ NIJE UPUTIO U MILOŠEVIĆ/DENTAL.NJIHOVA ORDINACIJA JE NAJBOLJA U GRADU. ONI ZAISTA BRINU O POTREBAMA, BRIGAMA I ORALNOM ZDRAVLJU SVOJIH PACIJENATA.DR.MILOŠEVIĆ JE STRPLJIVO SLUŠALA MOJU ZABRINUTOST O LEČENJU KOJE JE MOJ PRETHODNI STOMATOLOG PREPORUČIO I ODGOVORILA NA SVA MOJA PITANJA SA DETALJIMA NA NAČIN KOJI SAM MOGAO DA RAZUMEM. ONA POSEDUJE NAJNOVIJU TEHNOLOGIJU I VEŠTINE TAKO DA JE U STANJU DA SVOJIM PACIJENTIMA PONUDI NAJBOLJE ŠTO POSTOJI. NJENO OSOBLJE JE UVEK NASMEJANO I PRIJATNO I MOŽE SE PRIMETITI DA ZAISTA UŽIVAJU U RADU SA NJOM. TOPLO PREPORUČUJEM DR.MILICU I NJENO OSOBLJE!”',
+            passus: '„Uvek sam se plašio da idem kod stomatologa sve dok me prijatelj nije uputio u Milošević/dental.Njihova ordinacija je najbolja u gradu. Oni zaista brinu o potrebama, brigama i oralnom zdravlju svojih pacijenata.Dr.Milošević je strpljivo slušala moju zabrinutost o lečenju koje je moj prethodni stomatolog preporučio i odgovorila je na sva moja pitanja sa detaljima na način koji sam mogao da razumem. Ona poseduje najnoviju tehnologiju i veštine tako da je u stanju da svojim pacijentima ponudi najbolje što postoji. Njeno osoblje je uvek nasmejano i prijatno i može se primetiti da zaista uživaju u radu sa njom. Toplo preporučujem Dr.Milicu i njeno osoblje!”',
             span: 'Mladen M.',
             ref:'nameRef3'
         },
         {
-            passus: '„VIŠE GODINA DOLAZIM U MILOŠEVIĆ/DENTAL. ONI SU MENE I MOJU PORODICU UVEK  TRETIRALI  SA NAJVEĆOM PAŽnjom. DR. MILICA JE JAKO STRPLJIVA ,ljubazNA I UVEK ISKRENA. U KORAKU JE SA RAZVOJEM TEHNOLOGIJE I  SA AKTUELNIM TRENDOVIMA U STOMATOLOGIJI. TOPLO PREPORUČUJEM OVU ORDINACIJU.”',
+            passus: '„Više godina dolazim u Milošević/dental. Oni su mene i moju porodicu uvek  tretirali  sa najvećom pažnjom. Dr.Milica je jako strpljiva ,ljubazna i uvek iskrena. U koraku je sa razvojem tehnologije i  sa aktuelnim trendovima u stomatologiji. Toplo preporučujem ovu ordinaciju.”',
             span: 'Bojana L.',
             ref:'nameRef4'
         },
         {
-            passus: '„DOLAZIM OVDE VEĆ NEKO VREME. NIKAD NISAM IMAO NIKAKVE PROBLEME I DOBIJAO SAM ODGOVORE NA SVA MOJA PITANJA. DR.MILOŠEVIĆ UVEK ODVOJI VREMENA DA OBJASNI SVE ŠTO TREBA DA SE RADI. ONA UVEK PAZI NA DETALJE I RADI ODLIČAN POSAO. ODAVDE ĆETE OTIĆI SA VELIKIM OSMEHOM NA LICU.”',
+            passus: '„Dolazim ovde već neko vreme. Nikad nisam imao nikakve probleme i dobijao sam odgovore na sva moja pitanja.Dr.Milošević uvek odvoji vremena da objasni sve što treba da se radi.Ona uvek pazi na detalje i radi odličan posao. Odavde ćete otići sa velikim osmehom na licu.”',
             span: 'Goran S.',
             ref:'nameRef5'
         },
         {
-            passus: '„DR.MILOŠEVIĆ JE Izvanredan STOMATOLOG.IMA ODLIČNE ASISTENTE I SVAKO OD NJIH JE STRPLJIV I TEMELJAN. MISLIM DA SAM PRIVILEGOVANA ŠTO SAM IH PRONAŠSLA. NE ŽIVIM U BEOGRADU, ALI NIJE MI PROBLEM DA PUTUJEM DA BIH BILA SIGURNA DA SAM U PRAVIM RUKAMA, NISAM NAROČITO POVERLJIVA, ALI U DR.MILICU IMAM APSOLUTNO POVERENJE.POTPUNO SAM ZADOVOLJNA NJENIM KOZMETIČKIM RADOM.IZGLED MOJIH ZUBA SADA JE NEVEROVATAN! VRLO PROFESIONALNO URADJENO! VELIKO HVALA SVIMA NJIMA NA NJIHOVOJ POSVEĆENOSTI!”',
+            passus: '„Dr.Milošević je izvanredan stomatolog.Ima odlične asistente i svako od njih je strpljiv i temeljan. Mislim da sam privilegovana što sam ih pronašla. Ne živim u beogradu, ali nije mi problem da putujem da bih bila sigurna da sam u pravim rukama, nisam naročito poverljiva, ali u dr.Milicu imam apsolutno poverenje.Potpuno sam zadovoljna njenim kozmetičkim radom.Izgled mojih zuba sada je neverovatan! Vrlo profesionalno uradjeno!Veliko hvala svima njima na njihovoj posvećenosti!”',
             span: 'Gordana K.',
             ref:'nameRef6'
         },
         {
-            passus: '„Osećam se odlično zbog obavljenog posla. Veoma sam zadovoljan! Imao sam mnogo bolova i problema u prošlosti. Već skoro 20 godina sam mogao da jedem samo odredjenu hranu. Otkako imam implante,Osećam se mnogo bolje. Veoma sam zadovoljan tretmanom dr.Milošević i njenog osoblja. Uvek su me tretirali sa poštovanjem! Preporučio bih lečenje svima.”',
+            passus: '„Osećam se odlično zbog obavljenog posla. Veoma sam zadovoljan! Imao sam mnogo bolova i problema u prošlosti. Već skoro 20 godina sam mogao da jedem samo odredjenu hranu. Otkako imam implante,osećam se mnogo bolje. Veoma sam zadovoljan tretmanom dr.Milošević i njenog osoblja. Uvek su me tretirali sa poštovanjem! Preporučio bih lečenje svima.”',
             span: 'Branko Z.',
             ref:'Branko Z.'
         },
@@ -46,7 +46,7 @@ function StoryDark() {
             ref:'Ivica G.'
         },
         {
-            passus: '„NEDAVNO SAM SE PRESELIO NA NOVI BEOGRAD I TREBALO JE DA PRONAĐEM NOVOG STOMATOLOGA. ČUO SAM ODLICNE STVARI O ORDINACIJI MILOŠEVIĆ/DENTAL, PA SAM ODLUČIO DA IH PROBAM. NE MOGU BITI SREĆNIJI! SVAKI PUT KADA DODJEM, TRETIRAN SAM KAO DEO PORODICE. ZAKAZIVANJE SASTANKA JE LAKO I VREME ČEKANJA PRAKTIČNO NE POSTOJI. OSOBLJE JE ODLICNO I DR. MILOŠEVIĆ UVEK IMA VREMENA DA ME SASLUŠA. ZAJEDNO SA SVOJIM OSOBLJEM, ONA KROJI PLAN TRETMANA TAKO DA ODGOVARA MOJIM POTREBAMA. VIŠE NE MOGU SEBE DA ZAMISLIM DA IDEM NEGDE DRUGDE.”',
+            passus: '„Nedavno sam se preselio na Novi Beograd i trebalo je da pronađem novog stomatologa. Čuo sam odlične stvari o ordinaciji Milošević/dental, pa sam odlučio da ih probam. Ne mogu biti srećniji! svaki put kada dodjem, tretiran sam kao deo porodice. Zakazivanje sastanka je lako i vreme čekanja praktično ne postoji. Osoblje je odlicno i dr.Milošević uvek ima vremena da me sasluša. Zajedno sa svojim osobljem, ona kroji plan tretmana tako da odgovara mojim potrebama. Više ne mogu sebe da zamislim da idem negde drugde.”',
             span: 'Filip B.',
             ref:'nameRef9'
         },

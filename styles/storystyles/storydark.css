@@ -10,6 +10,8 @@
     background-color: #262626;
     overflow: hidden;
    margin-bottom: 40px;
+   position: relative;
+   z-index: 90;
 }
 
 .storydark-topimg {
@@ -42,14 +44,12 @@
     width:67%; 
     margin:auto;
     padding:60px 0;
-    font-style: italic;
     position: relative;
     letter-spacing: 0.3px;
 }
 
 .storydark-text p {
     font-family: 'Lato'; 
-    text-transform: uppercase;
 }
 
 .storydark-text:before {
@@ -116,7 +116,6 @@
     width:67%; 
     margin:auto;
     padding:60px 0;
-    font-style: italic;
     position: relative;
     letter-spacing: 0.3px;
     
@@ -124,7 +123,6 @@
 
 .storylight-text p {
     font-family: 'Lato'; 
-    text-transform: uppercase;
 }
 
 .storylight-text:before {
