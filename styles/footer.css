@@ -46,7 +46,7 @@
 }
 
 .footer-a a {
-    margin:10px;
+    margin:10px; 
     cursor: pointer;
 }
 
@@ -74,5 +74,11 @@
     }
     .footer-a a {
         margin:0;
+    }
+    .footer-number a{
+        cursor:default;
+    }
+    .footer-passus {
+        cursor:default;
     }
 }

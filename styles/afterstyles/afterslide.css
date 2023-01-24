@@ -43,11 +43,10 @@
   background-position: center;
   margin-left: 10%;
   margin-right: 10%;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   position: absolute;
   left: 0%;
-  top: 20%;
   filter: brightness(30%);
   transition: 1.5s;
 }
@@ -58,11 +57,11 @@
   margin-left: 10%;
   margin-right: 10%;
   background-position: center;
-  width: 80%;
-  height: 80%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
   position: absolute;
   left: 10%;
-  top: 20%;
   transition: 1.5s;
 }
 
@@ -105,23 +104,27 @@
 
 .slide-right {
   display: none;
-  right: 15%;
-  top: -5%;
-
-  font-size: 50px;
+  right: 37%;
+  bottom: -2%;
+  font-size: 40px;
   position: absolute;
   font-weight: 700;
   cursor: pointer;
+  color:var(--gold);
+  z-index:90;
+  text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
 }
 .slide-left {
   display: none;
-  left: 15%;
-  top: -5%;
-
-  font-size: 50px;
+  right: 37%;
+  bottom: -2%;
+  font-size: 40px;
   position: absolute;
   font-weight: 700;
   cursor: pointer;
+  color:var(--gold);
+  z-index:90;
+  text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
 }
 @media only screen and (max-width: 1000px) {
   .afterslide-title {
@@ -156,23 +159,29 @@
     font-size: 26px;
     margin-bottom: 10px;
   }
-  .slide-left,
+
   .slide-right {
     display: block;
     font-weight: 400;
     cursor: default;
+   
+  }
+  .slide-left {
+    font-weight: 400;
+    cursor: default;
+   
   }
 
   .afterslide-holder {
     width: 100%;
     margin-top: 30px;
+    margin-bottom:80px;
   }
 
   .slide-back {
     width: 100%;
-    height: 80%;
-
-    top: 20%;
+    height: 100%;
+    bottom: 0%;
     transform: translate(0%);
     margin-left: 0%;
     margin-right: 0%;
@@ -180,9 +189,8 @@
 
   .slide-front {
     width: 100%;
-    height: 80%;
-
-    top: 20%;
+    height: 100%;
+    bottom: 0%;
     transform: translate(0%);
     margin-left: 0%;
     margin-right: 0%;

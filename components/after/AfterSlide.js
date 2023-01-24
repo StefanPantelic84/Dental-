@@ -5,42 +5,62 @@ function AfterSlide() {
   const hideFrontImg = () => {
     document.querySelector(".slide-front").style.left = "100%";
     document.querySelector(".slide-back").style.filter = "brightness(100%)";
+    document.querySelector(".slide-left").style.display = "block";
+    document.querySelector(".slide-right").style.display = "none";
   };
   const showFrontImg = () => {
     document.querySelector(".slide-front").style.left = "10%";
     document.querySelector(".slide-back").style.filter = "brightness(30%)";
+    document.querySelector(".slide-left").style.display = "none";
+    document.querySelector(".slide-right").style.display = "block";
   };
   const hideFrontImg2 = () => {
     document.querySelector(".slide2-front").style.left = "100%";
     document.querySelector(".slide2-back").style.filter = "brightness(100%)";
+    document.querySelector(".slide-left2").style.display = "block";
+    document.querySelector(".slide-right2").style.display = "none";
   };
   const showFrontImg2 = () => {
     document.querySelector(".slide2-front").style.left = "10%";
     document.querySelector(".slide2-back").style.filter = "brightness(30%)";
+    document.querySelector(".slide-left2").style.display = "none";
+    document.querySelector(".slide-right2").style.display = "block";
   };
   const hideFrontImg3 = () => {
     document.querySelector(".slide3-front").style.left = "100%";
     document.querySelector(".slide3-back").style.filter = "brightness(100%)";
+    document.querySelector(".slide-left3").style.display = "block";
+    document.querySelector(".slide-right3").style.display = "none";
   };
   const showFrontImg3 = () => {
     document.querySelector(".slide3-front").style.left = "10%";
     document.querySelector(".slide3-back").style.filter = "brightness(30%)";
+    document.querySelector(".slide-left3").style.display = "none";
+    document.querySelector(".slide-right3").style.display = "block";
   };
   const hideFrontImg4 = () => {
     document.querySelector(".slide4-front").style.left = "100%";
     document.querySelector(".slide4-back").style.filter = "brightness(100%)";
+    document.querySelector(".slide-left4").style.display = "block";
+    document.querySelector(".slide-right4").style.display = "none";
   };
   const showFrontImg4 = () => {
     document.querySelector(".slide4-front").style.left = "10%";
     document.querySelector(".slide4-back").style.filter = "brightness(30%)";
+    document.querySelector(".slide-left4").style.display = "none";
+    document.querySelector(".slide-right4").style.display = "block";
   };
   const hideFrontImg5 = () => {
     document.querySelector(".slide5-front").style.left = "100%";
     document.querySelector(".slide5-back").style.filter = "brightness(100%)";
+    document.querySelector(".slide-left5").style.display = "block";
+    document.querySelector(".slide-right5").style.display = "none";
   };
   const showFrontImg5 = () => {
     document.querySelector(".slide5-front").style.left = "10%";
     document.querySelector(".slide5-back").style.filter = "brightness(30%)";
+    document.querySelector(".slide-left5").style.display = "none";
+    document.querySelector(".slide-right5").style.display = "block";
   };
 
   const allFunctions = () => {
@@ -65,10 +85,10 @@ function AfterSlide() {
       <div className="afterslide-container">
         <div className="afterslide-holder">
           <div className="slide-right" onClick={hideFrontImg}>
-            {"→"}
+            {">>>"}
           </div>
           <div className="slide-left" onClick={showFrontImg}>
-            {"←"}
+            {"<<<"}
           </div>
           <div className="slide-back"> </div>
           <div className="slide-front"> </div>
@@ -100,10 +120,10 @@ function AfterSlide() {
         </div>
         <div className="afterslide2-holder">
           <div className="slide-right2" onClick={hideFrontImg2}>
-            {"→"}
+            {">>>"}
           </div>
           <div className="slide-left2" onClick={showFrontImg2}>
-            {"←"}
+            {"<<<"}
           </div>
           <div className="slide2-back"></div>
           <div className="slide2-front"></div>
@@ -113,10 +133,10 @@ function AfterSlide() {
       <div className="afterslide3-container">
         <div className="afterslide3-holder">
           <div className="slide-right3" onClick={hideFrontImg3}>
-            {"→"}
+            {">>>"}
           </div>
           <div className="slide-left3" onClick={showFrontImg3}>
-            {"←"}
+            {"<<<"}
           </div>
           <div className="slide3-back"> </div>
           <div className="slide3-front"> </div>
@@ -146,10 +166,10 @@ function AfterSlide() {
         </div>
         <div className="afterslide4-holder">
           <div className="slide-right4" onClick={hideFrontImg4}>
-            {"→"}
+            {">>>"}
           </div>
           <div className="slide-left4" onClick={showFrontImg4}>
-            {"←"}
+            {"<<<"}
           </div>
           <div className="slide4-back"></div>
           <div className="slide4-front"></div>
@@ -159,10 +179,10 @@ function AfterSlide() {
       <div className="afterslide5-container">
         <div className="afterslide5-holder">
           <div className="slide-right5" onClick={hideFrontImg5}>
-            {"→"}
+            {">>>"}
           </div>
           <div className="slide-left5" onClick={showFrontImg5}>
-            {"←"}
+            {"<<<"}
           </div>
           <div className="slide5-back"> </div>
           <div className="slide5-front"> </div>
