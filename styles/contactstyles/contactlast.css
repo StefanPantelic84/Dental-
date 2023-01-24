@@ -67,6 +67,25 @@
 .contactlast-container a:hover {
     background-color: var(--text);
 }
+.work-time{
+    width:30%;
+    font-size: 24px;
+    color:#333;
+}
+.time-div {
+    display: flex;
+    flex-direction: row;
+    margin:10px 0px;
+}
+.day {
+    width:120px;
+}
+.work-time h2 {
+    margin: 20px 0;
+    color: var(--gold);
+    font-weight: 400;
+    font-size: 28px;
+}
 
 @media only screen and (max-width: 1000px) {
     .contactlast-container p{
@@ -105,6 +124,25 @@
     .contactlast-container a:before {
         transform:skewX(45deg) translateX(550px);
     }
+    .work-time{
+        width: 100%;
+        color:#333;
+        font-size: 20px;
+    }
+    .time-div {
+        display: flex;
+        flex-direction: row;
+        margin:10px 0px;
+    }
+    .day {
+        width:80px;
+    }
+    .work-time h2 {
+        margin: 20px 0;
+        color: var(--gold);
+        font-weight: 400;
+    }
+   
 
 }
 

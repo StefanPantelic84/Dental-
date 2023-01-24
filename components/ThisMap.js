@@ -10,12 +10,12 @@ function ThisMap() {
     const myMarker = {lat:44.80399304232847, lng:20.37403948272331}
 
     if (!isLoaded) {
-        return (<div>...is loading</div>)
+        return (<div>...is loading</div>) 
     }else {
         return(
             <div>
                 <GoogleMap 
-                    zoom={19} 
+                    zoom={18} 
                     center={myMarker} 
                     mapContainerClassName="connect-img2"
                    
