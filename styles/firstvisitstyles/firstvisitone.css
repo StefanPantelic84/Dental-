@@ -73,10 +73,6 @@
 }
 
 .firstvisitone-img {
-    background-image: url('../../public/firstOne.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
     width:40%;
     height:calc(35vw);
     position: relative;

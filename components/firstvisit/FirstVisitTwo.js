@@ -1,12 +1,30 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 function FirstVisitTwo() {
   const ref02 = useInView({ triggerOnce: true });
 
   return (
     <div className="firstvisittwo-container">
-      <div className="firstvisittwo-img"></div>
+      <div className="firstvisittwo-img">
+      <Image 
+          src='/firstTwo.jpg'
+          alt='objanjvanje problema stomatologu'
+          width={800}
+          height={533}
+          quality={100}
+          style={{
+            position:'absolute',
+            top:0,
+            left:0,
+            width:'100%',
+            height:'100%',
+           objectFit:'cover',
+           objectPosition: '85% 50%'
+          }}
+        />
+      </div>
       <div className="firstvisittwo-text">
         <div className="firstvisittwo-title">
           <h1

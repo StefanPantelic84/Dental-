@@ -1,9 +1,27 @@
 import React from 'react'
+import Image from 'next/image'
 
 function SmileCosmetic() {
   return (
     <div className='smilecosmetic-container'>
-    <div className='smilecosmetic-img'></div>
+    <div className='smilecosmetic-img'>
+    <Image 
+          src='/homeDiff1.jpg'
+          alt='kozmetika zuba'
+          width={800}
+          height={800}
+          quality={100}
+          style={{
+            position:'absolute',
+            top:0,
+            left:0,
+            width:'100%',
+            height:'100%',
+           objectFit:'cover',
+           objectPosition: '50% 50%'
+          }}
+        />
+    </div>
   <div className='smilecosmetic-text'>
     <div className='smilecosmetic-title'>
     <h6>KOZMETIČKA NEGA ZUBA</h6>

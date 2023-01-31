@@ -47,10 +47,7 @@
     text-shadow: 0.4px 0.4px var(--gold);
 } 
 .homepassion-img {
-    background-image: url('../../public/homeCover.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 45%;
+    position: relative;
     width:53%;
     height: calc(25.00vw);
 }

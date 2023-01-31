@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 function DiffThree() {
   const diff03 = useInView({ triggerOnce: true });
@@ -22,7 +23,24 @@ function DiffThree() {
           SMIRENO I OPUŠTENO.
         </p>
       </div>
-      <div className="diffthree-img"></div>
+      <div className="diffthree-img">
+      <Image 
+          src='/diffThree.jpg'
+          alt='prelep osmeh kod stomatologa'
+          width={1200}
+          height={1200}
+          quality={100}
+          style={{
+            position:'absolute',
+            top:0,
+            left:0,
+            width:'100%',
+            height:'100%',
+           objectFit:'cover',
+           objectPosition: '50% 50%'
+          }}
+        />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 function FirstVisitOne() {
   const ref01 = useInView({ triggerOnce: true });
@@ -23,7 +24,24 @@ function FirstVisitOne() {
           što opušteniji.
         </p>
       </div>
-      <div className="firstvisitone-img"></div>
+      <div className="firstvisitone-img">
+      <Image 
+          src='/firstOne.jpg'
+          alt='zubarska ordinacija i stomatolog'
+          width={1200}
+          height={1199}
+          quality={100}
+          style={{
+            position:'absolute',
+            top:0,
+            left:0,
+            width:'100%',
+            height:'100%',
+           objectFit:'cover',
+           objectPosition: '50% 50%'
+          }}
+        />
+      </div>
     </div>
   );
 }

@@ -22,12 +22,10 @@
 }
 
 .video-left {
-    background-image: url('../../public/firstVideo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+ 
     width:100%;
     height: calc(35.00vw);
+    position: relative;
 }
 
 .video-text {

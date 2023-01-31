@@ -62,11 +62,8 @@
 
 .homebelong-img {
     width:40%;
-    background-image: url('../../public/homeBelong1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
     height: calc(35.00vw);
+    position: relative;
 } 
 
 .homebelong-call a {

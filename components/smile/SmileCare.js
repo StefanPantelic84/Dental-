@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function SmileCare() {
   return (
@@ -23,7 +24,24 @@ function SmileCare() {
           </ul>
         </div>
       </div>
-      <div className="smilecare-img"></div>
+      <div className="smilecare-img">
+      <Image 
+          src='/smileCare.jpg'
+          alt='osmeh nakon nege zuba kod zubara'
+          width={800}
+          height={800}
+          quality={100}
+          style={{
+            position:'absolute',
+            top:0,
+            left:0,
+            width:'100%',
+            height:'100%',
+           objectFit:'cover',
+           objectPosition: '50% 50%'
+          }}
+        />
+      </div>
     </div>
   );
 }
