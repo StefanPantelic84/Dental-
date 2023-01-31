@@ -6,8 +6,8 @@ function SmileCosmetic() {
     <div className='smilecosmetic-container'>
     <div className='smilecosmetic-img'>
     <Image 
-          src='/homeDiff1.jpg'
-          alt='kozmetika zuba'
+          src='/smileCosm.jpg'
+          alt='kozmetika zuba, predivan osmeh'
           width={800}
           height={800}
           quality={100}
