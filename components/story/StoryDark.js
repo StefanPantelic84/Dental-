@@ -46,7 +46,7 @@ function StoryDark() {
             ref:'Ivica G.'
         },
         {
-            passus: '„Nedavno sam se preselio na Novi Beograd i trebalo je da pronađem novog stomatologa. Čuo sam odlične stvari o ordinaciji Milošević/dental, pa sam odlučio da ih probam. Ne mogu biti srećniji! svaki put kada dodjem, tretiran sam kao deo porodice. Zakazivanje sastanka je lako i vreme čekanja praktično ne postoji. Osoblje je odlicno i dr.Milošević uvek ima vremena da me sasluša. Zajedno sa svojim osobljem, ona kroji plan tretmana tako da odgovara mojim potrebama. Više ne mogu sebe da zamislim da idem negde drugde.”',
+            passus: '„Nedavno sam se preselio na Novi Beograd i trebalo je da pronađem novog stomatologa. Čuo sam odlične stvari o ordinaciji Milošević/dental, pa sam odlučio da ih probam. Ne mogu biti srećniji! svaki put kada dodjem, tretiran sam kao deo porodice. Zakazivanje sastanka je lako i vreme čekanja praktično ne postoji. Osoblje je odlično i dr.Milošević uvek ima vremena da me sasluša. Zajedno sa svojim osobljem, ona kroji plan tretmana tako da odgovara mojim potrebama. Više ne mogu sebe da zamislim da idem negde drugde.”',
             span: 'Filip B.',
             ref:'nameRef9'
         },

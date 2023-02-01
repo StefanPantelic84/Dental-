@@ -26,7 +26,7 @@ function FirstVisitVideo() {
       </div>
       </div>
       <div className='video-text'>
-        <p>Sta Ocekivati</p> 
+        <p>Šta Očekivati</p> 
         <p>Prilikom Posete</p>
       </div>
       

@@ -15,7 +15,7 @@ function FirstVisitOne() {
           >
             01
           </h1>
-          <h6>Dobro dosli</h6>
+          <h6>Dobro došli</h6>
         </div>
         <p>
           Ovde vas dočekujemo sa osmehom.Od trenutka kada udjete želimo da se
