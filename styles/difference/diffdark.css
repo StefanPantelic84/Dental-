@@ -4,7 +4,7 @@
 }
 
 .diffdark-topimg {
-    background-image: url('../../public/dark.png');
+    background-image: url('../../public/dark.webp');
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -89,7 +89,7 @@
 }
 
 .diffdark-botimg {
-    background-image: url('../../public/darkbot.png');
+    background-image: url('../../public/darkbot.webp');
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;

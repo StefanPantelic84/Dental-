@@ -8,7 +8,7 @@ function difftwo() {
     <div className='difftwo-container'> 
     <div className='difftwo-img'>
     <Image 
-          src='/diffTwo.jpg'
+          src='/diffTwo.webp'
           alt='bez straha kod stomatologa'
           width={800}
           height={1200}

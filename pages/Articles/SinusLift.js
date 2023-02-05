@@ -8,7 +8,7 @@ function SinusLift() {
           className="globalpage-container"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/lift.jpg')",
+              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/lift.webp')",
           }}
         >
           <div className="globalpage-text">

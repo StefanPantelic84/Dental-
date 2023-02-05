@@ -8,7 +8,7 @@ function FirstVisitVideo() {
       <div className='container-video'>
       <div className='video-left'>
       <Image 
-          src='/firstVideo.jpg'
+          src='/firstVideo.webp'
           alt='stomatoloska ordinacija'
           width={620}
           height={360}

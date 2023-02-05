@@ -10,7 +10,7 @@ function HomeBelong() {
       <div className="homebelong-container">
         <div className="homebelong-img">
         <Image 
-          src='/homeBelong1.jpg'
+          src='/homeBelong1.webp'
           alt='pregled kod stomatologa'
           width={1200}
           height={892}

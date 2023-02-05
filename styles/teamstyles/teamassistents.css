@@ -1,5 +1,5 @@
 .teamassistents-container {
-    background-image:url('../../public/list.png');
+    background-image:url('../../public/list.webp');
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: right;
@@ -71,7 +71,7 @@
 
 .teamassistents-img {
     width:40%;
-    background-image: url('../../public/homeDiff.jpg');
+    background-image: url('../../public/homeDiff.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;

@@ -26,7 +26,7 @@ function SmileCare() {
       </div>
       <div className="smilecare-img">
       <Image 
-          src='/smileCare.jpg'
+          src='/smileCare.webp'
           alt='osmeh nakon nege zuba kod zubara'
           width={800}
           height={800}

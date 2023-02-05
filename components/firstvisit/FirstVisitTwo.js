@@ -9,7 +9,7 @@ function FirstVisitTwo() {
     <div className="firstvisittwo-container">
       <div className="firstvisittwo-img">
       <Image 
-          src='/firstTwo.jpg'
+          src='/firstTwo.webp'
           alt='objanjvanje problema stomatologu'
           width={800}
           height={533}

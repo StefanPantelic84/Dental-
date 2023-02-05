@@ -25,7 +25,7 @@ function DiffThree() {
       </div>
       <div className="diffthree-img">
       <Image 
-          src='/diffThree.jpg'
+          src='/diffThree.webp'
           alt='prelep osmeh kod stomatologa'
           width={1200}
           height={1200}

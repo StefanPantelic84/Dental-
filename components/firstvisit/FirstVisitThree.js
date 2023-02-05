@@ -26,7 +26,7 @@ function FirstVisitThree() {
       </div>
       <div className="firstvisitthree-img">
       <Image 
-          src='/firstThree.jpg'
+          src='/firstThree.webp'
           alt='keramicke krunice osmeh'
           width={800}
           height={800}

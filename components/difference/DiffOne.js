@@ -24,7 +24,7 @@ function diffone() {
       </div>
       <div className="diffone-img">
       <Image 
-          src='/diffOne.jpg'
+          src='/diffOne.webp'
           alt='osmeh nakon popravke zuba'
           width={1200}
           height={1200}

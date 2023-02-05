@@ -8,7 +8,7 @@ function VestackaKost() {
           className="globalpage-container"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/kost.jpg')",
+              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/kost.webp')",
           }}
         >
           <div className="globalpage-text">

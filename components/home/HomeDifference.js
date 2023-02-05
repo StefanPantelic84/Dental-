@@ -19,7 +19,7 @@ function HomeDifference() {
       </div>
       <div className="homedifference-img">
         <Image 
-          src='/homeDiff1.jpg'
+          src='/homeDiff1.webp'
           alt='zubar i pacijent'
           width={1200}
           height={1015}

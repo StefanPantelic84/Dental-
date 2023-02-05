@@ -13,7 +13,7 @@ function HomePassion() {
       </div>
       <div className='homepassion-img'>
       <Image 
-          src='/homeCover.jpg'
+          src='/homeCover.webp'
           alt='pregled zuba kod zubara'
           width={1200}
           height={1015}

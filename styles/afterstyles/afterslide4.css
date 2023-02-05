@@ -7,7 +7,7 @@
     position:relative;
     flex-wrap: wrap;
     padding-bottom:50px;
-    background-image:url('../../public/gorelist.png');
+    background-image:url('../../public/gorelist.webp');
     background-size:  20%;
     background-position: left;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 }
 
 .slide4-back {
-    background-image: url("/buu2.jpg");
+    background-image: url("/buu2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,7 +40,7 @@
 }
 
 .slide4-front {
-    background-image: url("/buu1.jpg");
+    background-image: url("/buu1.webp");
     background-repeat: no-repeat;
     margin-left:10%;
     margin-right:10%;

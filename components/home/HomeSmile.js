@@ -7,7 +7,7 @@ function HomeSmile() {
     <div className="homesmile-container">
       <div className="homesmile-img">
       <Image 
-          src='/homeSmile1.jpg'
+          src='/homeSmile1.webp'
           alt='zubar i pacijent'
           width={800}
           height={533}

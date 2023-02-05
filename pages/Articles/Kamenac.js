@@ -8,7 +8,7 @@ function Kamenac() {
           className="globalpage-container"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/kamenac.jpg')",
+              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/kamenac.webp')",
           }}
         >
           <div className="globalpage-text">

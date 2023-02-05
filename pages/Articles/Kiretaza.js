@@ -8,7 +8,7 @@ function Kiretaza() {
           className="globalpage-container"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/kiretaza.jpg')",
+              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/kiretaza.webp')",
           }}
         >
           <div className="globalpage-text">

@@ -10,8 +10,9 @@ function Articles() {
        <Head>  <title>Milosevic/Dental</title>
         <meta property="og:title" content="Dental Milošević" />
         <meta property="og:description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu. " />
-        <meta property="og:image" content="https://weblala.online/_next/static/media/articlesImg.dc4b5cf5.jpg" />   
+        <meta property="og:image" content="https://milosevicdental.com/_next/static/media/articlesImg.dc4b5cf5.webp" />   
         <meta name="google" content="notranslate" />
+        <meta name="description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu." />
   </Head>
     <ArticlesImage />
     <ArticlesArticles />

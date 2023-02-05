@@ -8,7 +8,7 @@ function DiffFour() {
     <div className="difffour-container">
       <div className="difffour-img">
       <Image 
-          src='/diffFour.jpg'
+          src='/diffFour.webp'
           alt='krunice kod stomatologa osmeh'
           width={1200}
           height={1200}

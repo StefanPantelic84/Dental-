@@ -13,7 +13,7 @@
 }
 
 .teamhyg-container {
-    background-image:url('../../public/list.png');
+    background-image:url('../../public/list.webp');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:left;
@@ -75,7 +75,7 @@
   }
   
   .teamhyg-img {
-    background-image: url('../../public/homeDiff.jpg');
+    background-image: url('../../public/homeDiff.webp');
     background-repeat: no-repeat;
     background-size: cover;
     width:40%;

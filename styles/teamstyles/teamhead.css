@@ -1,5 +1,5 @@
 .teamhead-container {
-    background-image:url('../../public/gorelist.png');
+    background-image:url('../../public/gorelist.webp');
     background-repeat: no-repeat;
     background-size:20%;
     background-position: right;
@@ -58,7 +58,7 @@
 }
 
 .teamhead-img {
-    background-image: url('../../public/homeDiff.jpg');
+    background-image: url('../../public/homeDiff.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;

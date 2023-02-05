@@ -1,5 +1,5 @@
 .teamfamily-container {
-    background-image:url('../../public/cvece.png');
+    background-image:url('../../public/cvece.webp');
     background-repeat: no-repeat;
     background-size: 40%;
     background-position:left;
@@ -52,7 +52,7 @@
   }
   
   .teamfamily-img {
-    background-image: url('../../public/homeDiff.jpg');
+    background-image: url('../../public/homeDiff.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;

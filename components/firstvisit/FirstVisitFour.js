@@ -8,7 +8,7 @@ function FirstVisitFour() {
     <div className="firstvisitfour-container">
       <div className="firstvisitfour-img">
       <Image 
-          src='/firstFour.jpg'
+          src='/firstFour.webp'
           alt='popravka zuba'
           width={800}
           height={533}

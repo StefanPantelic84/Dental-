@@ -26,7 +26,7 @@ function FirstVisitOne() {
       </div>
       <div className="firstvisitone-img">
       <Image 
-          src='/firstOne.jpg'
+          src='/firstOne.webp'
           alt='zubarska ordinacija i stomatolog'
           width={1200}
           height={1199}

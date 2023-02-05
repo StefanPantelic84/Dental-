@@ -1,7 +1,7 @@
 .price-container {
     display: flex;
     justify-content: center;
-    background-image: url('../../public/gorelist.png');
+    background-image: url('../../public/gorelist.webp');
     background-repeat: no-repeat;
     background-size: 200px;
     background-color: var(--bg);

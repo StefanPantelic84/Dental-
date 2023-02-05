@@ -8,7 +8,7 @@
     position:relative;
     flex-wrap: wrap;
     padding-bottom:50px;
-    background-image:url('../../public/list.png');
+    background-image:url('../../public/list.webp');
     background-size:  40%;
     background-repeat: no-repeat;
     background-position: right;
@@ -26,7 +26,7 @@
 }
 
 .slide5-back {
-    background-image: url("/cink2.jpg");
+    background-image: url("/cink2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@
 }
 
 .slide5-front {
-    background-image: url("/cink1.jpg");
+    background-image: url("/cink1.webp");
     background-repeat: no-repeat;
     margin-left:10%;
     margin-right:10%;

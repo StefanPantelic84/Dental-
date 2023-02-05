@@ -19,7 +19,7 @@
   position: relative;
   flex-wrap: wrap;
   padding-bottom: 50px;
-  background-image: url("../../public/list.png");
+  background-image: url("../../public/list.webp");
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: right;
@@ -37,7 +37,7 @@
 }
 
 .slide-back {
-  background-image: url("/bi.jpg");
+  background-image: url("/bi.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,7 +52,7 @@
 }
 
 .slide-front {
-  background-image: url("/bii.jpg");
+  background-image: url("/bii.webp");
   background-repeat: no-repeat;
   margin-left: 10%;
   margin-right: 10%;

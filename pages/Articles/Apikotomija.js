@@ -8,8 +8,9 @@ function Apikotomija() {
     <Head>  <title>Milosevic/Dental</title>
         <meta property="og:title" content="Apikotomija!" />
         <meta property="og:description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu. " />
-        <meta property="og:image" content="https://weblala.online/resica.jpg" />   
+        <meta property="og:image" content="https://milosevicdental.com/resica.webp" />   
         <meta name="google" content="notranslate" />
+        <meta name="description" content="Mi učestvujemo u stvaranju zdravih, lepih osmeha koji menjaju život u potpunosti.Smatramo da zaslužujete najbolju stomatološku negu." />
   </Head>
     <div className="global-global">
       <div

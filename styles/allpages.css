@@ -74,7 +74,7 @@
     }
   
     .global-img {
-      background-image: url('../public/ivicadole.png');
+      background-image: url('../public/ivicadole.webp');
       background-repeat: no-repeat;
       background-size: cover;
       width:100%;
@@ -86,7 +86,7 @@
     }
 
     .globalcontent-container {
-        background-image: url('../public/gorelist.png');
+        background-image: url('../public/gorelist.webp');
         background-repeat: no-repeat;
         background-size: 200px; 
         background-position: left;
