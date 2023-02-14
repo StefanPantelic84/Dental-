@@ -29,7 +29,7 @@ function HomePassion() {
           }}
         />
       </div>
-      <div className='homepassion-call'><Link href="/O_nama">DR.MILOŠEVIĆ MILICA</Link></div>
+      <div className='homepassion-call'><Link href="/Stomatolog">DR.MILOŠEVIĆ MILICA</Link></div>
     </div>
   ) 
 } 

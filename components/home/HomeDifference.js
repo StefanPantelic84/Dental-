@@ -36,7 +36,7 @@ function HomeDifference() {
         />
       </div>
       <div className="homedifference-call">
-        <Link href="/O_nama">NAŠA UVERENJA</Link>
+        <Link href="/Stomatolog">NAŠA UVERENJA</Link>
       </div>
     </div>
   );

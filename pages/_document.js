@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
+      <link rel="icon" type="image/x-icon" href="/faviconzubi.ico" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Great+Vibes&family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Mrs+Saint+Delafield&family=Tangerine:wght@400;700&display=swap" rel="stylesheet" />

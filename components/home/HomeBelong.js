@@ -36,7 +36,7 @@ function HomeBelong() {
           </p>
         </div>
         <div className="homebelong-call">
-          <Link href="/Prva_poseta">vaša prva poseta?</Link>
+          <Link href="/Zubar">vaša prva poseta?</Link>
         </div>
       </div>
     </div>
