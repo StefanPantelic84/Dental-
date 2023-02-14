@@ -4,7 +4,7 @@ import ContactLast from '../components/contact/ContactLast'
 import ContactPrice from '../components/contact/ContactPrice'
 import Head from 'next/head'
 
-function Cenovnik() {
+function Cene_zubar() {
   return (
     <div>
         <Head>  <title>Milosevic/Dental</title>
@@ -21,4 +21,4 @@ function Cenovnik() {
   )
 }
 
-export default Cenovnik
+export default Cene_zubar

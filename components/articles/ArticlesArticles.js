@@ -3,23 +3,23 @@ import React, { useRef, useState } from "react";
 
 function ArticlesArticles() {
 
-  const artArray = [
+  const artArray = [ 
     {
-      id: "Habits",
+      id: "Zubna_higijena",
       texth1: "PET NAVIKA KOJE OŠTEĆUJU VAŠE ZUBE",
       textp:
         "Naši zubi igraju ključnu ulogu u našim životima. Pomažu nam da žvaćemo i varimo hranu i razgovaramo jasno. Oni takođe doprinose našem izgledu. Zdravi zubi takođe pomažu u sprečavanju mnogih zdravstvenih stanja kao što su bolesti srca i dijabetes.",
       url: "/habits.webp",
     },
     {
-      id: "Benefits",
+      id: "Izbeljivanje_zuba",
       texth1: "NAJVEĆE PREDNOSTI BELIH ZUBA",
       textp:
         "ZA SVE VIŠE LJUDI IZBJELJIVANJE ZUBA POSTALO JE POTREBA, POTREBA KOJA IM POMAŽE DA IZGLEDAJU I DA SE OSEĆAJU BOLJE. KUDA GOD POGLEDATE, OD SLIKA IZ ČASOPISA DO VAŠEG INSTAGRAMA, PRIMEĆUJETE VELIKU VAŽNOST DA IMATE ČISTE, BELE ZUBE.",
       url: "/whiteTheeth.webp",
     },
     {
-      id: "Whitening",
+      id: "Beli_zubi",
       texth1: "Izbeljivanje zuba",
       textp: "Izbeljivanje zuba je postupak koji se obično obavlja u stomatološkoj ordinaciji i uključuje korišćenje laserskog ili LED svetla da bi se aktivirao izbeljivač. Ovaj postupak je efikasniji od kućnog izbeljivanja, ali je i skuplji.",
       url: "/whitee.webp",
@@ -31,7 +31,7 @@ function ArticlesArticles() {
       url: "/paradentoza.webp",
     },
     {
-      id: "Implants",
+      id: "Implanti_zubi",
       texth1: "Zubni Implanti",
       textp: "Zubni implantati su stalni zubni nadomjestci koji se ugrađuju u tijelo kao zamjena za izgubljene ili uklonjene zube.Obično se koriste za zamjenu pojedinačnih izgubljenih zuba, ali također se mogu koristiti i za zamjenu višestrukih zuba ili čak cijelih gornjih ili donjih redova zuba.",
       url: "/implant.webp",
@@ -43,13 +43,13 @@ function ArticlesArticles() {
       url: "/lift.webp",
     },
     {
-      id: "VestackaKost",
+      id: "Vestacka_kost_u_vilici",
       texth1: "Vestacka kost",
       textp: "Veštačka kost se često koristi u stomatologiji za zamjenu ili regeneraciju kosti u vilici.Posle vađenja zuba neminovno dolazi do gubitka kosti.Nakon nekog vremena nećemo više imati dovoljno kosti u koju možemo da ugradimo implant.",
       url: "/kost.webp",
     },
     {
-      id: "FiksnaProteza",
+      id: "Fiksna_proteza",
       texth1: "Fiksna Proteza",
       textp: "Fiksna proteza za ispravljanje zuba je umjetni zubni nakit koji se stavlja na postojeće zube ili implantate kako bi se popravio izgled i funkcija zuba. Fiksna proteza se obično sastoji od više zuba koji su povezani zajedno i učvršćeni za zube ili implantate pomoću cementa ili nekog drugog ljepila.",
       url: "/proteza.webp",
@@ -73,7 +73,7 @@ function ArticlesArticles() {
       url: "/desni.webp",
     },
     {
-      id: "Kamenac",
+      id: "Zubni_kamenac",
       texth1: "Zubni Kamenac",
       textp: "Zubni kamenac su naslage na zubima koje se sastoje od mikroskopskih čestica minerala. One najčešće nastaju od kalcija i fosfata u kombinaciji sa bakterijama i mogu se pojaviti na zubnim krunicama, ispod gumline i u interdentalnim prostorima.Može dovesti do problema sa zubima i desnima.",
       url: "/kamenac.webp",
@@ -99,7 +99,7 @@ function ArticlesArticles() {
       {artArray.map((art) => {
           return (
             <Link
-              href={"/Articles/" + art.id}
+              href={"/Clanak/" + art.id}
               key={art.texth1}
               className="articles-box"
               style={{ backgroundImage: `url(${art.url})` }}

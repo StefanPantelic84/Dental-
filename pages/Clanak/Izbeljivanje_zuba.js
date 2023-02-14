@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 
-function Benefits() {
+function Izbeljivanje_zuba() {
   return (
     
     <>
@@ -17,7 +17,7 @@ function Benefits() {
           className="globalpage-container"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/whiteTheeth.jpg')",
+              "linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/whiteTheeth.webp')",
           }}
         >
           <div className="globalpage-text">
@@ -102,4 +102,4 @@ function Benefits() {
   );
 }
 
-export default Benefits;
+export default Izbeljivanje_zuba;

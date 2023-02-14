@@ -1,6 +1,6 @@
 import React from "react";
 
-function Habits() {
+function Zubna_higijena() {
   return (
     <>
       <div className="global-global">
@@ -127,4 +127,4 @@ function Habits() {
   );
 }
 
-export default Habits;
+export default Zubna_higijena;

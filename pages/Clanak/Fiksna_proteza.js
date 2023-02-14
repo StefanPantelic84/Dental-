@@ -1,6 +1,6 @@
 import React from "react";
 
-function FiksnaProteza() {
+function Fiksna_proteza() {
   return (
     <>
       <div className="global-global">
@@ -35,4 +35,4 @@ function FiksnaProteza() {
   );
 }
 
-export default FiksnaProteza;
+export default Fiksna_proteza;

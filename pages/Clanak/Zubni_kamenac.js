@@ -1,6 +1,6 @@
 import React from "react";
 
-function Kamenac() {
+function Zubni_kamenac() {
   return (
     <>
       <div className="global-global">
@@ -72,4 +72,4 @@ function Kamenac() {
   );
 }
 
-export default Kamenac;
+export default Zubni_kamenac;

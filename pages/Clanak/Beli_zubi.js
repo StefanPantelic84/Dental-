@@ -1,6 +1,6 @@
 import React from "react";
 
-function Whitening() {
+function Beli_zubi() {
   return (
     <>
       <div className="global-global">
@@ -60,4 +60,4 @@ function Whitening() {
   );
 }
 
-export default Whitening;
+export default Beli_zubi;

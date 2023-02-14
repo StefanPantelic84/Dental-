@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://milosevicdental.com/
+
+# Sitemaps
+Sitemap: https://milosevicdental.com/sitemap.xml

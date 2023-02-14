@@ -1,6 +1,6 @@
 import React from "react";
 
-function VestackaKost() {
+function Vestacka_kost_u_vilici() {
   return (
     <>
       <div className="global-global">
@@ -88,4 +88,4 @@ function VestackaKost() {
   );
 }
 
-export default VestackaKost;
+export default Vestacka_kost_u_vilici;

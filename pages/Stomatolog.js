@@ -8,7 +8,7 @@ import DiffImage from '../components/difference/DiffImage'
 import Head from 'next/head'
 
 
-function O_nama() {
+function Stomatolog() {
   
   return (
     <div>
@@ -29,4 +29,4 @@ function O_nama() {
   )
 }
 
-export default O_nama
+export default Stomatolog

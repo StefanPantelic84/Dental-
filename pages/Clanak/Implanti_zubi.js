@@ -1,6 +1,6 @@
 import React from "react";
 
-function Implants() {
+function Implanti_zubi() {
   return (
     <>
       <div className="global-global">
@@ -116,4 +116,4 @@ function Implants() {
   );
 }
 
-export default Implants;
+export default Implanti_zubi;
